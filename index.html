@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f1df">
+  <title>Henle Path</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#" data-nav="learn" aria-label="Henle Path home">
+        <svg class="brand-mark" viewBox="0 0 52 52" aria-hidden="true">
+          <path d="M26 4 45 14v24L26 48 7 38V14Z" fill="currentColor" opacity=".12"/>
+          <path d="M17 15v22M35 15v22M18 25h16" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+          <path d="M12 11c7 1 11-2 14-6 3 4 7 7 14 6" fill="none" stroke="#c8912f" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span>Henle <em>Path</em></span>
+      </a>
+
+      <nav class="nav-list">
+        <button class="nav-item active" data-nav="learn">
+          <span class="nav-icon" aria-hidden="true">⌂</span>
+          <span class="nav-label">Learn</span>
+        </button>
+        <button class="nav-item" data-nav="review">
+          <span class="nav-icon" aria-hidden="true">↻</span>
+          <span class="nav-label">Review</span>
+        </button>
+        <button class="nav-item" data-nav="family">
+          <span class="nav-icon" aria-hidden="true">♙</span>
+          <span class="nav-label">Family</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="laurel" aria-hidden="true">❧</span>
+        <strong>Small steps, lasting Latin.</strong>
+        <p>Your work stays on this device.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-brand" data-nav="learn" aria-label="Go home">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 10v20M27 10v20M14 20h12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+        </button>
+        <div class="metrics" aria-label="Learning progress">
+          <div class="top-lesson-menu" id="top-lesson-menu"></div>
+          <div class="metric streak" title="Learning streak"><span>🔥</span><strong id="streak-count">1</strong></div>
+          <div class="metric xp" title="Experience points"><span>✦</span><strong id="xp-count">0</strong></div>
+          <div class="metric hearts" title="Hearts"><span>♥</span><strong id="heart-count">5</strong></div>
+          <button class="avatar-button" id="profile-button" aria-label="Edit learner profile"><span id="avatar-initial">S</span></button>
+        </div>
+      </header>
+
+      <section id="view" class="view" aria-live="polite"></section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Mobile navigation">
+      <button class="active" data-nav="learn"><span class="nav-icon" aria-hidden="true">⌂</span><span class="nav-label">Learn</span></button>
+      <button data-nav="review"><span class="nav-icon" aria-hidden="true">↻</span><span class="nav-label">Review</span></button>
+      <button data-nav="family"><span class="nav-icon" aria-hidden="true">♙</span><span class="nav-label">Family</span></button>
+    </nav>
+  </div>
+
+  <section id="lesson-shell" class="lesson-shell" hidden aria-label="Lesson">
+    <header class="lesson-topbar">
+      <button class="icon-button" id="close-lesson" aria-label="Leave lesson">×</button>
+      <div class="lesson-progress" aria-label="Lesson progress"><span id="lesson-progress-fill"></span></div>
+      <div class="lesson-heart"><span>♥</span><strong id="lesson-heart-count">5</strong></div>
+    </header>
+    <main id="lesson-stage" class="lesson-stage"></main>
+    <footer class="lesson-footer">
+      <div id="feedback" class="feedback" hidden></div>
+      <button id="check-button" class="primary-button lesson-action" aria-keyshortcuts="Enter" disabled>Check</button>
+    </footer>
+  </section>
+
+  <dialog id="profile-dialog" class="profile-dialog">
+    <form method="dialog" id="profile-form">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">Learner profile</span>
+          <h2>Make the path yours</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <label>Name
+        <input id="profile-name" name="name" maxlength="18" autocomplete="off" required>
+        <small class="field-hint">This name will appear in personalized Latin sentences.</small>
+      </label>
+      <label>Daily goal
+        <select id="profile-goal" name="goal">
+          <option value="20">Gentle · 5 minutes</option>
+          <option value="40">Steady · 10 minutes</option>
+          <option value="60">Brave · 15 minutes</option>
+        </select>
+      </label>
+      <button class="primary-button" value="save">Save profile</button>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="confetti" class="confetti" aria-hidden="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>
