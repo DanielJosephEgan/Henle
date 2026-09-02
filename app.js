@@ -9772,14 +9772,13 @@ const lessonThirtyParticipleRuleItems = [
 const lessonThirtyFormItems = [
   ...lessonThirtyParticipleAgreementItems,
   ...lessonThirtyPrincipalPartItems,
-  ...lessonThirtyVocabularyParticipleItems,
-  ...lessonThirtyParticipleRuleItems
+  ...lessonThirtyVocabularyParticipleItems
 ];
 
 const lessonThirtyGrammarForms = {
   singular: lessonThirtyParticipleAgreementItems.filter((item) => item.group.includes("Singular")).map((item) => [item.ending, item.meaning]),
   plural: lessonThirtyParticipleAgreementItems.filter((item) => item.group.includes("Plural")).map((item) => [item.ending, item.meaning]),
-  both: lessonThirtyFormItems.map((item) => [item.ending, item.meaning])
+  both: [...lessonThirtyFormItems, ...lessonThirtyParticipleRuleItems].map((item) => [item.ending, item.meaning])
 };
 
 const lessonThirtyOneHicMasculineItems = [
@@ -10544,11 +10543,8 @@ const lessonThirtyOneEndingPractice = {
   },
   mixed: {
     title: "Hic, Haec, Hoc Forms",
-    subtitle: "Fill all hic, haec, hoc forms and Lesson 31 phrase cues.",
-    items: [
-      ...lessonThirtyOneHicFormItems,
-      ...lessonThirtyOneHicRuleItems
-    ]
+    subtitle: "Fill all hic, haec, hoc forms in gender, number, and case order.",
+    items: lessonThirtyOneHicFormItems
   }
 };
 lessonThirtyOneEndingPractice.both = lessonThirtyOneEndingPractice.mixed;
@@ -10714,8 +10710,7 @@ const cumulativeLessonThirtyFormItems = lessonThirtyFormItems.map((item) => ({
 }));
 
 const cumulativeLessonThirtyOneFormItems = [
-  ...lessonThirtyOneHicFormItems,
-  ...lessonThirtyOneHicRuleItems
+  ...lessonThirtyOneHicFormItems
 ].map((item) => ({
   ...item,
   group: `31st ${item.group}`
@@ -13119,7 +13114,6 @@ const lessonThirtyWordFormPairs = [
 
 const lessonThirtyOneWordFormPairs = [
   ...lessonThirtyOneHicFormItems.map((item) => [item.ending, item.meaning, item.group.includes("Plural") ? "plural" : "singular"]),
-  ...lessonThirtyOneHicRuleItems.map((item) => [item.ending, item.meaning, "mixed"]),
   ["hic mīles", "this soldier", "singular"],
   ["haec via", "this road", "singular"],
   ["hoc regnum", "this kingdom", "singular"],
@@ -20400,6 +20394,37 @@ function endingTypeTitle(mode, lessonSet = endingRuntime?.lessonSet || activeLes
   return `Type out the ${copy.shortName} Singular Endings`;
 }
 
+function compactEndingGroup(group) {
+  return String(group || "")
+    .replace(/\bMasculine\b/g, "M.")
+    .replace(/\bFeminine\b/g, "F.")
+    .replace(/\bNeuter\b/g, "N.")
+    .replace(/\bSingular\b/g, "S.")
+    .replace(/\bPlural\b/g, "P.")
+    .replace(/\bFirst Declension\b/g, "1st Decl.")
+    .replace(/\bSecond Declension\b/g, "2nd Decl.")
+    .replace(/\bThird Declension\b/g, "3rd Decl.")
+    .replace(/\bFourth Declension\b/g, "4th Decl.")
+    .replace(/\bFifth Declension\b/g, "5th Decl.")
+    .replace(/\bPresent\b/g, "Pres.")
+    .replace(/\bImperfect\b/g, "Imp.")
+    .replace(/\bFuture\b/g, "Fut.")
+    .replace(/\bPerfect\b/g, "Perf.")
+    .replace(/\bPluperfect\b/g, "Plup.")
+    .replace(/\bActive\b/g, "Act.")
+    .replace(/\bPassive\b/g, "Pass.");
+}
+
+function compactEndingCaseName(caseName) {
+  return String(caseName || "")
+    .replace(/\bNominative\b/g, "Nom.")
+    .replace(/\bGenitive\b/g, "Gen.")
+    .replace(/\bDative\b/g, "Dat.")
+    .replace(/\bAccusative\b/g, "Acc.")
+    .replace(/\bAblative\b/g, "Abl.")
+    .replace(/\bVocative\b/g, "Voc.");
+}
+
 function startEndingTypeTrainer(mode = "singular") {
   if (pairRuntime?.timer) clearInterval(pairRuntime.timer);
   pairRuntime = null;
@@ -20491,14 +20516,18 @@ function renderEndingTypeTrainer() {
     const label = isFinalTest
       ? `${item.caseName} -`
       : `${item.caseName} - ${item.ending}`;
+    const compactLabel = isFinalTest
+      ? `${compactEndingCaseName(item.caseName)} -`
+      : `${compactEndingCaseName(item.caseName)} - ${item.ending}`;
+    const inputCh = Math.min(9, Math.max(3, normalizeEndingAnswer(item.ending).length + 1));
     return `
       ${divider}
       <label class="ending-type-row ${rowState}">
         <span class="ending-case">
-          <small>${escapeHTML(item.group)}</small>
-          <strong>${escapeHTML(label)}</strong>
+          <small><span class="ending-full-text">${escapeHTML(item.group)}</span><span class="ending-short-text">${escapeHTML(compactEndingGroup(item.group))}</span></small>
+          <strong><span class="ending-full-text">${escapeHTML(label)}</span><span class="ending-short-text">${escapeHTML(compactLabel)}</span></strong>
         </span>
-        <input class="ending-type-input" data-ending-type-input="${index}" value="${escapeHTML(answers[index] || "")}" placeholder="type ending" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="${escapeHTML(item.caseName)} ending">
+        <input class="ending-type-input" data-ending-type-input="${index}" value="${escapeHTML(answers[index] || "")}" placeholder="type ending" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="${escapeHTML(item.caseName)} ending" style="--ending-input-ch: ${inputCh}ch;">
         ${hint}
       </label>`;
   }).join("");
