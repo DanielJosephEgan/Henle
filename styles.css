@@ -560,6 +560,7 @@ button { color: inherit; }
 .ending-order-row.wrong { border-color: var(--coral); background: #fff0ee; animation: nudge .18s ease-in-out 2; }
 .ending-case small { display: block; color: var(--gold); font-size: 10px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; }
 .ending-case strong { display: block; margin-top: 3px; color: var(--navy); font-family: Georgia, serif; font-size: 18px; }
+.ending-short-text { display: none; }
 .ending-slot { display: grid; min-width: 78px; min-height: 40px; place-items: center; border-radius: 12px; background: #efe8d8; color: var(--navy); font-family: Georgia, serif; font-size: 20px; font-weight: 900; }
 .ending-bank { padding: 18px; border: 1px solid #ded3bd; border-radius: 20px; background: #fffaf0; }
 .ending-bank h3 { margin: 0 0 14px; color: var(--navy); font-family: Georgia, serif; }
@@ -706,6 +707,41 @@ button { color: inherit; }
   .lesson-topbar { gap: 11px; }
   .lesson-stage { padding-top: 30px; }
   .lesson-stage h1 { font-size: 30px; }
+  .lesson-shell.ending-type-active .lesson-topbar { padding-top: 10px; padding-bottom: 10px; }
+  .lesson-shell.ending-type-active .lesson-stage { width: min(720px, calc(100% - 28px)); padding-top: 12px; padding-bottom: 96px; }
+  .lesson-shell.ending-type-active .question-kicker { font-size: 10px; letter-spacing: 1.25px; }
+  .lesson-shell.ending-type-active .lesson-stage h1 { margin-top: 6px; font-size: clamp(23px, 7vw, 29px); line-height: 1.08; }
+  .lesson-shell.ending-type-active .question-note { margin-top: 8px; font-size: 13px; line-height: 1.35; }
+  .lesson-shell.ending-type-active .ending-type-list { gap: 6px; margin-top: 13px; }
+  .lesson-shell.ending-type-active .ending-type-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 8px;
+    row-gap: 0;
+    min-height: 38px;
+    padding: 4px 8px;
+    border-bottom-width: 3px;
+    border-radius: 11px;
+  }
+  .lesson-shell.ending-type-active .ending-case { display: flex; align-items: center; gap: 5px; min-width: 0; }
+  .lesson-shell.ending-type-active .ending-case small { flex: 0 0 auto; font-size: 9px; line-height: 1; letter-spacing: .75px; }
+  .lesson-shell.ending-type-active .ending-case strong { min-width: 0; margin-top: 0; font-size: 18px; line-height: .95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lesson-shell.ending-type-active .ending-full-text { display: none; }
+  .lesson-shell.ending-type-active .ending-short-text { display: inline; }
+  .lesson-shell.ending-type-active .ending-type-input {
+    justify-self: end;
+    width: calc(var(--ending-input-ch, 4ch) + 24px);
+    min-width: 52px;
+    max-width: 92px;
+    height: 30px;
+    min-height: 30px;
+    padding: 0 7px 1px;
+    border-radius: 9px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .lesson-shell.ending-type-active .ending-type-input::placeholder { color: transparent; }
+  .lesson-shell.ending-type-active .ending-answer-hint { grid-column: 1 / -1; font-size: 11px; }
+  .lesson-shell.ending-type-active .ending-trainer-actions { margin-top: 10px; font-size: 12px; }
   .lesson-footer { min-height: 100px; padding: 20px 18px; }
   .lesson-footer:has(.feedback:not([hidden])) { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
   .feedback { padding-right: 7px; }
