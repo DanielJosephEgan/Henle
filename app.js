@@ -8014,6 +8014,2826 @@ const curriculum = [
         explanation: "Hī agrees with mīlitēs, and contra takes the accusative hostēs."
       }
     ]
+  },
+  {
+    id: "lesson32-prepositions",
+    lessonSet: "lesson32",
+    number: "I",
+    eyebrow: "Lesson 32 · Prepositions",
+    title: "Out Of, Away From, Down From",
+    subtitle: "Learn the difference between ex/e, ab/a, and dē with the ablative.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 32 · The prepositions ex/e, ab/a, and dē",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which preposition means “out of” or “from” when the motion begins inside a place?",
+        choices: ["ex / ē", "ab / ā", "ad", "contra"],
+        correct: "ex / ē",
+        explanation: "Use ex or ē when someone or something comes out from inside a place."
+      },
+      {
+        type: "choice",
+        prompt: "Which preposition means “away from” or “from” when the motion does not begin inside the place?",
+        choices: ["ab / ā", "ex / ē", "in", "per"],
+        correct: "ab / ā",
+        explanation: "Use ab or ā for motion away from a place."
+      },
+      {
+        type: "choice",
+        prompt: "Which preposition can mean “down from”?",
+        choices: ["dē", "contra", "apud", "sine"],
+        correct: "dē",
+        explanation: "Dē with the ablative may mean down from or from."
+      },
+      {
+        type: "choice",
+        prompt: "What case follows ex/e, ab/a, and dē in Lesson 32?",
+        choices: ["ablative", "accusative", "genitive", "nominative"],
+        correct: "ablative",
+        explanation: "All three Lesson 32 prepositions take the ablative."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: out of the camp",
+        tokens: ["ē", "castrīs"],
+        correct: "ē castrīs",
+        explanation: "Ē is used before a consonant, and castrīs is ablative plural."
+      }
+    ]
+  },
+  {
+    id: "lesson32-short-forms",
+    lessonSet: "lesson32",
+    number: "II",
+    eyebrow: "Lesson 32 · Short forms",
+    title: "A or Ab? E or Ex?",
+    subtitle: "Choose the short form before consonants and the full form before vowels or h.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 32 · Note on a/e and ab/ex",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which form is used before a word beginning with a vowel or h?",
+        choices: ["ab", "ā", "both are always fine", "neither form is used"],
+        correct: "ab",
+        explanation: "Use ab before a vowel or h; use ā before many consonants."
+      },
+      {
+        type: "choice",
+        prompt: "Which form is used before a word beginning with a vowel or h?",
+        choices: ["ex", "ē", "both are always fine", "neither form is used"],
+        correct: "ex",
+        explanation: "Use ex before a vowel or h; use ē before many consonants."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase best means “from this place”?",
+        choices: ["ab hōc locō", "ā hōc locō", "ex hōc locō", "ē hōc locō"],
+        correct: "ab hōc locō",
+        explanation: "Hōc begins with h, so use the full form ab."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase best means “out of the forest”?",
+        choices: ["ē silvā", "ex silvā", "ā silvam", "ab silvam"],
+        correct: "ē silvā",
+        explanation: "Silvā begins with a consonant, so ē is the usual short form."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: away from the river",
+        tokens: ["ā", "flūmine"],
+        correct: "ā flūmine",
+        explanation: "Ā means away from, and flūmine is ablative."
+      }
+    ]
+  },
+  {
+    id: "lesson32-vocabulary",
+    lessonSet: "lesson32",
+    number: "III",
+    eyebrow: "Lesson 32 · Vocabulary",
+    title: "Ships, Falling, Withdrawing",
+    subtitle: "Practice the new Lesson 32 words in small sentences.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 32 · Vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “discēdō” mean?",
+        choices: ["withdraw / depart", "fall", "lead to", "prevent"],
+        correct: "withdraw / depart",
+        explanation: "Discēdō means withdraw or depart."
+      },
+      {
+        type: "choice",
+        prompt: "What does “navis” mean?",
+        choices: ["ship", "fear", "reason", "wall"],
+        correct: "ship",
+        explanation: "Navis means ship."
+      },
+      {
+        type: "choice",
+        prompt: "What does “cadō” mean?",
+        choices: ["fall", "withdraw", "fill", "free"],
+        correct: "fall",
+        explanation: "Cadō means fall."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Nauta dē nāvī cecidit.”",
+        choices: ["The sailor fell from the ship.", "The sailor withdrew into the ship.", "The ship fell from the sailor.", "The sailor praised the ship."],
+        correct: "The sailor fell from the ship.",
+        explanation: "Dē nāvī can mean from the ship, and cecidit means fell."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They withdrew from the battle line.",
+        tokens: ["ab", "aciē", "discessērunt"],
+        correct: "ab aciē discessērunt",
+        explanation: "Ab is used before a vowel; discessērunt means they withdrew."
+      }
+    ]
+  },
+  {
+    id: "lesson32-place-phrases",
+    lessonSet: "lesson32",
+    number: "IV",
+    eyebrow: "Lesson 32 · Place phrases",
+    title: "Inside, Away, Down",
+    subtitle: "Read short movement phrases and choose the right meaning.",
+    color: "#de8465",
+    reference: "Henle Lesson 32 · Place examples",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “ex oppidō” mean?",
+        choices: ["out of the town", "away from the town but not inside it", "toward the town", "against the town"],
+        correct: "out of the town",
+        explanation: "Ex means out of or from when the motion begins inside."
+      },
+      {
+        type: "choice",
+        prompt: "What does “ā castrīs” mean?",
+        choices: ["away from the camp", "out of the camp", "into the camp", "with the camp"],
+        correct: "away from the camp",
+        explanation: "Ā means away from or from."
+      },
+      {
+        type: "choice",
+        prompt: "What does “dē monte” mean?",
+        choices: ["down from the mountain", "into the mountain", "against the mountain", "without the mountain"],
+        correct: "down from the mountain",
+        explanation: "Dē may mean down from."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Mīlitēs ē silvā vēnērunt.”",
+        choices: ["The soldiers came out of the forest.", "The soldiers came away from the forest.", "The forest came from the soldiers.", "The soldiers came without the forest."],
+        correct: "The soldiers came out of the forest.",
+        explanation: "Ē silvā means out of the forest."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The legion came down from the hill.",
+        tokens: ["legiō", "dē", "colle", "vēnit"],
+        correct: "legiō dē colle vēnit",
+        explanation: "Dē colle means down from or from the hill."
+      }
+    ]
+  },
+  {
+    id: "lesson32-wrap",
+    lessonSet: "lesson32",
+    number: "V",
+    eyebrow: "Lesson 32 · Mastery",
+    title: "The Prepositions",
+    subtitle: "Mix ex/e, ab/a, dē, Lesson 32 vocabulary, and movement sentences.",
+    color: "#c8912f",
+    reference: "Henle Lesson 32 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Multī nautæ dē nāvibus in aquam cecidērunt.”",
+        choices: ["Many sailors fell from the ships into the water.", "Many ships fell from the sailors into the water.", "Many sailors withdrew from the water into ships.", "Many sailors praised the water from the ships."],
+        correct: "Many sailors fell from the ships into the water.",
+        explanation: "Dē nāvibus means from the ships; in aquam shows motion into the water."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase best means “out of the territory of the enemy”?",
+        choices: ["ex fīnibus hostium", "ā fīnibus hostium", "ad fīnēs hostium", "sine fīnibus hostium"],
+        correct: "ex fīnibus hostium",
+        explanation: "Ex points to motion out of a place."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase best means “away from this place”?",
+        choices: ["ab hōc locō", "ē hōc locō", "in hunc locum", "per hunc locum"],
+        correct: "ab hōc locō",
+        explanation: "Ab is used before h and means away from."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Hī barbarī dē montibus impetum fēcērunt.”",
+        choices: ["These barbarians made an attack from the mountains.", "These mountains attacked the barbarians.", "These barbarians withdrew into the mountains.", "These barbarians praised the mountains."],
+        correct: "These barbarians made an attack from the mountains.",
+        explanation: "Dē montibus can mean from or down from the mountains."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The centurion fell from the bridge into the river.",
+        tokens: ["centuriō", "dē", "ponte", "in", "flūmen", "cecidit"],
+        correct: "centuriō dē ponte in flūmen cecidit",
+        explanation: "Dē ponte means from the bridge; in flūmen shows motion into the river."
+      }
+    ]
+  },
+  {
+    id: "lesson33-ille",
+    lessonSet: "lesson33",
+    number: "I",
+    eyebrow: "Lesson 33 · Ille",
+    title: "That Man, Those Things",
+    subtitle: "Learn ille, illa, illud as a demonstrative: that or those.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 33 · Ille",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “ille, illa, illud” usually mean as a demonstrative?",
+        choices: ["that / those", "this / these", "who / which", "himself / themselves"],
+        correct: "that / those",
+        explanation: "Ille points to that person or thing, or those persons or things."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “that man” as subject?",
+        choices: ["ille", "illa", "illud", "illōs"],
+        correct: "ille",
+        explanation: "Ille is masculine nominative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “that thing” as subject or direct object?",
+        choices: ["illud", "illum", "illam", "illī"],
+        correct: "illud",
+        explanation: "Illud is neuter nominative or accusative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “of that” in the singular for all genders?",
+        choices: ["illīus", "illī", "illum", "illīs"],
+        correct: "illīus",
+        explanation: "Illīus is genitive singular for masculine, feminine, and neuter."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: that sailor",
+        tokens: ["ille", "nauta"],
+        correct: "ille nauta",
+        explanation: "Nauta is masculine singular, so ille agrees with it."
+      }
+    ]
+  },
+  {
+    id: "lesson33-is",
+    lessonSet: "lesson33",
+    number: "II",
+    eyebrow: "Lesson 33 · Is",
+    title: "That, He, She, It",
+    subtitle: "Review is, ea, id as a demonstrative and as a personal pronoun.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 33 · Is, ea, id",
+    questions: [
+      {
+        type: "choice",
+        prompt: "How may “is, ea, id” be used?",
+        choices: ["as that or as he/she/it", "only as this", "only as a verb", "only with the accusative"],
+        correct: "as that or as he/she/it",
+        explanation: "Lesson 33 reviews that is, ea, id can point like that or stand as he, she, or it."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “him” as direct object?",
+        choices: ["eum", "eius", "eō", "eī"],
+        correct: "eum",
+        explanation: "Eum is masculine accusative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “her” as direct object?",
+        choices: ["eam", "ea", "eius", "eī"],
+        correct: "eam",
+        explanation: "Eam is feminine accusative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “of them” for masculine or neuter plural?",
+        choices: ["eōrum", "eārum", "eīs", "eōs"],
+        correct: "eōrum",
+        explanation: "Eōrum is genitive plural masculine or neuter."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Caesar praised him.",
+        tokens: ["Caesar", "eum", "laudāvit"],
+        correct: "Caesar eum laudāvit",
+        explanation: "Eum is the masculine direct object: him."
+      }
+    ]
+  },
+  {
+    id: "lesson33-compare",
+    lessonSet: "lesson33",
+    number: "III",
+    eyebrow: "Lesson 33 · Compare",
+    title: "This, That, and He",
+    subtitle: "Contrast hic, ille, and is in short sentences.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 33 · Demonstrative use",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which word usually points to “this” or “these”?",
+        choices: ["hic, haec, hoc", "ille, illa, illud", "numquam", "ratiō"],
+        correct: "hic, haec, hoc",
+        explanation: "Hic points to this or these."
+      },
+      {
+        type: "choice",
+        prompt: "Which word usually points to “that” or “those”?",
+        choices: ["ille, illa, illud", "hic, haec, hoc", "quī, quae, quod", "suī"],
+        correct: "ille, illa, illud",
+        explanation: "Ille points to that or those."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Hic vēnit, ille discessit.”",
+        choices: ["This man came; that man withdrew.", "That man came; this man withdrew.", "He never came.", "These men came out of the camp."],
+        correct: "This man came; that man withdrew.",
+        explanation: "Hic means this man; ille means that man."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Eum numquam vīdimus.”",
+        choices: ["We never saw him.", "He never saw us.", "Those men saw him.", "We saw that place."],
+        correct: "We never saw him.",
+        explanation: "Eum means him as direct object; numquam means never."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: This man stayed, but that man withdrew.",
+        tokens: ["hic", "mānsit", "ille", "autem", "discessit"],
+        correct: "hic mānsit ille autem discessit",
+        explanation: "Hic contrasts with ille; autem can mean but."
+      }
+    ]
+  },
+  {
+    id: "lesson33-vocabulary",
+    lessonSet: "lesson33",
+    number: "IV",
+    eyebrow: "Lesson 33 · Vocabulary",
+    title: "Never, Besides, Reason",
+    subtitle: "Practice numquam, praetereā, ratiō, and demonstrative phrases.",
+    color: "#de8465",
+    reference: "Henle Lesson 33 · Vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “numquam” mean?",
+        choices: ["never", "besides", "reason", "down from"],
+        correct: "never",
+        explanation: "Numquam means never."
+      },
+      {
+        type: "choice",
+        prompt: "What does “praetereā” mean?",
+        choices: ["besides / furthermore", "never", "reason", "from the rear"],
+        correct: "besides / furthermore",
+        explanation: "Praetereā means besides or furthermore."
+      },
+      {
+        type: "choice",
+        prompt: "What can “ratiō” mean?",
+        choices: ["reason / manner", "ship", "fear", "front"],
+        correct: "reason / manner",
+        explanation: "Ratiō has several meanings; reason or manner is often a good starting point."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “propter illās ratiōnēs.”",
+        choices: ["on account of those reasons", "from those ships", "without those reasons", "to these reasons"],
+        correct: "on account of those reasons",
+        explanation: "Propter takes the accusative; illās agrees with ratiōnēs."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Besides, they never conquered us.",
+        tokens: ["praetereā", "nōs", "numquam", "vīcērunt"],
+        correct: "praetereā nōs numquam vīcērunt",
+        explanation: "Nōs is the direct object here: us."
+      }
+    ]
+  },
+  {
+    id: "lesson33-wrap",
+    lessonSet: "lesson33",
+    number: "V",
+    eyebrow: "Lesson 33 · Mastery",
+    title: "Ille and Is",
+    subtitle: "Mix ille, is, earlier hic forms, and Lesson 33 vocabulary.",
+    color: "#c8912f",
+    reference: "Henle Lesson 33 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Hī mīlitēs pugnant; illī discedunt.”",
+        choices: ["These soldiers fight; those withdraw.", "Those soldiers fight; these withdraw.", "He fights; she withdraws.", "These ships fall."],
+        correct: "These soldiers fight; those withdraw.",
+        explanation: "Hī means these; illī means those masculine plural."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Illud oppidum numquam occupāvērunt.”",
+        choices: ["They never seized that town.", "That town never seized them.", "They came out of that town.", "They seized this town."],
+        correct: "They never seized that town.",
+        explanation: "Illud agrees with oppidum; numquam means never."
+      },
+      {
+        type: "choice",
+        prompt: "Which form fits “with those soldiers”?",
+        choices: ["illīs mīlitibus", "illōs mīlitēs", "ille mīles", "illīus mīlitis"],
+        correct: "illīs mīlitibus",
+        explanation: "With those soldiers needs ablative plural: illīs mīlitibus."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Eī hoc nūntiāvērunt.”",
+        choices: ["They announced this.", "He announced this.", "These things announced him.", "They never announced this."],
+        correct: "They announced this.",
+        explanation: "Eī can be masculine plural subject: they."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Those chiefs gave him hostages.",
+        tokens: ["illī", "principēs", "eī", "obsidēs", "dedērunt"],
+        correct: "illī principēs eī obsidēs dedērunt",
+        explanation: "Illī agrees with principēs; eī means to him."
+      }
+    ]
+  },
+  {
+    id: "lesson34-separation",
+    lessonSet: "lesson34",
+    number: "I",
+    eyebrow: "Lesson 34 · Separation",
+    title: "Free From, Safe From",
+    subtitle: "Learn the ablative of separation with words of freeing, lacking, and keeping away.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 34 · Ablative of separation",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does the ablative of separation show?",
+        choices: ["from what something is separated", "the direct object", "the subject of a sentence", "the person spoken to"],
+        correct: "from what something is separated",
+        explanation: "The ablative of separation shows separation: free from fear, safe from danger, empty of soldiers."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “free from fear”?",
+        choices: ["metū līber", "metum līber", "metūs līber", "metuī līber"],
+        correct: "metū līber",
+        explanation: "Metū is ablative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “empty of soldiers”?",
+        choices: ["mīlitibus vacuus", "mīlitēs vacuus", "mīlitum vacuus", "mīlitī vacuus"],
+        correct: "mīlitibus vacuus",
+        explanation: "Vacuus can take an ablative showing what something is empty of."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “safe from danger”?",
+        choices: ["ā perīculō tūtus", "ad perīculum tūtus", "per perīculum tūtus", "perīculī tūtus"],
+        correct: "ā perīculō tūtus",
+        explanation: "Tūtus often uses ā/ab with the ablative."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Free me from fear.",
+        tokens: ["līberā", "mē", "metū"],
+        correct: "līberā mē metū",
+        explanation: "Metū is ablative of separation."
+      }
+    ]
+  },
+  {
+    id: "lesson34-words",
+    lessonSet: "lesson34",
+    number: "II",
+    eyebrow: "Lesson 34 · Key words",
+    title: "Liberō, Vacuus, Prohibeō",
+    subtitle: "Practice the words that often invite an ablative of separation.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 34 · Separation vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “līberō” mean?",
+        choices: ["free", "fill", "fall", "announce"],
+        correct: "free",
+        explanation: "Līberō means free or set free."
+      },
+      {
+        type: "choice",
+        prompt: "What does “vacuus” mean?",
+        choices: ["empty", "highest", "near", "secret"],
+        correct: "empty",
+        explanation: "Vacuus means empty or free from."
+      },
+      {
+        type: "choice",
+        prompt: "What does “prohibeō” mean?",
+        choices: ["keep off / prevent", "withdraw", "fall", "hasten"],
+        correct: "keep off / prevent",
+        explanation: "Prohibeō means keep away, keep off, or prevent."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “defend the province from enemies”?",
+        choices: ["prōvinciam ab hostibus defendere", "prōvinciam hostibus dare", "prōvinciam in hostēs mittere", "prōvinciam sine hostibus laudāre"],
+        correct: "prōvinciam ab hostibus defendere",
+        explanation: "Defendō may use ab with persons: from enemies."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They kept the enemy from their territory.",
+        tokens: ["hostēs", "fīnibus", "suīs", "prohibuērunt"],
+        correct: "hostēs fīnibus suīs prohibuērunt",
+        explanation: "Fīnibus suīs is ablative of separation: from their territory."
+      }
+    ]
+  },
+  {
+    id: "lesson34-ablative-review",
+    lessonSet: "lesson34",
+    number: "III",
+    eyebrow: "Lesson 34 · Ablative review",
+    title: "Agent, Means, With, Place, Cause",
+    subtitle: "Review the main ablative uses learned so far.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 34 · Review of ablative constructions",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which phrase shows personal agent?",
+        choices: ["ā Caesare", "gladiō", "cum amīcīs", "in castrīs"],
+        correct: "ā Caesare",
+        explanation: "A living agent in a passive sentence is shown by ā/ab plus the ablative."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase shows means?",
+        choices: ["gladiō", "ā Caesare", "cum amīcīs", "sine morā"],
+        correct: "gladiō",
+        explanation: "Means usually uses the ablative without a preposition."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase shows accompaniment?",
+        choices: ["cum amīcīs", "metū līber", "ā Caesare", "dē monte"],
+        correct: "cum amīcīs",
+        explanation: "Cum with the ablative can show accompaniment: with friends."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase shows place where?",
+        choices: ["in castrīs", "in castra", "ad castra", "ex castrīs"],
+        correct: "in castrīs",
+        explanation: "In with the ablative shows rest or location: in the camp."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The camp was safe from every danger.",
+        tokens: ["castra", "ab", "omnī", "perīculō", "tūta", "erant"],
+        correct: "castra ab omnī perīculō tūta erant",
+        explanation: "Ab omnī perīculō shows separation: safe from every danger."
+      }
+    ]
+  },
+  {
+    id: "lesson34-review-vocabulary",
+    lessonSet: "lesson34",
+    number: "IV",
+    eyebrow: "Lesson 34 · Review words",
+    title: "Full, With, For, Without",
+    subtitle: "Practice the extra ablative review words: plēnus, cum, prō, dē, sine, and absum.",
+    color: "#de8465",
+    reference: "Henle Lesson 34 · Review vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “plēnus” mean?",
+        choices: ["full", "free", "safe", "empty"],
+        correct: "full",
+        explanation: "Plēnus means full and may be used with the genitive or ablative."
+      },
+      {
+        type: "choice",
+        prompt: "What does “sine” mean?",
+        choices: ["without", "with", "for", "down from"],
+        correct: "without",
+        explanation: "Sine takes the ablative and means without."
+      },
+      {
+        type: "choice",
+        prompt: "What can “prō” mean?",
+        choices: ["in front of / on behalf of", "out of", "into", "never"],
+        correct: "in front of / on behalf of",
+        explanation: "Prō with the ablative can mean in front of or on behalf of."
+      },
+      {
+        type: "choice",
+        prompt: "What does “absum ab castrīs” mean?",
+        choices: ["I am away from the camp", "I go out of the camp", "I fall from the camp", "I am full of camp"],
+        correct: "I am away from the camp",
+        explanation: "Absum with ab/a plus ablative means be away from or distant from."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: without delay",
+        tokens: ["sine", "morā"],
+        correct: "sine morā",
+        explanation: "Sine takes the ablative."
+      }
+    ]
+  },
+  {
+    id: "lesson34-wrap",
+    lessonSet: "lesson34",
+    number: "V",
+    eyebrow: "Lesson 34 · Mastery",
+    title: "Ablative Constructions",
+    subtitle: "Mix separation, ablative review, and Unit 9 vocabulary.",
+    color: "#c8912f",
+    reference: "Henle Lesson 34 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Bonōrum vīta vacua est metū.”",
+        choices: ["The life of good people is free from fear.", "Fear is empty of good lives.", "Good people fear empty life.", "The good are full of fear."],
+        correct: "The life of good people is free from fear.",
+        explanation: "Metū is ablative of separation with vacua."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Caesar prōvinciam ab hostibus dēfendit.”",
+        choices: ["Caesar defended the province from enemies.", "Caesar sent the province to the enemy.", "Caesar came out of the province.", "The enemy defended Caesar from the province."],
+        correct: "Caesar defended the province from enemies.",
+        explanation: "Ab hostibus shows from whom the province was defended."
+      },
+      {
+        type: "choice",
+        prompt: "Which construction is in “tēlō occīsus”?",
+        choices: ["ablative of means", "ablative of accompaniment", "ablative of place where", "dative of purpose"],
+        correct: "ablative of means",
+        explanation: "Tēlō is the thing by which someone was killed."
+      },
+      {
+        type: "choice",
+        prompt: "Which construction is in “spē victōriae adductī”?",
+        choices: ["ablative of cause", "ablative of place where", "direct object", "vocative"],
+        correct: "ablative of cause",
+        explanation: "Spē victōriae explains the cause or reason."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The soldiers were free from fear.",
+        tokens: ["mīlitēs", "metū", "līberī", "erant"],
+        correct: "mīlitēs metū līberī erant",
+        explanation: "Metū is ablative of separation; līberī agrees with mīlitēs."
+      }
+    ]
+  },
+  {
+    id: "lesson35-possum-present",
+    lessonSet: "lesson35",
+    number: "I",
+    eyebrow: "Lesson 35 · Possum",
+    title: "I Can, You Can",
+    subtitle: "Learn the present-system forms of possum: I am able, I can.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 35 · Indicative of possum",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “possum” mean?",
+        choices: ["I am able / I can", "I praise", "I am away", "I order"],
+        correct: "I am able / I can",
+        explanation: "Possum means I am able or I can."
+      },
+      {
+        type: "choice",
+        prompt: "Why does possum sometimes begin with pos- and sometimes with pot-?",
+        choices: ["pos- comes before sum forms beginning with s; pot- comes before the others", "pos- is plural and pot- is singular", "pos- is passive and pot- is active", "pos- is for nouns and pot- is for verbs"],
+        correct: "pos- comes before sum forms beginning with s; pot- comes before the others",
+        explanation: "Possum is built from an able-word plus sum, so the beginning changes to fit the form of sum."
+      },
+      {
+        type: "choice",
+        prompt: "What does “potes” mean?",
+        choices: ["you can", "he can", "we can", "they can"],
+        correct: "you can",
+        explanation: "Potes is the second-person singular form: you are able."
+      },
+      {
+        type: "choice",
+        prompt: "What does “poterant” mean?",
+        choices: ["they were able / they could", "they will be able", "they have been able", "they are able"],
+        correct: "they were able / they could",
+        explanation: "Poterant is imperfect: they were able or they could."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: We are unable.",
+        tokens: ["nōn", "possumus"],
+        correct: "nōn possumus",
+        explanation: "Non possumus means we are not able; in good English, we are unable or we cannot."
+      }
+    ]
+  },
+  {
+    id: "lesson35-possum-perfect-subjunctive",
+    lessonSet: "lesson35",
+    number: "II",
+    eyebrow: "Lesson 35 · More possum",
+    title: "Could, Could Have, Might Be Able",
+    subtitle: "Practice perfect-system and subjunctive possum forms.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 35 · Perfect system and subjunctive of possum",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “potuit” mean?",
+        choices: ["he was able / he has been able", "he can", "he will be able", "he might be able"],
+        correct: "he was able / he has been able",
+        explanation: "Potuit is perfect tense, built on the perfect stem potu-."
+      },
+      {
+        type: "choice",
+        prompt: "What does “potuerant” mean?",
+        choices: ["they had been able", "they are able", "they will be able", "they might be able"],
+        correct: "they had been able",
+        explanation: "Potuerant is pluperfect: they had been able."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “I may be able”?",
+        choices: ["possim", "possem", "potuerim", "potuī"],
+        correct: "possim",
+        explanation: "Possim is present subjunctive."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “he might be able”?",
+        choices: ["posset", "potest", "potuerit", "possumus"],
+        correct: "posset",
+        explanation: "Posset is imperfect subjunctive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They could not.",
+        tokens: ["nōn", "poterant"],
+        correct: "nōn poterant",
+        explanation: "Non poterant means they were unable or they could not."
+      }
+    ]
+  },
+  {
+    id: "lesson35-infinitives",
+    lessonSet: "lesson35",
+    number: "III",
+    eyebrow: "Lesson 35 · Infinitives",
+    title: "To Praise, To Be Praised",
+    subtitle: "See the infinitive as a neuter verbal noun.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 35 · Infinitive as subject, predicate noun, and object",
+    questions: [
+      {
+        type: "choice",
+        prompt: "The present active infinitive of a regular active verb is usually which principal part?",
+        choices: ["second principal part", "first principal part", "third principal part", "fourth principal part"],
+        correct: "second principal part",
+        explanation: "The second principal part gives the present active infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "What does “laudāre” mean?",
+        choices: ["to praise", "to be praised", "praised", "they praise"],
+        correct: "to praise",
+        explanation: "Laudāre is the present active infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "What does “laudārī” mean?",
+        choices: ["to be praised", "to praise", "he praises", "praising"],
+        correct: "to be praised",
+        explanation: "Laudārī is present passive infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "In Lesson 35, the infinitive is treated as what kind of noun?",
+        choices: ["a neuter verbal noun", "a masculine noun", "a feminine adjective", "a dative preposition"],
+        correct: "a neuter verbal noun",
+        explanation: "It is verbal because it acts like a verb; it is noun-like because it can be subject, predicate noun, or object."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: To pray is good.",
+        tokens: ["ōrāre", "est", "bonum"],
+        correct: "ōrāre est bonum",
+        explanation: "The infinitive ōrāre is the subject of the sentence."
+      }
+    ]
+  },
+  {
+    id: "lesson35-infinitive-complements",
+    lessonSet: "lesson35",
+    number: "IV",
+    eyebrow: "Lesson 35 · Completing verbs",
+    title: "Can Fight, Prepare to Come",
+    subtitle: "Use infinitives after words such as possum, parō, timeō, contendō, and cōnsuēvī.",
+    color: "#de8465",
+    reference: "Henle Lesson 35 · Infinitives completing verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “fortiter pugnāre possunt.”",
+        choices: ["they can fight bravely", "they fought bravely", "they are praised bravely", "they prepare brave fights"],
+        correct: "they can fight bravely",
+        explanation: "The infinitive pugnāre completes possunt."
+      },
+      {
+        type: "choice",
+        prompt: "What does “venīre parant” mean?",
+        choices: ["they prepare to come", "they fear to come", "they can come", "they order them to come"],
+        correct: "they prepare to come",
+        explanation: "Parō can take an infinitive when the sense is prepare to do something."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “I am accustomed to fight”?",
+        choices: ["pugnāre cōnsuēvī", "pugnāre possum", "pugnāre iubeō", "pugnāre oportet"],
+        correct: "pugnāre cōnsuēvī",
+        explanation: "Cōnsuēvī can mean I have become accustomed or I am accustomed."
+      },
+      {
+        type: "choice",
+        prompt: "What warning belongs with infinitives in this lesson?",
+        choices: ["Do not use the infinitive for purpose in classical Latin.", "Use an infinitive after every noun.", "An infinitive must always be plural.", "An infinitive always has a nominative subject."],
+        correct: "Do not use the infinitive for purpose in classical Latin.",
+        explanation: "For purpose, Latin usually needs a purpose construction rather than just an infinitive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They are able to defend the town.",
+        tokens: ["oppidum", "dēfendere", "possunt"],
+        correct: "oppidum dēfendere possunt",
+        explanation: "Dēfendere completes possunt: they are able to defend."
+      }
+    ]
+  },
+  {
+    id: "lesson35-subject-accusative",
+    lessonSet: "lesson35",
+    number: "V",
+    eyebrow: "Lesson 35 · Accusative subject",
+    title: "Iubeō and Oportet",
+    subtitle: "Learn infinitives with their own accusative subjects.",
+    color: "#c8912f",
+    reference: "Henle Lesson 35 · Infinitive with subject accusative",
+    questions: [
+      {
+        type: "choice",
+        prompt: "If an infinitive has its own subject, what case is that subject in?",
+        choices: ["accusative", "nominative", "ablative", "genitive"],
+        correct: "accusative",
+        explanation: "The subject of an infinitive is put in the accusative case."
+      },
+      {
+        type: "choice",
+        prompt: "What does “iubeō” mean?",
+        choices: ["I order / I command", "I can", "I am accustomed", "I fear"],
+        correct: "I order / I command",
+        explanation: "Iubeō often takes an accusative plus infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "What is a good English meaning for “oportet tē ōrāre”?",
+        choices: ["you ought to pray", "you are able to pray", "you prayed", "you order prayer"],
+        correct: "you ought to pray",
+        explanation: "Oportet can be translated as it is necessary, it is proper, should, ought, or must."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “mīlitēs manēre iussī sunt.”",
+        choices: ["the soldiers were ordered to remain", "the soldiers ordered him to remain", "the soldiers could remain", "the soldiers remained bravely"],
+        correct: "the soldiers were ordered to remain",
+        explanation: "The passive of iubeō works much like English: they were ordered to remain."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Caesar ordered the soldiers to remain.",
+        tokens: ["Caesar", "mīlitēs", "manēre", "iussit"],
+        correct: "Caesar mīlitēs manēre iussit",
+        explanation: "Mīlitēs is the accusative subject of the infinitive manēre."
+      }
+    ]
+  },
+  {
+    id: "lesson36-numerals",
+    lessonSet: "lesson36",
+    number: "I",
+    eyebrow: "Lesson 36 · Numerals",
+    title: "One Through Ten",
+    subtitle: "Learn the cardinal numerals and the question word quot.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 36 · Numerals",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “quot” mean?",
+        choices: ["how many?", "which one?", "alone", "whole"],
+        correct: "how many?",
+        explanation: "Quot asks how many and does not change form."
+      },
+      {
+        type: "choice",
+        prompt: "Which is the Latin for “three”?",
+        choices: ["trēs", "duo", "sex", "decem"],
+        correct: "trēs",
+        explanation: "Trēs means three."
+      },
+      {
+        type: "choice",
+        prompt: "Which is the Latin for “ten”?",
+        choices: ["decem", "septem", "centum", "quattuor"],
+        correct: "decem",
+        explanation: "Decem means ten."
+      },
+      {
+        type: "choice",
+        prompt: "What does “centum” mean?",
+        choices: ["one hundred", "ten", "seven", "which"],
+        correct: "one hundred",
+        explanation: "Centum means one hundred."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: How many soldiers?",
+        tokens: ["quot", "mīlitēs"],
+        correct: "quot mīlitēs",
+        explanation: "Quot stays the same while the noun changes."
+      }
+    ]
+  },
+  {
+    id: "lesson36-unus-duo-tres",
+    lessonSet: "lesson36",
+    number: "II",
+    eyebrow: "Lesson 36 · Number forms",
+    title: "Ūnus, Duo, Trēs",
+    subtitle: "Practice the declinable numbers one, two, and three.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 36 · Declension of numerals",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which form means “of one”?",
+        choices: ["ūnīus", "ūnī", "ūnum", "ūnō"],
+        correct: "ūnīus",
+        explanation: "Ūnus has the special genitive singular ūnīus."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “to/for one”?",
+        choices: ["ūnī", "ūnīus", "ūnum", "ūnā"],
+        correct: "ūnī",
+        explanation: "Ūnus has the special dative singular ūnī."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “with two men”?",
+        choices: ["cum duōbus virīs", "cum duōs virōs", "cum duārum virōrum", "cum duo virī"],
+        correct: "cum duōbus virīs",
+        explanation: "Cum takes the ablative, so duōbus virīs is needed."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “three things” as subject or direct object?",
+        choices: ["tria", "trēs", "trium", "tribus"],
+        correct: "tria",
+        explanation: "Neuter plural nominative and accusative is tria."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: with three friends",
+        tokens: ["cum", "tribus", "amīcīs"],
+        correct: "cum tribus amīcīs",
+        explanation: "Tribus is dative/ablative plural."
+      }
+    ]
+  },
+  {
+    id: "lesson36-caput-aeternus",
+    lessonSet: "lesson36",
+    number: "III",
+    eyebrow: "Lesson 36 · New words",
+    title: "Head and Eternal",
+    subtitle: "Add caput, aeternus, and number phrases to earlier Latin.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 36 · Vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “caput” mean?",
+        choices: ["head", "city", "fear", "ship"],
+        correct: "head",
+        explanation: "Caput means head."
+      },
+      {
+        type: "choice",
+        prompt: "What does “aeternus” mean?",
+        choices: ["eternal / everlasting", "whole", "other", "near"],
+        correct: "eternal / everlasting",
+        explanation: "Aeternus means eternal or everlasting."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “vita aeterna.”",
+        choices: ["eternal life", "whole life", "another life", "one life"],
+        correct: "eternal life",
+        explanation: "Aeterna agrees with vita."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “the head of the man”?",
+        choices: ["caput hominis", "capitis hominem", "caput hominī", "capita hominum"],
+        correct: "caput hominis",
+        explanation: "Hominis is genitive singular: of the man."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: one head",
+        tokens: ["ūnum", "caput"],
+        correct: "ūnum caput",
+        explanation: "Caput is neuter, so ūnum agrees with it."
+      }
+    ]
+  },
+  {
+    id: "lesson36-irregular-adjectives",
+    lessonSet: "lesson36",
+    number: "IV",
+    eyebrow: "Lesson 36 · Irregular adjectives",
+    title: "Ūnīus and Ūnī",
+    subtitle: "Learn adjectives with special genitive and dative singular endings.",
+    color: "#de8465",
+    reference: "Henle Lesson 36 · Irregular adjective endings",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What special genitive singular ending do these adjectives use?",
+        choices: ["-īus", "-ōrum", "-ibus", "-ēs"],
+        correct: "-īus",
+        explanation: "Ūnus, alter, nullus, solus, totus, and the rest use -īus in the genitive singular."
+      },
+      {
+        type: "choice",
+        prompt: "What special dative singular ending do these adjectives use?",
+        choices: ["-ī", "-am", "-ārum", "-a"],
+        correct: "-ī",
+        explanation: "They use -ī in the dative singular."
+      },
+      {
+        type: "choice",
+        prompt: "What does “nullus” mean?",
+        choices: ["no / none", "whole", "alone", "which of two?"],
+        correct: "no / none",
+        explanation: "Nullus means no or none."
+      },
+      {
+        type: "choice",
+        prompt: "What does “totus” mean?",
+        choices: ["whole / all of", "alone / only", "other of two", "neither of two"],
+        correct: "whole / all of",
+        explanation: "Totus means whole or all of."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: glory to God alone",
+        tokens: ["sōlī", "Deō", "glōria"],
+        correct: "sōlī Deō glōria",
+        explanation: "Sōlī is dative singular: to God alone."
+      }
+    ]
+  },
+  {
+    id: "lesson36-alius-alter-review",
+    lessonSet: "lesson36",
+    number: "V",
+    eyebrow: "Lesson 36 · Mastery",
+    title: "Some, Others, the Whole",
+    subtitle: "Mix numerals, irregular adjectives, and earlier sentence patterns.",
+    color: "#c8912f",
+    reference: "Henle Lesson 36 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What is the difference between “alius” and “alter”?",
+        choices: ["alius means another of more than two; alter means the other of two", "alius means whole; alter means alone", "alius means no; alter means any", "alius is plural; alter is singular"],
+        correct: "alius means another of more than two; alter means the other of two",
+        explanation: "Alius points to another among several; alter points to the other when there are two."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “of the whole army”?",
+        choices: ["tōtīus exercitūs", "tōtī exercituī", "tōtum exercitum", "tōtō exercitū"],
+        correct: "tōtīus exercitūs",
+        explanation: "Tōtīus is genitive singular; exercitūs is genitive singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “to no soldier”?",
+        choices: ["nūllī mīlitī", "nūllius mīlitis", "nūllum mīlitem", "nūllō mīlite"],
+        correct: "nūllī mīlitī",
+        explanation: "Dative singular uses nūllī."
+      },
+      {
+        type: "choice",
+        prompt: "In “tōtā urbe,” why is there no “in”?",
+        choices: ["totus can omit in with place where", "urbe is accusative", "totus is a verb", "it is a direct object"],
+        correct: "totus can omit in with place where",
+        explanation: "With totus plus a place-where ablative, Latin can leave out in."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Some praise one plan; others another.",
+        tokens: ["aliī", "ūnum", "cōnsilium", "laudant", "aliī", "aliud"],
+        correct: "aliī ūnum cōnsilium laudant aliī aliud",
+        explanation: "Aliī... aliī... means some... others...."
+      }
+    ]
+  },
+  {
+    id: "lesson37-io-active",
+    lessonSet: "lesson37",
+    number: "I",
+    eyebrow: "Lesson 37 · -iō verbs",
+    title: "The Capiō Pattern",
+    subtitle: "Learn the third-conjugation -iō verbs: part third, part fourth.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 37 · Indicative active of -iō verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "How do you recognize a third-conjugation -iō verb?",
+        choices: ["its first two principal parts end in -iō and -ere", "its first two principal parts end in -ō and -āre", "it is always passive", "it has no perfect stem"],
+        correct: "its first two principal parts end in -iō and -ere",
+        explanation: "Capiō, capere is the model: -iō in the first principal part and -ere in the second."
+      },
+      {
+        type: "choice",
+        prompt: "What does “capiō” mean?",
+        choices: ["I take / I capture", "I flee", "I sail", "I harm"],
+        correct: "I take / I capture",
+        explanation: "Capiō means take or capture."
+      },
+      {
+        type: "choice",
+        prompt: "What does “capiunt” mean?",
+        choices: ["they take / they capture", "we take", "they were taking", "they will take"],
+        correct: "they take / they capture",
+        explanation: "Capiunt is present plural: they take or capture."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “they will capture”?",
+        choices: ["capient", "capiunt", "capiēbant", "cēpērunt"],
+        correct: "capient",
+        explanation: "The future of capiō uses forms like capiam, capiēs, capiet, capient."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They will capture the town.",
+        tokens: ["oppidum", "capient"],
+        correct: "oppidum capient",
+        explanation: "Oppidum is the direct object; capient means they will capture."
+      }
+    ]
+  },
+  {
+    id: "lesson37-io-vocab-idioms",
+    lessonSet: "lesson37",
+    number: "II",
+    eyebrow: "Lesson 37 · Key verbs",
+    title: "Capiō, Fugiō, Faciō",
+    subtitle: "Practice common -iō verbs and their Henle idioms.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 37 · Vocabulary and idioms",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “fugiō” mean?",
+        choices: ["I flee", "I make", "I capture", "I catch sight of"],
+        correct: "I flee",
+        explanation: "Fugiō means flee."
+      },
+      {
+        type: "choice",
+        prompt: "What does “faciō” mean?",
+        choices: ["I do / I make", "I flee", "I receive", "I harm"],
+        correct: "I do / I make",
+        explanation: "Faciō means do or make."
+      },
+      {
+        type: "choice",
+        prompt: "What does “iter facere” mean?",
+        choices: ["to march", "to flee", "to receive a road", "to harm a road"],
+        correct: "to march",
+        explanation: "Literally it means to make a journey; naturally, to march."
+      },
+      {
+        type: "choice",
+        prompt: "What does “cōnsilium capere” mean?",
+        choices: ["to make a plan", "to capture a town", "to flee from a plan", "to sail across the sea"],
+        correct: "to make a plan",
+        explanation: "Latin says take a plan; English says make a plan."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They make a plan.",
+        tokens: ["cōnsilium", "capiunt"],
+        correct: "cōnsilium capiunt",
+        explanation: "Cōnsilium capere is the idiom for making a plan."
+      }
+    ]
+  },
+  {
+    id: "lesson37-time-when-extent",
+    lessonSet: "lesson37",
+    number: "III",
+    eyebrow: "Lesson 37 · Time",
+    title: "When? For How Long?",
+    subtitle: "Learn time when, extent of time, and extent of space.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 37 · Rules for time",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “tertiā vigiliā.”",
+        choices: ["at the third watch", "for three watches", "within three watches", "of the third watch"],
+        correct: "at the third watch",
+        explanation: "Ablative can show time when."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “eō diē.”",
+        choices: ["on that day", "for that day", "through that day", "toward that day"],
+        correct: "on that day",
+        explanation: "Eō diē is time when: on that day."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “quīnque diēs iter fēcērunt.”",
+        choices: ["they marched for five days", "they marched within five days", "they marched on the fifth day", "five days marched"],
+        correct: "they marched for five days",
+        explanation: "Extent of time uses the accusative: quīnque diēs."
+      },
+      {
+        type: "choice",
+        prompt: "What does “mīlia passuum” mean?",
+        choices: ["miles", "hours", "watches", "winds"],
+        correct: "miles",
+        explanation: "Literally it means thousands of paces."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They marched five miles.",
+        tokens: ["quīnque", "mīlia", "passuum", "iter", "fēcērunt"],
+        correct: "quīnque mīlia passuum iter fēcērunt",
+        explanation: "Quīnque mīlia passuum gives extent of space."
+      }
+    ]
+  },
+  {
+    id: "lesson37-io-subjunctive",
+    lessonSet: "lesson37",
+    number: "IV",
+    eyebrow: "Lesson 37 · Subjunctive",
+    title: "May They Capture",
+    subtitle: "Practice active subjunctive forms of -iō verbs.",
+    color: "#de8465",
+    reference: "Henle Lesson 37 · Subjunctive active of -iō verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which form means “may he capture”?",
+        choices: ["capiat", "capit", "capiet", "cēpit"],
+        correct: "capiat",
+        explanation: "Capiat is present subjunctive."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “may they flee”?",
+        choices: ["fugiant", "fugiunt", "fugiēbant", "fūgērunt"],
+        correct: "fugiant",
+        explanation: "Fugiant is present subjunctive."
+      },
+      {
+        type: "choice",
+        prompt: "What does “cupiō” mean?",
+        choices: ["I desire", "I capture", "I receive", "I finish"],
+        correct: "I desire",
+        explanation: "Cupiō means desire and may be used with an infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "With a reflexive pronoun, what can “recipiō” mean?",
+        choices: ["withdraw", "harm", "name", "watch"],
+        correct: "withdraw",
+        explanation: "Sē recipere means to withdraw."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Let us make a plan.",
+        tokens: ["cōnsilium", "capiāmus"],
+        correct: "cōnsilium capiāmus",
+        explanation: "Capiāmus can mean let us take; with cōnsilium, let us make a plan."
+      }
+    ]
+  },
+  {
+    id: "lesson37-io-passive",
+    lessonSet: "lesson37",
+    number: "V",
+    eyebrow: "Lesson 37 · Passive",
+    title: "They Are Captured",
+    subtitle: "Practice passive forms of -iō verbs and the new verbs interficiō and ēripiō.",
+    color: "#c8912f",
+    reference: "Henle Lesson 37 · Indicative passive of -iō verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “capiuntur” mean?",
+        choices: ["they are captured", "they capture", "they will capture", "they have captured"],
+        correct: "they are captured",
+        explanation: "Capiuntur is present passive."
+      },
+      {
+        type: "choice",
+        prompt: "What does “interficiō” mean?",
+        choices: ["I kill", "I sail", "I command", "I ask"],
+        correct: "I kill",
+        explanation: "Interficiō means kill."
+      },
+      {
+        type: "choice",
+        prompt: "What does “ēripiō” mean?",
+        choices: ["I snatch away / I save from", "I make", "I count", "I harm"],
+        correct: "I snatch away / I save from",
+        explanation: "Ēripiō can mean snatch away or save from."
+      },
+      {
+        type: "choice",
+        prompt: "After “ēripiō,” how is “from” usually expressed?",
+        choices: ["ex/ē with the ablative", "ad with the accusative", "only a genitive", "a nominative predicate"],
+        correct: "ex/ē with the ablative",
+        explanation: "Henle notes: ē perīculō ēreptus sum, I was saved from danger."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The town will be captured.",
+        tokens: ["oppidum", "capietur"],
+        correct: "oppidum capietur",
+        explanation: "Capietur is future passive."
+      }
+    ]
+  },
+  {
+    id: "lesson37-time-within-passive-subjunctive",
+    lessonSet: "lesson37",
+    number: "VI",
+    eyebrow: "Lesson 37 · Within time",
+    title: "Within Three Days",
+    subtitle: "Learn time within which and passive subjunctive -iō forms.",
+    color: "#d45a4f",
+    reference: "Henle Lesson 37 · Time within which and subjunctive passive",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “tribus diēbus.”",
+        choices: ["within three days", "for three days", "on the third day", "of three days"],
+        correct: "within three days",
+        explanation: "Ablative can show time within which."
+      },
+      {
+        type: "choice",
+        prompt: "What does “conspiciō” mean?",
+        choices: ["catch sight of", "harm", "sail", "stand in charge"],
+        correct: "catch sight of",
+        explanation: "Conspiciō means catch sight of."
+      },
+      {
+        type: "choice",
+        prompt: "What does “confectus” often mean?",
+        choices: ["worn out", "sailed", "called", "in charge"],
+        correct: "worn out",
+        explanation: "Confectus can mean finished or worn out."
+      },
+      {
+        type: "choice",
+        prompt: "Which form can mean “may they be captured”?",
+        choices: ["capiantur", "capiunt", "capient", "cēpērunt"],
+        correct: "capiantur",
+        explanation: "Capiantur is present passive subjunctive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: May the town be captured.",
+        tokens: ["oppidum", "capiātur"],
+        correct: "oppidum capiātur",
+        explanation: "Capiātur is present passive subjunctive."
+      }
+    ]
+  },
+  {
+    id: "lesson38-dative-verbs",
+    lessonSet: "lesson38",
+    number: "I",
+    eyebrow: "Lesson 38 · Dative verbs",
+    title: "Verbs That Take the Dative",
+    subtitle: "Learn verbs like noceō and praesum that do not take ordinary direct objects.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 38 · Dative verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What case follows many Latin intransitive verbs such as noceō and praesum?",
+        choices: ["dative", "accusative", "vocative", "genitive"],
+        correct: "dative",
+        explanation: "Many such verbs use the dative where English may sound like a direct object."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “reī pūblicae nocet.”",
+        choices: ["he harms the state", "he names the state", "he sails to the state", "he captures the state"],
+        correct: "he harms the state",
+        explanation: "Noceō takes the dative: reī pūblicae."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “legiōnī praeest.”",
+        choices: ["he is in command of the legion", "he harms the legion", "he captures the legion", "he sails with the legion"],
+        correct: "he is in command of the legion",
+        explanation: "Praesum takes the dative: legiōnī."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “tibi nōn cēdam.”",
+        choices: ["I will not yield to you", "I will not capture you", "I will not call you", "I will not sail to you"],
+        correct: "I will not yield to you",
+        explanation: "Cēdō can take the dative: to you."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He harms the ships.",
+        tokens: ["navibus", "nocet"],
+        correct: "navibus nocet",
+        explanation: "Use the dative plural navibus with noceō."
+      }
+    ]
+  },
+  {
+    id: "lesson38-praesum",
+    lessonSet: "lesson38",
+    number: "II",
+    eyebrow: "Lesson 38 · Praesum",
+    title: "I Am in Charge",
+    subtitle: "Practice praesum, a compound of sum used with the dative.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 38 · Praesum",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “praesum” mean?",
+        choices: ["I am in charge of", "I harm", "I sail", "I flee"],
+        correct: "I am in charge of",
+        explanation: "Praesum means be in charge of or be in command of."
+      },
+      {
+        type: "choice",
+        prompt: "What does “praeest” mean?",
+        choices: ["he is in charge of", "he was in charge of", "they are in charge of", "you are in charge of"],
+        correct: "he is in charge of",
+        explanation: "Praeest is third-person singular present."
+      },
+      {
+        type: "choice",
+        prompt: "What does “praesunt” mean?",
+        choices: ["they are in charge of", "we are in charge of", "they were in charge of", "they will be in charge of"],
+        correct: "they are in charge of",
+        explanation: "Praesunt is third-person plural present."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “exercituī praeerant.”",
+        choices: ["they were in command of the army", "they harmed the army", "they captured the army", "they named the army"],
+        correct: "they were in command of the army",
+        explanation: "Exercituī is dative; praeerant is imperfect."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Caesar is in command of the army.",
+        tokens: ["Caesar", "exercituī", "praeest"],
+        correct: "Caesar exercituī praeest",
+        explanation: "Praesum takes the dative, so use exercituī."
+      }
+    ]
+  },
+  {
+    id: "lesson38-passive-calling",
+    lessonSet: "lesson38",
+    number: "III",
+    eyebrow: "Lesson 38 · Calling",
+    title: "Caesar Is Called Commander",
+    subtitle: "Use the predicate nominative after passive verbs of calling and naming.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 38 · Passive of verbs of calling",
+    questions: [
+      {
+        type: "choice",
+        prompt: "In the passive, verbs of calling and naming take which case for the predicate word?",
+        choices: ["nominative", "accusative", "dative", "ablative"],
+        correct: "nominative",
+        explanation: "Because it refers back to the subject, the predicate word is nominative."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Caesar imperātor appellātur.”",
+        choices: ["Caesar is called commander.", "Caesar calls the commander.", "Caesar harms the commander.", "Caesar captures the commander."],
+        correct: "Caesar is called commander.",
+        explanation: "Imperātor is predicate nominative."
+      },
+      {
+        type: "choice",
+        prompt: "Why is “imperātor” nominative in “Caesar imperātor appellātur”?",
+        choices: ["it refers back to Caesar, the subject", "it is the direct object", "it follows cum", "it shows possession"],
+        correct: "it refers back to Caesar, the subject",
+        explanation: "The passive changes the old object into the subject, so the naming word is nominative."
+      },
+      {
+        type: "choice",
+        prompt: "Which sentence correctly says “The soldiers are called brave”?",
+        choices: ["mīlitēs fortēs appellantur", "mīlitēs fortēs appellant", "mīlitēs fortēs appellat", "mīlitibus fortibus appellantur"],
+        correct: "mīlitēs fortēs appellantur",
+        explanation: "Fortēs is nominative plural agreeing with mīlitēs."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The city is called Rome.",
+        tokens: ["urbs", "Rōma", "vocātur"],
+        correct: "urbs Rōma vocātur",
+        explanation: "Rōma is predicate nominative after the passive verb."
+      }
+    ]
+  },
+  {
+    id: "lesson38-sea-wind",
+    lessonSet: "lesson38",
+    number: "IV",
+    eyebrow: "Lesson 38 · Sea and wind",
+    title: "Mare and Ventus",
+    subtitle: "Practice the new words for sea, wind, and sailing.",
+    color: "#de8465",
+    reference: "Henle Lesson 38 · Vocabulary",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “mare” mean?",
+        choices: ["sea", "wind", "head", "mile"],
+        correct: "sea",
+        explanation: "Mare means sea."
+      },
+      {
+        type: "choice",
+        prompt: "How is “mare” declined?",
+        choices: ["like the neuter of gravis, not like flūmen", "like first declension", "like servus", "like puer"],
+        correct: "like the neuter of gravis, not like flūmen",
+        explanation: "Henle gives this special warning for mare."
+      },
+      {
+        type: "choice",
+        prompt: "What does “ventus” mean?",
+        choices: ["wind", "sea", "damage", "name"],
+        correct: "wind",
+        explanation: "Ventus means wind."
+      },
+      {
+        type: "choice",
+        prompt: "What does “navigō” mean?",
+        choices: ["I sail", "I harm", "I am in charge", "I call"],
+        correct: "I sail",
+        explanation: "Navigō means sail."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The sailors sail across the sea.",
+        tokens: ["nautae", "trāns", "mare", "navigant"],
+        correct: "nautae trāns mare navigant",
+        explanation: "Trāns takes the accusative; mare is neuter accusative singular here."
+      }
+    ]
+  },
+  {
+    id: "lesson38-review",
+    lessonSet: "lesson38",
+    number: "V",
+    eyebrow: "Lesson 38 · Mastery",
+    title: "Dative, Sea, and Calling",
+    subtitle: "Mix Lesson 38 dative verbs, passive naming, and sailing vocabulary.",
+    color: "#c8912f",
+    reference: "Henle Lesson 38 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “ventī navibus nocent.”",
+        choices: ["the winds harm the ships", "the ships harm the winds", "the winds name the ships", "the ships sail to the winds"],
+        correct: "the winds harm the ships",
+        explanation: "Noceō takes the dative, so navibus means to the ships, naturally the ships."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “dux exercituī praeerat.”",
+        choices: ["the leader was in charge of the army", "the leader harmed the army", "the leader named the army", "the army commanded the leader"],
+        correct: "the leader was in charge of the army",
+        explanation: "Praeerat is imperfect of praesum."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “mare perīculōrum plēnum est.”",
+        choices: ["the sea is full of dangers", "danger is full of the sea", "the sea harms danger", "the sea is called danger"],
+        correct: "the sea is full of dangers",
+        explanation: "Plēnum agrees with mare; perīculōrum is genitive plural."
+      },
+      {
+        type: "choice",
+        prompt: "Which word is predicate nominative in “Columbus nauta fortis appellātur”?",
+        choices: ["nauta fortis", "Columbus", "appellātur", "none"],
+        correct: "nauta fortis",
+        explanation: "Nauta fortis tells what Columbus is called."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: The wind harms the ship.",
+        tokens: ["ventus", "nāvī", "nocet"],
+        correct: "ventus nāvī nocet",
+        explanation: "Noceō takes the dative, so use nāvī."
+      }
+    ]
+  },
+  {
+    id: "lesson39-active-infinitives",
+    lessonSet: "lesson39",
+    number: "I",
+    eyebrow: "Lesson 39 · Infinitives",
+    title: "To Love, To Have Loved, To Be About to Love",
+    subtitle: "Learn present, perfect, and future infinitives active.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 39 · Perfect and future infinitives active",
+    questions: [
+      {
+        type: "choice",
+        prompt: "How is the perfect infinitive active formed?",
+        choices: ["perfect stem + -isse", "present stem + -re", "perfect participle + esse", "future participle + esse"],
+        correct: "perfect stem + -isse",
+        explanation: "Laudāvī gives the stem laudāv-; laudāvisse means to have praised."
+      },
+      {
+        type: "choice",
+        prompt: "What does “laudāvisse” mean?",
+        choices: ["to have praised", "to praise", "to be praised", "to be about to praise"],
+        correct: "to have praised",
+        explanation: "The -isse ending marks the perfect active infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "What two parts make the future infinitive active?",
+        choices: ["future participle active + esse", "perfect participle passive + sum", "present stem + -isse", "accusative subject + finite verb"],
+        correct: "future participle active + esse",
+        explanation: "Laudātūrus esse means to be about to praise or to be going to praise."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “to have conquered”?",
+        choices: ["vīcisse", "vincere", "victus esse", "victūrus esse"],
+        correct: "vīcisse",
+        explanation: "Vīcisse is the perfect active infinitive from vincō."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: to be about to capture",
+        tokens: ["captūrus", "esse"],
+        correct: "captūrus esse",
+        explanation: "The future active infinitive uses the future active participle plus esse."
+      }
+    ]
+  },
+  {
+    id: "lesson39-accusative-infinitive",
+    lessonSet: "lesson39",
+    number: "II",
+    eyebrow: "Lesson 39 · Accusative + infinitive",
+    title: "I Know That God Loves",
+    subtitle: "Practice the Latin way to say that after saying, thinking, seeing, and knowing.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 39 · Accusative with the infinitive",
+    questions: [
+      {
+        type: "choice",
+        prompt: "In the accusative-with-infinitive construction, what case is the subject of the infinitive?",
+        choices: ["accusative", "nominative", "dative", "ablative"],
+        correct: "accusative",
+        explanation: "Scimus Deum diligere literally means we know God to love."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Scimus Deum diligere omnēs hominēs.”",
+        choices: ["We know that God loves all men.", "We know God because all men love.", "God knows that we love all men.", "All men know that God is loved."],
+        correct: "We know that God loves all men.",
+        explanation: "Deum is accusative subject of diligere."
+      },
+      {
+        type: "choice",
+        prompt: "What happens to the English word “that” in this Latin construction?",
+        choices: ["it is not translated", "it becomes quod", "it becomes ut", "it becomes a dative"],
+        correct: "it is not translated",
+        explanation: "After saying/thinking/knowing verbs, Latin usually uses accusative plus infinitive without a separate word for that."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Scimus Caesarem vīcisse Gallōs.”",
+        choices: ["We know that Caesar conquered the Gauls.", "We know Caesar is conquering the Gauls.", "We know the Gauls conquered Caesar.", "We know Caesar will conquer the Gauls."],
+        correct: "We know that Caesar conquered the Gauls.",
+        explanation: "Vīcisse is perfect infinitive active: to have conquered."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: I think that the sailors praise God.",
+        tokens: ["putō", "nautās", "Deum", "laudāre"],
+        correct: "putō nautās Deum laudāre",
+        explanation: "Nautās is the accusative subject of laudāre."
+      }
+    ]
+  },
+  {
+    id: "lesson39-tense-relation",
+    lessonSet: "lesson39",
+    number: "III",
+    eyebrow: "Lesson 39 · Tense by relation",
+    title: "Was, Is, Will Be",
+    subtitle: "Choose the infinitive by its time relationship to the main verb.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 39 · Tense by relation",
+    questions: [
+      {
+        type: "choice",
+        prompt: "If the infinitive action happens at the same time as the main verb, which infinitive is used?",
+        choices: ["present infinitive", "perfect infinitive", "future infinitive", "passive participle only"],
+        correct: "present infinitive",
+        explanation: "Same time uses the present infinitive, even if the main verb is past."
+      },
+      {
+        type: "choice",
+        prompt: "If the infinitive action happened before the main verb, which infinitive is used?",
+        choices: ["perfect infinitive", "present infinitive", "future infinitive", "imperative"],
+        correct: "perfect infinitive",
+        explanation: "Earlier action uses the perfect infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "If the infinitive action happens after the main verb, which infinitive is used?",
+        choices: ["future infinitive", "perfect infinitive", "present infinitive", "ablative absolute"],
+        correct: "future infinitive",
+        explanation: "Later action uses the future infinitive active."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Caesar putāvit Gallōs cessūrōs esse.”",
+        choices: ["Caesar thought that the Gauls would yield.", "Caesar thought that the Gauls had yielded.", "Caesar thinks that the Gauls yield.", "The Gauls thought Caesar would yield."],
+        correct: "Caesar thought that the Gauls would yield.",
+        explanation: "Cessūrōs esse is future infinitive active agreeing with Gallōs."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: I say that the soldiers will fight.",
+        tokens: ["dīcō", "mīlitēs", "pugnātūrōs", "esse"],
+        correct: "dīcō mīlitēs pugnātūrōs esse",
+        explanation: "Future action after a saying verb uses the future infinitive."
+      }
+    ]
+  },
+  {
+    id: "lesson39-reporting-verbs",
+    lessonSet: "lesson39",
+    number: "IV",
+    eyebrow: "Lesson 39 · Saying and finding",
+    title: "He Says, Thinks, Finds, Denies",
+    subtitle: "Practice verbs that may introduce accusative-with-infinitive sentences.",
+    color: "#de8465",
+    reference: "Henle Lesson 39 · Vocabulary for accusative with infinitive",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “dīcō” mean?",
+        choices: ["I say", "I find out", "I deny", "I perceive"],
+        correct: "I say",
+        explanation: "Dīcō is one of the common verbs that can introduce an accusative with infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "What does “sciō” mean?",
+        choices: ["I know", "I write", "I think", "I report"],
+        correct: "I know",
+        explanation: "Sciō can introduce what is known using accusative plus infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “negāvit sē ventūrum esse.”",
+        choices: ["he said that he would not come", "he denied that he had come", "he said that he was coming now", "he ordered him to come"],
+        correct: "he said that he would not come",
+        explanation: "Negō often means say that... not. Sē is the accusative subject; ventūrum esse is future infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "Which verb means “find out”?",
+        choices: ["reperiō", "navigō", "noceō", "fugiō"],
+        correct: "reperiō",
+        explanation: "Reperiō means find or find out."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He announced that the enemy had fled.",
+        tokens: ["nuntiāvit", "hostēs", "fūgisse"],
+        correct: "nuntiāvit hostēs fūgisse",
+        explanation: "Fūgisse is perfect infinitive active: to have fled."
+      }
+    ]
+  },
+  {
+    id: "lesson39-impersonal-infinitives",
+    lessonSet: "lesson39",
+    number: "V",
+    eyebrow: "Lesson 39 · Impersonal",
+    title: "It Was Fought",
+    subtitle: "Use impersonal expressions inside the accusative-with-infinitive pattern.",
+    color: "#c8912f",
+    reference: "Henle Lesson 39 · Impersonal verbs in accusative with infinitive",
+    questions: [
+      {
+        type: "choice",
+        prompt: "How is an impersonal Latin verb used in this construction?",
+        choices: ["as an infinitive without an expressed subject", "as a nominative subject with a finite verb", "as an adjective agreeing with Caesar", "as an ablative phrase only"],
+        correct: "as an infinitive without an expressed subject",
+        explanation: "Latin can say dīcō oportēre nōs Deum diligere: I say that it behooves us to love God."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Dīcō ācriter pugnātum esse.”",
+        choices: ["I say that there was bitter fighting.", "I say that they will fight bitterly.", "I say that the battle line is bitter.", "I say that we ought to fight."],
+        correct: "I say that there was bitter fighting.",
+        explanation: "Pugnātum esse is impersonal passive: there was fighting."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Dīcō oportēre nōs Deum diligere.”",
+        choices: ["I say that it behooves us to love God.", "I say that God loves us.", "I order God to love us.", "I deny that we loved God."],
+        correct: "I say that it behooves us to love God.",
+        explanation: "Oportēre is the infinitive of oportet."
+      },
+      {
+        type: "choice",
+        prompt: "After verbs like iubeō and expressions like oportet, which infinitive tense is generally used?",
+        choices: ["present", "future", "perfect", "pluperfect"],
+        correct: "present",
+        explanation: "Henle contrasts this with tense-by-relation after saying/thinking/knowing verbs."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: I say that it is necessary to pray.",
+        tokens: ["dīcō", "oportēre", "ōrāre"],
+        correct: "dīcō oportēre ōrāre",
+        explanation: "Oportēre is impersonal; no accusative subject needs to be expressed here."
+      }
+    ]
+  },
+  {
+    id: "lesson39-passive-infinitives",
+    lessonSet: "lesson39",
+    number: "VI",
+    eyebrow: "Lesson 39 · Passive infinitives",
+    title: "To Be Praised, To Have Been Praised",
+    subtitle: "Practice present and perfect infinitives passive.",
+    color: "#d45a4f",
+    reference: "Henle Lesson 39 · Passive infinitives",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “laudārī” mean?",
+        choices: ["to be praised", "to praise", "to have praised", "to be about to praise"],
+        correct: "to be praised",
+        explanation: "Laudārī is the present infinitive passive."
+      },
+      {
+        type: "choice",
+        prompt: "How is the perfect infinitive passive formed?",
+        choices: ["perfect participle passive + esse", "perfect stem + -isse", "future participle active + esse", "present stem + -re"],
+        correct: "perfect participle passive + esse",
+        explanation: "Victōs esse means to have been conquered when it agrees with a plural masculine accusative subject."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Dīcō Gallōs ā Caesare victōs esse.”",
+        choices: ["I say that the Gauls were conquered by Caesar.", "I say that the Gauls conquer Caesar.", "I say that Caesar will conquer the Gauls.", "I say that Caesar is praised by the Gauls."],
+        correct: "I say that the Gauls were conquered by Caesar.",
+        explanation: "Victōs esse is perfect infinitive passive agreeing with Gallōs."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Dīcō mē ā Deō dēfendī.”",
+        choices: ["I say that I am defended by God.", "I say that I defended God.", "God says that I defended him.", "I deny that God defended me."],
+        correct: "I say that I am defended by God.",
+        explanation: "Dēfendī is present infinitive passive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: I think that the town was captured.",
+        tokens: ["putō", "oppidum", "captum", "esse"],
+        correct: "putō oppidum captum esse",
+        explanation: "Captum esse is perfect infinitive passive agreeing with oppidum."
+      }
+    ]
+  },
+  {
+    id: "lesson40-comparison-basics",
+    lessonSet: "lesson40",
+    number: "I",
+    eyebrow: "Lesson 40 · Comparison",
+    title: "Brave, Braver, Bravest",
+    subtitle: "Learn positive, comparative, and superlative degrees.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 40 · Regular comparison of adjectives",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What is the positive degree of an adjective?",
+        choices: ["the ordinary describing form", "the form meaning more", "the form meaning most", "the form used only with verbs"],
+        correct: "the ordinary describing form",
+        explanation: "Fortis, brave, is positive degree."
+      },
+      {
+        type: "choice",
+        prompt: "What is the comparative degree?",
+        choices: ["the form meaning -er or more", "the form meaning -est or most", "the ordinary form", "the adverb form only"],
+        correct: "the form meaning -er or more",
+        explanation: "Fortior means braver or more brave."
+      },
+      {
+        type: "choice",
+        prompt: "What is the superlative degree?",
+        choices: ["the form meaning -est or most", "the form meaning -er or more", "the ordinary form", "the infinitive form"],
+        correct: "the form meaning -est or most",
+        explanation: "Fortissimus means bravest or most brave."
+      },
+      {
+        type: "choice",
+        prompt: "Which set correctly compares “fortis”?",
+        choices: ["fortis, fortior, fortissimus", "fortis, fortissimus, fortior", "fortis, fortem, fortī", "fortis, fortior, fortī"],
+        correct: "fortis, fortior, fortissimus",
+        explanation: "Fortis means brave, fortior means braver, and fortissimus means bravest."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: the bravest soldier",
+        tokens: ["mīles", "fortissimus"],
+        correct: "mīles fortissimus",
+        explanation: "Fortissimus is the masculine singular superlative agreeing with mīles."
+      }
+    ]
+  },
+  {
+    id: "lesson40-comparative-declension",
+    lessonSet: "lesson40",
+    number: "II",
+    eyebrow: "Lesson 40 · Forms",
+    title: "Declining Braver and Bravest",
+    subtitle: "Practice comparative and superlative adjective forms.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 40 · Declension of comparative and superlative adjectives",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which comparative form is neuter nominative or accusative singular?",
+        choices: ["fortius", "fortior", "fortiōrēs", "fortissimum"],
+        correct: "fortius",
+        explanation: "Comparatives use -ior for masculine/feminine and -ius for neuter nominative/accusative singular."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “a wider river”?",
+        choices: ["flūmen latius", "flūmen latissimum", "flūmine latiōre", "flūmina latiōra"],
+        correct: "flūmen latius",
+        explanation: "Flūmen is neuter singular, so the comparative form is latius."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “with braver military tribunes”?",
+        choices: ["cum tribūnīs mīlitum fortiōribus", "cum tribūnō mīlitum fortiōre", "tribūnōs mīlitum fortiōrēs", "tribūnī mīlitum fortissimī"],
+        correct: "cum tribūnīs mīlitum fortiōribus",
+        explanation: "Cum takes the ablative; fortiōribus agrees with the plural tribunes."
+      },
+      {
+        type: "choice",
+        prompt: "Which adjective forms its superlative as “facillimus”?",
+        choices: ["facilis", "fortis", "altus", "gravis"],
+        correct: "facilis",
+        explanation: "Facilis is one of the -lis adjectives that forms a superlative with -limus."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: through the highest mountains",
+        tokens: ["per", "montēs", "altissimōs"],
+        correct: "per montēs altissimōs",
+        explanation: "Per takes the accusative; altissimōs agrees with montēs."
+      }
+    ]
+  },
+  {
+    id: "lesson40-quam-certior",
+    lessonSet: "lesson40",
+    number: "III",
+    eyebrow: "Lesson 40 · Than and inform",
+    title: "Than the Gauls",
+    subtitle: "Use quam and the idiom certiōrem facere.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 40 · Quam and certiorem facere",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “quam” mean in comparisons?",
+        choices: ["than", "because", "how many", "where"],
+        correct: "than",
+        explanation: "Quam introduces the thing compared: braver than the Gauls."
+      },
+      {
+        type: "choice",
+        prompt: "What case does “quam” take after it?",
+        choices: ["the same case as the word before it", "always accusative", "always ablative", "always genitive"],
+        correct: "the same case as the word before it",
+        explanation: "Eī fortiōrēs sunt quam Gallī, but dīxit eōs fortiōrēs esse quam Gallōs."
+      },
+      {
+        type: "choice",
+        prompt: "What does “Caesarem certiōrem fēcērunt” mean?",
+        choices: ["they informed Caesar", "they made Caesar brave", "they judged Caesar", "they defeated Caesar"],
+        correct: "they informed Caesar",
+        explanation: "Literally, they made Caesar more certain."
+      },
+      {
+        type: "choice",
+        prompt: "In “Gallōs certiōrēs fēcit,” why is “certiōrēs” plural?",
+        choices: ["it agrees with Gallōs", "it agrees with fēcit", "it is always plural", "it agrees with Caesar"],
+        correct: "it agrees with Gallōs",
+        explanation: "Certiōrem/certiōrēs agrees with the direct object of faciō."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He informed Caesar about this matter.",
+        tokens: ["Caesarem", "dē", "hāc", "rē", "certiōrem", "fēcit"],
+        correct: "Caesarem dē hāc rē certiōrem fēcit",
+        explanation: "Certiōrem facere can take dē with the ablative."
+      }
+    ]
+  },
+  {
+    id: "lesson40-ablative-comparison",
+    lessonSet: "lesson40",
+    number: "IV",
+    eyebrow: "Lesson 40 · Ablative",
+    title: "Braver Than Caesar",
+    subtitle: "Use the ablative of comparison as another way to say than.",
+    color: "#de8465",
+    reference: "Henle Lesson 40 · Ablative of comparison",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What can the ablative of comparison replace?",
+        choices: ["quam + the second thing compared", "the direct object", "the infinitive", "the predicate nominative"],
+        correct: "quam + the second thing compared",
+        explanation: "Caesare fortior can mean braver than Caesar."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Nēmō Christō sanctior esse potest.”",
+        choices: ["No one can be holier than Christ.", "Christ can be holier than no one.", "No one can follow Christ.", "Christ is called holy."],
+        correct: "No one can be holier than Christ.",
+        explanation: "Christō is ablative of comparison."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Nihil virtūte melius est.”",
+        choices: ["Nothing is better than virtue.", "Virtue is better than nothing.", "Nothing is very bad.", "Virtue is the smallest thing."],
+        correct: "Nothing is better than virtue.",
+        explanation: "Virtūte is ablative of comparison."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “higher than this mountain”?",
+        choices: ["hōc monte altior", "hunc montem altiōrem", "hōc monte altissimus", "hī montēs altiōrēs"],
+        correct: "hōc monte altior",
+        explanation: "Hōc monte is ablative of comparison."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Caesar was braver than other leaders.",
+        tokens: ["Caesar", "aliīs", "ducibus", "fortior", "erat"],
+        correct: "Caesar aliīs ducibus fortior erat",
+        explanation: "Aliīs ducibus is ablative of comparison."
+      }
+    ]
+  },
+  {
+    id: "lesson40-irregular-comparison",
+    lessonSet: "lesson40",
+    number: "V",
+    eyebrow: "Lesson 40 · Irregulars",
+    title: "Good, Better, Best",
+    subtitle: "Learn the most important irregular comparatives and superlatives.",
+    color: "#c8912f",
+    reference: "Henle Lesson 40 · Irregular comparatives and superlatives",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which set correctly compares “bonus”?",
+        choices: ["bonus, melior, optimus", "bonus, maior, maximus", "bonus, peior, pessimus", "bonus, minor, minimus"],
+        correct: "bonus, melior, optimus",
+        explanation: "Bonus means good, melior better, optimus best."
+      },
+      {
+        type: "choice",
+        prompt: "Which set means “bad, worse, worst”?",
+        choices: ["malus, peior, pessimus", "magnus, maior, maximus", "parvus, minor, minimus", "multus, plūs, plūrimus"],
+        correct: "malus, peior, pessimus",
+        explanation: "Peior means worse and pessimus means worst."
+      },
+      {
+        type: "choice",
+        prompt: "What does “maior” mean?",
+        choices: ["greater / larger", "smaller", "better", "worse"],
+        correct: "greater / larger",
+        explanation: "Magnus compares as maior, maximus."
+      },
+      {
+        type: "choice",
+        prompt: "What does “minimus” mean?",
+        choices: ["smallest / least", "greatest", "nearest", "best"],
+        correct: "smallest / least",
+        explanation: "Parvus compares as minor, minimus."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: for the greater glory of God",
+        tokens: ["ad", "maiōrem", "Deī", "glōriam"],
+        correct: "ad maiōrem Deī glōriam",
+        explanation: "Maiōrem agrees with glōriam."
+      }
+    ]
+  },
+  {
+    id: "lesson40-comparison-review",
+    lessonSet: "lesson40",
+    number: "VI",
+    eyebrow: "Lesson 40 · Mastery",
+    title: "Comparison Mastery",
+    subtitle: "Mix regular, irregular, quam, certiōrem facere, and ablative comparison.",
+    color: "#d45a4f",
+    reference: "Henle Lesson 40 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Haec via brevior est quam illa.”",
+        choices: ["This road is shorter than that one.", "This road is very short.", "That road is shorter than this one.", "This road is the shortest of all."],
+        correct: "This road is shorter than that one.",
+        explanation: "Brevior is comparative and quam introduces the comparison."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Maria est omnium sanctōrum sanctissima.”",
+        choices: ["Mary is the holiest of all the saints.", "Mary is holier than one saint.", "Mary is called a saint.", "Mary sees all the saints."],
+        correct: "Mary is the holiest of all the saints.",
+        explanation: "Sanctissima is superlative; omnium sanctōrum means of all the saints."
+      },
+      {
+        type: "choice",
+        prompt: "Which sentence means “This way is safer than that way” using an ablative of comparison?",
+        choices: ["Haec via illā viā tūtior est.", "Haec via tūtissima est quam illa.", "Hanc viam tūtior est.", "Haec via illam viam tūtior est."],
+        correct: "Haec via illā viā tūtior est.",
+        explanation: "Illā viā is ablative of comparison."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Caesar Gallōs certiōrēs fēcit.”",
+        choices: ["Caesar informed the Gauls.", "Caesar made the Gauls braver.", "Caesar conquered the Gauls.", "Caesar judged the Gauls."],
+        correct: "Caesar informed the Gauls.",
+        explanation: "Certiōrēs facere means to inform, with certiōrēs agreeing with Gallōs."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Nothing is worse than sin.",
+        tokens: ["nihil", "peccātō", "peius", "est"],
+        correct: "nihil peccātō peius est",
+        explanation: "Peccātō is ablative of comparison."
+      }
+    ]
+  },
+  {
+    id: "lesson41-deponent-basics",
+    lessonSet: "lesson41",
+    number: "I",
+    eyebrow: "Lesson 41 · Deponents",
+    title: "Passive Form, Active Meaning",
+    subtitle: "Learn what makes deponent verbs unusual.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 41 · Indicative of deponent verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What is a deponent verb?",
+        choices: ["a verb with passive forms but active meanings", "a verb with no principal parts", "a noun used as a verb", "a verb used only in questions"],
+        correct: "a verb with passive forms but active meanings",
+        explanation: "Conor looks passive in form but means I try."
+      },
+      {
+        type: "choice",
+        prompt: "What does “cōnor” mean?",
+        choices: ["I try / attempt", "I am tried", "I follow", "I fear"],
+        correct: "I try / attempt",
+        explanation: "Cōnor is deponent: passive-looking form, active meaning."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Ducem sequitur.”",
+        choices: ["He follows the leader.", "The leader follows him.", "He is followed by the leader.", "He fears the leader."],
+        correct: "He follows the leader.",
+        explanation: "Sequitur looks passive but means follows."
+      },
+      {
+        type: "choice",
+        prompt: "What does “passus est” mean?",
+        choices: ["he suffered / allowed", "he was suffered", "he will suffer", "he follows"],
+        correct: "he suffered / allowed",
+        explanation: "Patior is deponent, so the perfect form has active meaning."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He tries to flee.",
+        tokens: ["fugere", "cōnātur"],
+        correct: "fugere cōnātur",
+        explanation: "Cōnor can take an infinitive: he tries to flee."
+      }
+    ]
+  },
+  {
+    id: "lesson41-core-deponents",
+    lessonSet: "lesson41",
+    number: "II",
+    eyebrow: "Lesson 41 · Core verbs",
+    title: "Try, Fear, Follow, Suffer, Arise",
+    subtitle: "Practice the main deponent verbs in the indicative.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 41 · Indicative practice",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “vereor” mean?",
+        choices: ["I fear", "I follow", "I set out", "I speak"],
+        correct: "I fear",
+        explanation: "Vereor means I fear."
+      },
+      {
+        type: "choice",
+        prompt: "What does “oriuntur” mean?",
+        choices: ["they arise", "they try", "they fear", "they speak"],
+        correct: "they arise",
+        explanation: "Orior means rise or arise."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Christiānī Christum sequuntur.”",
+        choices: ["Christians follow Christ.", "Christ follows Christians.", "Christians fear Christ.", "Christians are followed by Christ."],
+        correct: "Christians follow Christ.",
+        explanation: "Sequuntur means they follow."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Bellum novum ortum est.”",
+        choices: ["A new war arose.", "A new war was captured.", "A new war followed.", "A new war will arise."],
+        correct: "A new war arose.",
+        explanation: "Ortus est is perfect of orior, with active meaning."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They were trying to flee.",
+        tokens: ["fugere", "cōnābantur"],
+        correct: "fugere cōnābantur",
+        explanation: "Cōnābantur is imperfect deponent: they were trying."
+      }
+    ]
+  },
+  {
+    id: "lesson41-subjunctive-deponents",
+    lessonSet: "lesson41",
+    number: "III",
+    eyebrow: "Lesson 41 · Subjunctive",
+    title: "Let Us Follow",
+    subtitle: "Use deponent verbs in wishes, hortatory clauses, indirect questions, and cum clauses.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 41 · Subjunctive of deponent verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Sequāmur Christum.”",
+        choices: ["Let us follow Christ.", "We followed Christ.", "Christ follows us.", "Let Christ follow us."],
+        correct: "Let us follow Christ.",
+        explanation: "Sequāmur is a hortatory subjunctive."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Nē vereāmur mortem.”",
+        choices: ["Let us not fear death.", "We did not fear death.", "Death did not fear us.", "Let us follow death."],
+        correct: "Let us not fear death.",
+        explanation: "Nē plus subjunctive can express a negative exhortation."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Rogāvit num novum bellum ortum esset.”",
+        choices: ["He asked whether a new war had arisen.", "He asked why a new war will arise.", "He said that a new war was captured.", "He ordered a new war to arise."],
+        correct: "He asked whether a new war had arisen.",
+        explanation: "Ortus esset is pluperfect subjunctive in an indirect question."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “let them fear God”?",
+        choices: ["vereantur Deum", "verentur Deum", "veritī sunt Deum", "verēbuntur Deum"],
+        correct: "vereantur Deum",
+        explanation: "Vereantur is present subjunctive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Let us try to preserve peace.",
+        tokens: ["cōnēmur", "pācem", "servāre"],
+        correct: "cōnēmur pācem servāre",
+        explanation: "Cōnēmur is present subjunctive deponent: let us try."
+      }
+    ]
+  },
+  {
+    id: "lesson41-deponent-participles",
+    lessonSet: "lesson41",
+    number: "IV",
+    eyebrow: "Lesson 41 · Participles",
+    title: "Having Followed",
+    subtitle: "Learn that perfect participles of deponents have active meanings.",
+    color: "#de8465",
+    reference: "Henle Lesson 41 · Perfect participle of deponent verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “secūtus” mean?",
+        choices: ["having followed", "having been followed", "about to follow", "to follow"],
+        correct: "having followed",
+        explanation: "Perfect participles of deponent verbs are active in meaning."
+      },
+      {
+        type: "choice",
+        prompt: "What does “cōnātus” mean?",
+        choices: ["having tried", "having been tried", "about to try", "to try"],
+        correct: "having tried",
+        explanation: "Cōnātus is the perfect participle of cōnor."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Caesar, ad Galliam profectus, ad castra pervēnit.”",
+        choices: ["Caesar, having set out to Gaul, arrived at camp.", "Caesar was sent out of Gaul.", "Caesar will set out to camp.", "Caesar followed Gaul to camp."],
+        correct: "Caesar, having set out to Gaul, arrived at camp.",
+        explanation: "Profectus means having set out."
+      },
+      {
+        type: "choice",
+        prompt: "What does “nactus” mean?",
+        choices: ["having obtained / having found", "having feared", "having spoken", "having arisen"],
+        correct: "having obtained / having found",
+        explanation: "Henle notes nactus as a useful deponent participle."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: having followed the enemy",
+        tokens: ["hostēs", "secūtus"],
+        correct: "hostēs secūtus",
+        explanation: "Secūtus has active meaning: having followed."
+      }
+    ]
+  },
+  {
+    id: "lesson41-deponent-infinitives",
+    lessonSet: "lesson41",
+    number: "V",
+    eyebrow: "Lesson 41 · Infinitives",
+    title: "To Set Out, To Have Set Out",
+    subtitle: "Practice present, perfect, and future infinitives of deponent verbs.",
+    color: "#c8912f",
+    reference: "Henle Lesson 41 · Infinitives of deponent verbs",
+    questions: [
+      {
+        type: "choice",
+        prompt: "How are the present and perfect infinitives of deponent verbs formed?",
+        choices: ["like regular passive infinitives", "like regular active infinitives only", "by adding -isse to the present stem", "by using a dative noun"],
+        correct: "like regular passive infinitives",
+        explanation: "They look passive, but the meanings are active."
+      },
+      {
+        type: "choice",
+        prompt: "What does “proficīscī” mean?",
+        choices: ["to set out", "to be set out", "to have set out", "to advance"],
+        correct: "to set out",
+        explanation: "Proficīscor is deponent; proficīscī is active in meaning."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Dīxit sē profectūrum esse.”",
+        choices: ["He said that he would set out.", "He said that he had set out.", "He said that he was followed.", "He said that he feared."],
+        correct: "He said that he would set out.",
+        explanation: "The future infinitive of deponents is active in form and meaning."
+      },
+      {
+        type: "choice",
+        prompt: "What does “loquī” mean?",
+        choices: ["to speak", "to promise", "to arise", "to go out"],
+        correct: "to speak",
+        explanation: "Loquor means speak or talk."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He said that he would not speak with the enemy.",
+        tokens: ["dīxit", "sē", "numquam", "cum", "hoste", "locūtūrum", "esse"],
+        correct: "dīxit sē numquam cum hoste locūtūrum esse",
+        explanation: "Locūtūrum esse is future infinitive of loquor."
+      }
+    ]
+  },
+  {
+    id: "lesson41-deponent-review",
+    lessonSet: "lesson41",
+    number: "VI",
+    eyebrow: "Lesson 41 · Mastery",
+    title: "Deponent Mastery",
+    subtitle: "Mix deponent meanings, participles, infinitives, and sentence patterns.",
+    color: "#d45a4f",
+    reference: "Henle Lesson 41 · Review",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Hostēs fugere cōnābantur.”",
+        choices: ["The enemy were trying to flee.", "The enemy were being tried by flight.", "The enemy followed flight.", "The enemy feared to flee."],
+        correct: "The enemy were trying to flee.",
+        explanation: "Cōnābantur is imperfect deponent with active meaning."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Christus multa passus est.”",
+        choices: ["Christ suffered many things.", "Christ was suffered by many.", "Christ followed many things.", "Christ will suffer many things."],
+        correct: "Christ suffered many things.",
+        explanation: "Passus est is perfect deponent."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Apostolī pollicitī sunt sē Christum secūtūrōs esse.”",
+        choices: ["The apostles promised that they would follow Christ.", "The apostles said Christ followed them.", "The apostles were promised by Christ.", "The apostles feared to follow Christ."],
+        correct: "The apostles promised that they would follow Christ.",
+        explanation: "Pollicitī sunt is deponent perfect; secūtūrōs esse is future infinitive."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “they had followed”?",
+        choices: ["secūtī erant", "sequuntur", "sequēbantur", "secūtūrī sunt"],
+        correct: "secūtī erant",
+        explanation: "Perfect participle plus erant makes the pluperfect."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Let us follow Christ.",
+        tokens: ["Christum", "sequāmur"],
+        correct: "Christum sequāmur",
+        explanation: "Sequāmur is hortatory subjunctive: let us follow."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-indicative",
+    lessonSet: "lesson42",
+    number: "I",
+    eyebrow: "Lesson 42 · Eō",
+    title: "I Go, You Go, They Go",
+    subtitle: "Learn the present, imperfect, future, and perfect-system forms of eō.",
+    color: "#5b8fc9",
+    reference: "Henle Lesson 42 · Indicative of eō",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “eō” mean?",
+        choices: ["I go", "I am", "I hear", "I fear"],
+        correct: "I go",
+        explanation: "Eō is the irregular verb meaning go."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “they go”?",
+        choices: ["eunt", "it", "ībunt", "iērunt"],
+        correct: "eunt",
+        explanation: "Eunt is present tense: they go."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “he was going”?",
+        choices: ["ībat", "ībit", "iit", "it"],
+        correct: "ībat",
+        explanation: "Ībat is imperfect: he was going."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “they will go”?",
+        choices: ["ībunt", "eunt", "iērunt", "ībant"],
+        correct: "ībunt",
+        explanation: "Ībunt is future: they will go."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They went the whole night.",
+        tokens: ["tōtam", "noctem", "iērunt"],
+        correct: "tōtam noctem iērunt",
+        explanation: "Iērunt is a perfect form of eō: they went."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-compounds",
+    lessonSet: "lesson42",
+    number: "II",
+    eyebrow: "Lesson 42 · Compounds",
+    title: "Go Out, Go In, Return, Cross",
+    subtitle: "Practice exeō, ineō, redeō, transeō, and adeō.",
+    color: "#9a76b4",
+    reference: "Henle Lesson 42 · Compounds of eō",
+    questions: [
+      {
+        type: "choice",
+        prompt: "What does “exeō” mean?",
+        choices: ["I go out", "I return", "I cross", "I approach"],
+        correct: "I go out",
+        explanation: "Ex + eō gives exeō: I go out."
+      },
+      {
+        type: "choice",
+        prompt: "What does “ineō” mean?",
+        choices: ["I enter upon", "I go out", "I return", "I go across"],
+        correct: "I enter upon",
+        explanation: "Ineō can mean enter upon, as in entering on a plan."
+      },
+      {
+        type: "choice",
+        prompt: "What does “transeō” mean?",
+        choices: ["I cross / go across", "I return", "I visit", "I go out"],
+        correct: "I cross / go across",
+        explanation: "Transeō means go across or cross."
+      },
+      {
+        type: "choice",
+        prompt: "What usually happens to the v in the perfect stem of eō compounds?",
+        choices: ["it is dropped", "it becomes b", "it is doubled", "it becomes r"],
+        correct: "it is dropped",
+        explanation: "Henle notes that compounds usually drop the v in the perfect stem: exiit, rediit, transiit."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: They entered upon a new plan.",
+        tokens: ["novum", "cōnsilium", "iniērunt"],
+        correct: "novum cōnsilium iniērunt",
+        explanation: "Ineō is transitive here: enter upon a plan."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-time-distance",
+    lessonSet: "lesson42",
+    number: "III",
+    eyebrow: "Lesson 42 · Time and distance",
+    title: "How Far Did They Go?",
+    subtitle: "Use eō with extent of time, distance, and time within which.",
+    color: "#3e9b77",
+    reference: "Henle Lesson 42 · Eō with time and distance expressions",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Duo mīlia passuum iit.”",
+        choices: ["He went two miles.", "Two soldiers went.", "He went for two days.", "He crossed two rivers."],
+        correct: "He went two miles.",
+        explanation: "Duo mīlia passuum gives the distance."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Tribus diēbus exibit.”",
+        choices: ["He will go out within three days.", "He went out for three days.", "He went out on the third day.", "Three days went out."],
+        correct: "He will go out within three days.",
+        explanation: "Tribus diēbus can show time within which."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Ad flūmen it.”",
+        choices: ["He goes to the river.", "He returns from the river.", "He crosses the river.", "He enters the river."],
+        correct: "He goes to the river.",
+        explanation: "Ad with the accusative often means to or toward."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Per loca difficillima ierat.”",
+        choices: ["He had gone through very difficult places.", "He will go through very difficult places.", "He feared very difficult places.", "He made very difficult places."],
+        correct: "He had gone through very difficult places.",
+        explanation: "Ierat is pluperfect of eō: he had gone."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He will go out within three days.",
+        tokens: ["tribus", "diēbus", "exibit"],
+        correct: "tribus diēbus exibit",
+        explanation: "Exibit is future: he will go out."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-subjunctive",
+    lessonSet: "lesson42",
+    number: "IV",
+    eyebrow: "Lesson 42 · Subjunctive",
+    title: "Let Us Go",
+    subtitle: "Practice subjunctive forms of eō and its compounds.",
+    color: "#de8465",
+    reference: "Henle Lesson 42 · Subjunctive of eō",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Eāmus.”",
+        choices: ["Let us go.", "We went.", "They will go.", "He should go."],
+        correct: "Let us go.",
+        explanation: "Eāmus is present subjunctive used as an exhortation."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Nē ex prīmā aciē exeāmus.”",
+        choices: ["Let us not go out from the first line.", "We did not go out from the first line.", "They will not cross the first line.", "Let him return to the first line."],
+        correct: "Let us not go out from the first line.",
+        explanation: "Nē plus subjunctive can express a negative exhortation."
+      },
+      {
+        type: "choice",
+        prompt: "Which form means “let them return”?",
+        choices: ["redeant", "redeunt", "redībunt", "rediērunt"],
+        correct: "redeant",
+        explanation: "Redeant is present subjunctive."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Cum mare transīsset, ad Americam pervēnit.”",
+        choices: ["When he had crossed the sea, he arrived at America.", "When he crosses the sea, he will arrive at America.", "He crossed the sea to arrive at America.", "He asked whether he crossed the sea."],
+        correct: "When he had crossed the sea, he arrived at America.",
+        explanation: "Transīsset is pluperfect subjunctive in a cum clause."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Let us return to winter quarters.",
+        tokens: ["in", "hīberna", "redeāmus"],
+        correct: "in hīberna redeāmus",
+        explanation: "Redeāmus is present subjunctive: let us return."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-questions-purpose",
+    lessonSet: "lesson42",
+    number: "V",
+    eyebrow: "Lesson 42 · Clauses",
+    title: "Where Did They Go?",
+    subtitle: "Use eō forms in indirect questions and purpose clauses.",
+    color: "#c8912f",
+    reference: "Henle Lesson 42 · Indirect questions and purpose clauses with eō",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Translate: “Rogō quā viā per montēs ierint.”",
+        choices: ["I ask by what road they went through the mountains.", "I ask why they fear the mountains.", "I ask whether the mountains returned.", "I ask where the road was fortified."],
+        correct: "I ask by what road they went through the mountains.",
+        explanation: "Ierint is a perfect subjunctive form of eō in an indirect question."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Custōdēs collocat nē barbarī ē silvīs exeant.”",
+        choices: ["He places guards lest the barbarians go out of the forests.", "He places guards because the barbarians went out.", "The barbarians place guards in the forests.", "He asks whether the barbarians went out."],
+        correct: "He places guards lest the barbarians go out of the forests.",
+        explanation: "Nē plus subjunctive gives negative purpose."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Equitēs mīsit quī flūmen transīrent.”",
+        choices: ["He sent cavalry to cross the river.", "He sent cavalry because they crossed the river.", "The cavalry returned from the river.", "The cavalry asked where the river was."],
+        correct: "He sent cavalry to cross the river.",
+        explanation: "Quī with subjunctive can express purpose."
+      },
+      {
+        type: "choice",
+        prompt: "Which phrase means “whether the hostages had gone out of camp”?",
+        choices: ["num obsidēs ē castrīs exiissent", "num obsidēs ē castrīs exeunt", "nē obsidēs ē castrīs exeant", "ut obsidēs castra ineant"],
+        correct: "num obsidēs ē castrīs exiissent",
+        explanation: "Num introduces the indirect question; exiissent is pluperfect subjunctive."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He sent cavalry to cross the river.",
+        tokens: ["equitēs", "mīsit", "quī", "flūmen", "transīrent"],
+        correct: "equitēs mīsit quī flūmen transīrent",
+        explanation: "Quī flūmen transīrent gives the purpose: to cross the river."
+      }
+    ]
+  },
+  {
+    id: "lesson42-eo-infinitives",
+    lessonSet: "lesson42",
+    number: "VI",
+    eyebrow: "Lesson 42 · Infinitives",
+    title: "To Go, To Have Gone, To Be About to Go",
+    subtitle: "Practice infinitives of eō and its compounds.",
+    color: "#d45a4f",
+    reference: "Henle Lesson 42 · Infinitives of eō",
+    questions: [
+      {
+        type: "choice",
+        prompt: "Which infinitive means “to go”?",
+        choices: ["īre", "iisse", "itūrum esse", "eāmus"],
+        correct: "īre",
+        explanation: "Īre is the present infinitive of eō."
+      },
+      {
+        type: "choice",
+        prompt: "Which infinitive means “to have gone”?",
+        choices: ["iisse", "īre", "itūrum esse", "eunt"],
+        correct: "iisse",
+        explanation: "Iisse is the perfect infinitive active."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Christus dīxit sē paucīs diēbus in Caelum itūrum esse.”",
+        choices: ["Christ said that He would go into Heaven in a few days.", "Christ said that He had gone into Heaven.", "Christ asked whether He went into Heaven.", "Christ said that Heaven would return."],
+        correct: "Christ said that He would go into Heaven in a few days.",
+        explanation: "Itūrum esse is the future infinitive active of eō."
+      },
+      {
+        type: "choice",
+        prompt: "Translate: “Oportet nōs redīre.”",
+        choices: ["We ought to return.", "We had returned.", "They ought to cross.", "We are ordered to go out."],
+        correct: "We ought to return.",
+        explanation: "Oportet can mean it is necessary or it behooves; redīre means to return."
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He said that he would return.",
+        tokens: ["dīxit", "sē", "reditūrum", "esse"],
+        correct: "dīxit sē reditūrum esse",
+        explanation: "Reditūrum esse is the future infinitive of redeō."
+      }
+    ]
   }
 ];
 
@@ -9843,6 +12663,992 @@ const lessonThirtyOneGrammarForms = {
   both: [...lessonThirtyOneHicFormItems, ...lessonThirtyOneHicRuleItems].map((item) => [item.ending, item.meaning])
 };
 
+const lessonThirtyTwoPrepositionItems = [
+  { group: "Lesson 32 Prepositions", caseName: "out of/from before vowel or h", ending: "ex", meaning: "out of/from when starting inside a place" },
+  { group: "Lesson 32 Prepositions", caseName: "out of/from before consonant", ending: "ē", meaning: "out of/from before many consonants" },
+  { group: "Lesson 32 Prepositions", caseName: "away from before vowel or h", ending: "ab", meaning: "away from/from before a vowel or h" },
+  { group: "Lesson 32 Prepositions", caseName: "away from before consonant", ending: "ā", meaning: "away from/from before many consonants" },
+  { group: "Lesson 32 Prepositions", caseName: "down from/from", ending: "dē", meaning: "down from or from" }
+];
+
+const lessonThirtyTwoPlacePhraseItems = [
+  { group: "Out Of", caseName: "out of the camp", ending: "ē castrīs", meaning: "out of the camp" },
+  { group: "Out Of", caseName: "out of the river", ending: "ex flūmine", meaning: "out of the river" },
+  { group: "Away From", caseName: "away from the camp", ending: "ā castrīs", meaning: "away from the camp" },
+  { group: "Away From", caseName: "away from this place", ending: "ab hōc locō", meaning: "away from this place" },
+  { group: "Down From", caseName: "down from the wall", ending: "dē mūrō", meaning: "down from the wall" },
+  { group: "Down From", caseName: "down from the mountain", ending: "dē monte", meaning: "down from the mountain" },
+  { group: "Motion", caseName: "from the bridge into the river", ending: "dē ponte in flūmen", meaning: "from the bridge into the river" },
+  { group: "Motion", caseName: "out of the forest", ending: "ē silvā", meaning: "out of the forest" }
+];
+
+const lessonThirtyTwoVocabularyFormItems = [
+  { group: "Lesson 32 Vocabulary", caseName: "withdraw/depart", ending: "discēdō", meaning: "I withdraw or depart" },
+  { group: "Lesson 32 Vocabulary", caseName: "he withdrew", ending: "discessit", meaning: "he withdrew/departed" },
+  { group: "Lesson 32 Vocabulary", caseName: "ship", ending: "navis", meaning: "ship" },
+  { group: "Lesson 32 Vocabulary", caseName: "fall", ending: "cadō", meaning: "I fall" },
+  { group: "Lesson 32 Vocabulary", caseName: "he fell", ending: "cecidit", meaning: "he fell" }
+];
+
+const lessonThirtyTwoFormItems = [
+  ...lessonThirtyTwoPrepositionItems,
+  ...lessonThirtyTwoPlacePhraseItems,
+  ...lessonThirtyTwoVocabularyFormItems
+];
+
+const lessonThirtyTwoGrammarForms = {
+  singular: lessonThirtyTwoPrepositionItems.map((item) => [item.ending, item.meaning]),
+  plural: lessonThirtyTwoPlacePhraseItems.map((item) => [item.ending, item.meaning]),
+  both: lessonThirtyTwoFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtyThreeIlleMasculineItems = [
+  { group: "Ille Masculine Singular", caseName: "Nominative", ending: "ille", meaning: "that man/thing as subject" },
+  { group: "Ille Masculine Singular", caseName: "Genitive", ending: "illīus", meaning: "of that man/thing" },
+  { group: "Ille Masculine Singular", caseName: "Dative", ending: "illī", meaning: "to or for that man/thing" },
+  { group: "Ille Masculine Singular", caseName: "Accusative", ending: "illum", meaning: "that man/thing as direct object" },
+  { group: "Ille Masculine Singular", caseName: "Ablative", ending: "illō", meaning: "by, with, or from that man/thing" },
+  { group: "Ille Masculine Plural", caseName: "Nominative", ending: "illī", meaning: "those men/things as subject" },
+  { group: "Ille Masculine Plural", caseName: "Genitive", ending: "illōrum", meaning: "of those men/things" },
+  { group: "Ille Masculine Plural", caseName: "Dative", ending: "illīs", meaning: "to or for those men/things" },
+  { group: "Ille Masculine Plural", caseName: "Accusative", ending: "illōs", meaning: "those men/things as direct object" },
+  { group: "Ille Masculine Plural", caseName: "Ablative", ending: "illīs", meaning: "by, with, or from those men/things" }
+];
+
+const lessonThirtyThreeIlleFeminineItems = [
+  { group: "Illa Feminine Singular", caseName: "Nominative", ending: "illa", meaning: "that woman/thing as subject" },
+  { group: "Illa Feminine Singular", caseName: "Genitive", ending: "illīus", meaning: "of that woman/thing" },
+  { group: "Illa Feminine Singular", caseName: "Dative", ending: "illī", meaning: "to or for that woman/thing" },
+  { group: "Illa Feminine Singular", caseName: "Accusative", ending: "illam", meaning: "that woman/thing as direct object" },
+  { group: "Illa Feminine Singular", caseName: "Ablative", ending: "illā", meaning: "by, with, or from that woman/thing" },
+  { group: "Illa Feminine Plural", caseName: "Nominative", ending: "illae", meaning: "those women/things as subject" },
+  { group: "Illa Feminine Plural", caseName: "Genitive", ending: "illārum", meaning: "of those women/things" },
+  { group: "Illa Feminine Plural", caseName: "Dative", ending: "illīs", meaning: "to or for those women/things" },
+  { group: "Illa Feminine Plural", caseName: "Accusative", ending: "illās", meaning: "those women/things as direct object" },
+  { group: "Illa Feminine Plural", caseName: "Ablative", ending: "illīs", meaning: "by, with, or from those women/things" }
+];
+
+const lessonThirtyThreeIlleNeuterItems = [
+  { group: "Illud Neuter Singular", caseName: "Nominative", ending: "illud", meaning: "that thing as subject" },
+  { group: "Illud Neuter Singular", caseName: "Genitive", ending: "illīus", meaning: "of that thing" },
+  { group: "Illud Neuter Singular", caseName: "Dative", ending: "illī", meaning: "to or for that thing" },
+  { group: "Illud Neuter Singular", caseName: "Accusative", ending: "illud", meaning: "that thing as direct object" },
+  { group: "Illud Neuter Singular", caseName: "Ablative", ending: "illō", meaning: "by, with, or from that thing" },
+  { group: "Illud Neuter Plural", caseName: "Nominative", ending: "illa", meaning: "those things as subject" },
+  { group: "Illud Neuter Plural", caseName: "Genitive", ending: "illōrum", meaning: "of those things" },
+  { group: "Illud Neuter Plural", caseName: "Dative", ending: "illīs", meaning: "to or for those things" },
+  { group: "Illud Neuter Plural", caseName: "Accusative", ending: "illa", meaning: "those things as direct object" },
+  { group: "Illud Neuter Plural", caseName: "Ablative", ending: "illīs", meaning: "by, with, or from those things" }
+];
+
+const lessonThirtyThreeIlleFormItems = [
+  ...lessonThirtyThreeIlleMasculineItems,
+  ...lessonThirtyThreeIlleFeminineItems,
+  ...lessonThirtyThreeIlleNeuterItems
+];
+
+const lessonThirtyThreeIsFormItems = lessonElevenThirdPersonPronounItems.map((item) => ({
+  ...item,
+  group: `Is/Ea/Id ${item.group.replace(/^(Is|Ea|Id|Eī|Eae) /, "")}`,
+  meaning: item.meaning.replace(/they\/those/g, "they/those").replace(/those/g, "those")
+}));
+
+const lessonThirtyThreeRuleItems = [
+  { group: "Lesson 33 Rules", caseName: "ille", ending: "that / those", meaning: "demonstrative pointing to that or those" },
+  { group: "Lesson 33 Rules", caseName: "is", ending: "that / he / she / it", meaning: "can be demonstrative or personal pronoun" },
+  { group: "Lesson 33 Vocabulary", caseName: "never", ending: "numquam", meaning: "never" },
+  { group: "Lesson 33 Vocabulary", caseName: "besides", ending: "praetereā", meaning: "besides / furthermore" },
+  { group: "Lesson 33 Vocabulary", caseName: "reason/manner", ending: "ratiō", meaning: "reason or manner" }
+];
+
+const lessonThirtyThreeFormItems = [
+  ...lessonThirtyThreeIlleFormItems,
+  ...lessonThirtyThreeIsFormItems
+];
+
+const lessonThirtyThreeGrammarForms = {
+  singular: lessonThirtyThreeFormItems.filter((item) => item.group.includes("Singular")).map((item) => [item.ending, item.meaning]),
+  plural: lessonThirtyThreeFormItems.filter((item) => item.group.includes("Plural")).map((item) => [item.ending, item.meaning]),
+  both: [...lessonThirtyThreeFormItems, ...lessonThirtyThreeRuleItems].map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtyFourSeparationItems = [
+  { group: "Ablative of Separation", caseName: "empty/free of fear", ending: "metū vacuus", meaning: "empty of fear / free from fear" },
+  { group: "Ablative of Separation", caseName: "free from fear", ending: "metū līber", meaning: "free from fear" },
+  { group: "Ablative of Separation", caseName: "free me from fear", ending: "līberā mē metū", meaning: "free me from fear" },
+  { group: "Ablative of Separation", caseName: "safe from danger", ending: "ā perīculō tūtus", meaning: "safe from danger" },
+  { group: "Ablative of Separation", caseName: "defend from enemies", ending: "ab hostibus defendere", meaning: "to defend from enemies" },
+  { group: "Ablative of Separation", caseName: "keep from territory", ending: "fīnibus prohibēre", meaning: "to keep away from the territory" }
+];
+
+const lessonThirtyFourAblativeReviewItems = [
+  { group: "Ablative Review", caseName: "agent", ending: "ā Caesare", meaning: "by Caesar, personal agent" },
+  { group: "Ablative Review", caseName: "means", ending: "tēlō", meaning: "by/with a dart, means" },
+  { group: "Ablative Review", caseName: "accompaniment", ending: "cum amīcīs", meaning: "with friends, accompaniment" },
+  { group: "Ablative Review", caseName: "place where", ending: "in castrīs", meaning: "in the camp, place where" },
+  { group: "Ablative Review", caseName: "cause", ending: "spē victōriae", meaning: "because of hope of victory" },
+  { group: "Ablative Review", caseName: "without delay", ending: "sine morā", meaning: "without delay" },
+  { group: "Ablative Review", caseName: "on behalf of safety", ending: "prō salūte", meaning: "on behalf of safety" },
+  { group: "Ablative Review", caseName: "away from the camp", ending: "ā castrīs absum", meaning: "I am away from the camp" }
+];
+
+const lessonThirtyFourVocabularyFormItems = [
+  { group: "Lesson 34 Vocabulary", caseName: "free", ending: "līberō", meaning: "I free" },
+  { group: "Lesson 34 Vocabulary", caseName: "empty", ending: "vacuus", meaning: "empty / free from" },
+  { group: "Lesson 34 Vocabulary", caseName: "free adjective", ending: "līber", meaning: "free from" },
+  { group: "Lesson 34 Vocabulary", caseName: "keep off/prevent", ending: "prohibeō", meaning: "I keep off or prevent" },
+  { group: "Lesson 34 Vocabulary", caseName: "safe", ending: "tūtus", meaning: "safe from" },
+  { group: "Lesson 34 Vocabulary", caseName: "defend", ending: "dēfendō", meaning: "I defend from" },
+  { group: "Lesson 34 Vocabulary", caseName: "full", ending: "plēnus", meaning: "full of" },
+  { group: "Lesson 34 Vocabulary", caseName: "without", ending: "sine", meaning: "without, with the ablative" }
+];
+
+const lessonThirtyFourFormItems = [
+  ...lessonThirtyFourSeparationItems,
+  ...lessonThirtyFourAblativeReviewItems,
+  ...lessonThirtyFourVocabularyFormItems
+];
+
+const lessonThirtyFourGrammarForms = {
+  singular: lessonThirtyFourSeparationItems.map((item) => [item.ending, item.meaning]),
+  plural: lessonThirtyFourAblativeReviewItems.map((item) => [item.ending, item.meaning]),
+  both: lessonThirtyFourFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtyFivePossumPresentItems = [
+  { group: "Possum Present", caseName: "I", ending: "possum", meaning: "I am able / I can" },
+  { group: "Possum Present", caseName: "you singular", ending: "potes", meaning: "you are able / you can" },
+  { group: "Possum Present", caseName: "he/she/it", ending: "potest", meaning: "he, she, or it is able" },
+  { group: "Possum Present", caseName: "we", ending: "possumus", meaning: "we are able / we can" },
+  { group: "Possum Present", caseName: "you plural", ending: "potestis", meaning: "you all are able" },
+  { group: "Possum Present", caseName: "they", ending: "possunt", meaning: "they are able / they can" }
+];
+
+const lessonThirtyFivePossumImperfectItems = [
+  { group: "Possum Imperfect", caseName: "I", ending: "poteram", meaning: "I was able / I could" },
+  { group: "Possum Imperfect", caseName: "you singular", ending: "poterās", meaning: "you were able / you could" },
+  { group: "Possum Imperfect", caseName: "he/she/it", ending: "poterat", meaning: "he, she, or it was able" },
+  { group: "Possum Imperfect", caseName: "we", ending: "poterāmus", meaning: "we were able / we could" },
+  { group: "Possum Imperfect", caseName: "you plural", ending: "poterātis", meaning: "you all were able" },
+  { group: "Possum Imperfect", caseName: "they", ending: "poterant", meaning: "they were able / they could" }
+];
+
+const lessonThirtyFivePossumFutureItems = [
+  { group: "Possum Future", caseName: "I", ending: "poterō", meaning: "I shall be able / I will be able" },
+  { group: "Possum Future", caseName: "you singular", ending: "poteris", meaning: "you will be able" },
+  { group: "Possum Future", caseName: "he/she/it", ending: "poterit", meaning: "he, she, or it will be able" },
+  { group: "Possum Future", caseName: "we", ending: "poterimus", meaning: "we will be able" },
+  { group: "Possum Future", caseName: "you plural", ending: "poteritis", meaning: "you all will be able" },
+  { group: "Possum Future", caseName: "they", ending: "poterunt", meaning: "they will be able" }
+];
+
+const lessonThirtyFivePossumPerfectItems = [
+  { group: "Possum Perfect", caseName: "I", ending: "potuī", meaning: "I was able / I have been able" },
+  { group: "Possum Perfect", caseName: "you singular", ending: "potuistī", meaning: "you were able / you have been able" },
+  { group: "Possum Perfect", caseName: "he/she/it", ending: "potuit", meaning: "he, she, or it was able" },
+  { group: "Possum Perfect", caseName: "we", ending: "potuimus", meaning: "we were able / we have been able" },
+  { group: "Possum Perfect", caseName: "you plural", ending: "potuistis", meaning: "you all were able" },
+  { group: "Possum Perfect", caseName: "they", ending: "potuērunt", meaning: "they were able / they have been able" }
+];
+
+const lessonThirtyFivePossumSubjunctiveItems = [
+  { group: "Possum Present Subjunctive", caseName: "I", ending: "possim", meaning: "I may be able" },
+  { group: "Possum Present Subjunctive", caseName: "you singular", ending: "possīs", meaning: "you may be able" },
+  { group: "Possum Present Subjunctive", caseName: "he/she/it", ending: "possit", meaning: "he, she, or it may be able" },
+  { group: "Possum Present Subjunctive", caseName: "we", ending: "possīmus", meaning: "we may be able" },
+  { group: "Possum Present Subjunctive", caseName: "you plural", ending: "possītis", meaning: "you all may be able" },
+  { group: "Possum Present Subjunctive", caseName: "they", ending: "possint", meaning: "they may be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "I", ending: "possem", meaning: "I might be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "you singular", ending: "possēs", meaning: "you might be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "he/she/it", ending: "posset", meaning: "he, she, or it might be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "we", ending: "possēmus", meaning: "we might be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "you plural", ending: "possētis", meaning: "you all might be able" },
+  { group: "Possum Imperfect Subjunctive", caseName: "they", ending: "possent", meaning: "they might be able" }
+];
+
+const lessonThirtyFiveInfinitivePatternItems = [
+  { group: "Infinitive Patterns", caseName: "present active", ending: "laudāre", meaning: "to praise" },
+  { group: "Infinitive Patterns", caseName: "present passive", ending: "laudārī", meaning: "to be praised" },
+  { group: "Infinitive Patterns", caseName: "as subject", ending: "ōrāre est bonum", meaning: "to pray is good" },
+  { group: "Infinitive Patterns", caseName: "after possum", ending: "pugnāre possum", meaning: "I can fight" },
+  { group: "Infinitive Patterns", caseName: "after parō", ending: "venīre parō", meaning: "I prepare to come" },
+  { group: "Infinitive Patterns", caseName: "after timeō", ending: "exspectāre timeō", meaning: "I am afraid to wait" },
+  { group: "Infinitive Patterns", caseName: "after cōnsuēvī", ending: "pugnāre cōnsuēvī", meaning: "I am accustomed to fight" },
+  { group: "Infinitive Patterns", caseName: "after cōnstituō", ending: "discēdere cōnstituō", meaning: "I decide to depart" },
+  { group: "Accusative Infinitive", caseName: "with iubeō", ending: "mīlitēs manēre iubet", meaning: "he orders the soldiers to remain" },
+  { group: "Accusative Infinitive", caseName: "with oportet", ending: "oportet tē ōrāre", meaning: "you ought to pray" }
+];
+
+const lessonThirtyFiveFormItems = [
+  ...lessonThirtyFivePossumPresentItems,
+  ...lessonThirtyFivePossumImperfectItems,
+  ...lessonThirtyFivePossumFutureItems,
+  ...lessonThirtyFivePossumPerfectItems,
+  ...lessonThirtyFivePossumSubjunctiveItems,
+  ...lessonThirtyFiveInfinitivePatternItems
+];
+
+const lessonThirtyFiveGrammarForms = {
+  singular: [
+    ...lessonThirtyFivePossumPresentItems,
+    ...lessonThirtyFivePossumImperfectItems,
+    ...lessonThirtyFivePossumFutureItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonThirtyFivePossumPerfectItems,
+    ...lessonThirtyFivePossumSubjunctiveItems,
+    ...lessonThirtyFiveInfinitivePatternItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonThirtyFiveFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtySixCardinalItems = [
+  { group: "Cardinal Numerals", caseName: "one", ending: "ūnus", meaning: "one" },
+  { group: "Cardinal Numerals", caseName: "two", ending: "duo", meaning: "two" },
+  { group: "Cardinal Numerals", caseName: "three", ending: "trēs", meaning: "three" },
+  { group: "Cardinal Numerals", caseName: "four", ending: "quattuor", meaning: "four" },
+  { group: "Cardinal Numerals", caseName: "five", ending: "quīnque", meaning: "five" },
+  { group: "Cardinal Numerals", caseName: "six", ending: "sex", meaning: "six" },
+  { group: "Cardinal Numerals", caseName: "seven", ending: "septem", meaning: "seven" },
+  { group: "Cardinal Numerals", caseName: "eight", ending: "octō", meaning: "eight" },
+  { group: "Cardinal Numerals", caseName: "nine", ending: "novem", meaning: "nine" },
+  { group: "Cardinal Numerals", caseName: "ten", ending: "decem", meaning: "ten" },
+  { group: "Cardinal Numerals", caseName: "one hundred", ending: "centum", meaning: "one hundred" },
+  { group: "Cardinal Numerals", caseName: "how many", ending: "quot", meaning: "how many?" }
+];
+
+const lessonThirtySixUnusItems = [
+  { group: "Ūnus Forms", caseName: "masc. nominative", ending: "ūnus", meaning: "one as masculine subject" },
+  { group: "Ūnus Forms", caseName: "genitive singular", ending: "ūnīus", meaning: "of one" },
+  { group: "Ūnus Forms", caseName: "dative singular", ending: "ūnī", meaning: "to or for one" },
+  { group: "Ūnus Forms", caseName: "masc. accusative", ending: "ūnum", meaning: "one masculine direct object" },
+  { group: "Ūnus Forms", caseName: "fem. nominative", ending: "ūna", meaning: "one as feminine subject" },
+  { group: "Ūnus Forms", caseName: "fem. accusative", ending: "ūnam", meaning: "one feminine direct object" },
+  { group: "Ūnus Forms", caseName: "neuter nom./acc.", ending: "ūnum", meaning: "one neuter subject or direct object" }
+];
+
+const lessonThirtySixDuoTresItems = [
+  { group: "Duo Forms", caseName: "masc./neut. nominative", ending: "duo", meaning: "two masculine or neuter as subject" },
+  { group: "Duo Forms", caseName: "fem. nominative", ending: "duae", meaning: "two feminine as subject" },
+  { group: "Duo Forms", caseName: "masc./neut. genitive", ending: "duōrum", meaning: "of two masculine or neuter" },
+  { group: "Duo Forms", caseName: "fem. genitive", ending: "duārum", meaning: "of two feminine" },
+  { group: "Duo Forms", caseName: "dat./abl.", ending: "duōbus", meaning: "to, for, by, with, or from two" },
+  { group: "Duo Forms", caseName: "masc. accusative", ending: "duōs", meaning: "two masculine direct object" },
+  { group: "Duo Forms", caseName: "fem. accusative", ending: "duās", meaning: "two feminine direct object" },
+  { group: "Trēs Forms", caseName: "masc./fem. nom./acc.", ending: "trēs", meaning: "three masculine or feminine as subject or object" },
+  { group: "Trēs Forms", caseName: "neuter nom./acc.", ending: "tria", meaning: "three neuter things as subject or object" },
+  { group: "Trēs Forms", caseName: "genitive plural", ending: "trium", meaning: "of three" },
+  { group: "Trēs Forms", caseName: "dat./abl. plural", ending: "tribus", meaning: "to, for, by, with, or from three" }
+];
+
+const lessonThirtySixIrregularAdjectiveItems = [
+  { group: "Irregular Genitive/Dative", caseName: "genitive singular pattern", ending: "-īus", meaning: "of one, other, whole, none, and similar words" },
+  { group: "Irregular Genitive/Dative", caseName: "dative singular pattern", ending: "-ī", meaning: "to or for one, other, whole, none, and similar words" },
+  { group: "Alius Forms", caseName: "neuter nom./acc.", ending: "aliud", meaning: "another thing / something else" },
+  { group: "Alter Forms", caseName: "genitive singular", ending: "alterīus", meaning: "of the other of two" },
+  { group: "Alter Forms", caseName: "dative singular", ending: "alterī", meaning: "to or for the other of two" },
+  { group: "Nūllus Forms", caseName: "genitive singular", ending: "nūllīus", meaning: "of no one / of none" },
+  { group: "Nūllus Forms", caseName: "dative singular", ending: "nūllī", meaning: "to or for no one / none" },
+  { group: "Sōlus Forms", caseName: "genitive singular", ending: "sōlīus", meaning: "of alone / of only" },
+  { group: "Sōlus Forms", caseName: "dative singular", ending: "sōlī", meaning: "to or for alone / only" },
+  { group: "Tōtus Forms", caseName: "genitive singular", ending: "tōtīus", meaning: "of the whole" },
+  { group: "Tōtus Forms", caseName: "dative singular", ending: "tōtī", meaning: "to or for the whole" },
+  { group: "Ūllus Forms", caseName: "genitive singular", ending: "ūllīus", meaning: "of any" },
+  { group: "Ūllus Forms", caseName: "dative singular", ending: "ūllī", meaning: "to or for any" },
+  { group: "Ūter Forms", caseName: "genitive singular", ending: "utrīus", meaning: "of which of two" },
+  { group: "Ūter Forms", caseName: "dative singular", ending: "utrī", meaning: "to or for which of two" },
+  { group: "Neuter Forms", caseName: "genitive singular", ending: "neutrīus", meaning: "of neither of two" },
+  { group: "Neuter Forms", caseName: "dative singular", ending: "neutrī", meaning: "to or for neither of two" }
+];
+
+const lessonThirtySixPhraseItems = [
+  { group: "Number Phrases", caseName: "with two men", ending: "cum duōbus virīs", meaning: "with two men" },
+  { group: "Number Phrases", caseName: "with three friends", ending: "cum tribus amīcīs", meaning: "with three friends" },
+  { group: "Number Phrases", caseName: "one head", ending: "ūnum caput", meaning: "one head" },
+  { group: "Irregular Adjective Phrases", caseName: "to God alone", ending: "sōlī Deō", meaning: "to God alone" },
+  { group: "Irregular Adjective Phrases", caseName: "of the whole army", ending: "tōtīus exercitūs", meaning: "of the whole army" },
+  { group: "Irregular Adjective Phrases", caseName: "in the whole city", ending: "tōtā urbe", meaning: "in the whole city" },
+  { group: "Irregular Adjective Phrases", caseName: "to no soldier", ending: "nūllī mīlitī", meaning: "to no soldier" },
+  { group: "Irregular Adjective Phrases", caseName: "some... others", ending: "aliī... aliī...", meaning: "some... others..." }
+];
+
+const lessonThirtySixFormItems = [
+  ...lessonThirtySixCardinalItems,
+  ...lessonThirtySixUnusItems,
+  ...lessonThirtySixDuoTresItems,
+  ...lessonThirtySixIrregularAdjectiveItems,
+  ...lessonThirtySixPhraseItems
+];
+
+const lessonThirtySixGrammarForms = {
+  singular: [
+    ...lessonThirtySixCardinalItems,
+    ...lessonThirtySixUnusItems,
+    ...lessonThirtySixDuoTresItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonThirtySixIrregularAdjectiveItems,
+    ...lessonThirtySixPhraseItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonThirtySixFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtySevenIoPresentActiveItems = [
+  { group: "Capiō Present Active", caseName: "I", ending: "capiō", meaning: "I take / I capture" },
+  { group: "Capiō Present Active", caseName: "you singular", ending: "capis", meaning: "you take / you capture" },
+  { group: "Capiō Present Active", caseName: "he/she/it", ending: "capit", meaning: "he, she, or it takes" },
+  { group: "Capiō Present Active", caseName: "we", ending: "capimus", meaning: "we take / we capture" },
+  { group: "Capiō Present Active", caseName: "you plural", ending: "capitis", meaning: "you all take" },
+  { group: "Capiō Present Active", caseName: "they", ending: "capiunt", meaning: "they take / they capture" }
+];
+
+const lessonThirtySevenIoImperfectActiveItems = [
+  { group: "Capiō Imperfect Active", caseName: "I", ending: "capiēbam", meaning: "I was taking / I used to capture" },
+  { group: "Capiō Imperfect Active", caseName: "you singular", ending: "capiēbās", meaning: "you were taking" },
+  { group: "Capiō Imperfect Active", caseName: "he/she/it", ending: "capiēbat", meaning: "he, she, or it was taking" },
+  { group: "Capiō Imperfect Active", caseName: "we", ending: "capiēbāmus", meaning: "we were taking" },
+  { group: "Capiō Imperfect Active", caseName: "you plural", ending: "capiēbātis", meaning: "you all were taking" },
+  { group: "Capiō Imperfect Active", caseName: "they", ending: "capiēbant", meaning: "they were taking" }
+];
+
+const lessonThirtySevenIoFutureActiveItems = [
+  { group: "Capiō Future Active", caseName: "I", ending: "capiam", meaning: "I shall take / I will capture" },
+  { group: "Capiō Future Active", caseName: "you singular", ending: "capiēs", meaning: "you will take" },
+  { group: "Capiō Future Active", caseName: "he/she/it", ending: "capiet", meaning: "he, she, or it will take" },
+  { group: "Capiō Future Active", caseName: "we", ending: "capiēmus", meaning: "we will take" },
+  { group: "Capiō Future Active", caseName: "you plural", ending: "capiētis", meaning: "you all will take" },
+  { group: "Capiō Future Active", caseName: "they", ending: "capient", meaning: "they will take" }
+];
+
+const lessonThirtySevenIoPerfectActiveItems = [
+  { group: "Capiō Perfect Active", caseName: "I", ending: "cēpī", meaning: "I took / I have captured" },
+  { group: "Capiō Perfect Active", caseName: "you singular", ending: "cēpistī", meaning: "you took" },
+  { group: "Capiō Perfect Active", caseName: "he/she/it", ending: "cēpit", meaning: "he, she, or it took" },
+  { group: "Capiō Perfect Active", caseName: "we", ending: "cēpimus", meaning: "we took" },
+  { group: "Capiō Perfect Active", caseName: "you plural", ending: "cēpistis", meaning: "you all took" },
+  { group: "Capiō Perfect Active", caseName: "they", ending: "cēpērunt", meaning: "they took / they captured" }
+];
+
+const lessonThirtySevenIoSubjunctiveActiveItems = [
+  { group: "Capiō Present Subjunctive Active", caseName: "I", ending: "capiam", meaning: "I may take / that I take" },
+  { group: "Capiō Present Subjunctive Active", caseName: "you singular", ending: "capiās", meaning: "you may take" },
+  { group: "Capiō Present Subjunctive Active", caseName: "he/she/it", ending: "capiat", meaning: "he, she, or it may take" },
+  { group: "Capiō Present Subjunctive Active", caseName: "we", ending: "capiāmus", meaning: "we may take / let us take" },
+  { group: "Capiō Present Subjunctive Active", caseName: "you plural", ending: "capiātis", meaning: "you all may take" },
+  { group: "Capiō Present Subjunctive Active", caseName: "they", ending: "capiant", meaning: "they may take" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "I", ending: "caperem", meaning: "I might take / that I was taking" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "you singular", ending: "caperēs", meaning: "you might take" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "he/she/it", ending: "caperet", meaning: "he, she, or it might take" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "we", ending: "caperēmus", meaning: "we might take" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "you plural", ending: "caperētis", meaning: "you all might take" },
+  { group: "Capiō Imperfect Subjunctive Active", caseName: "they", ending: "caperent", meaning: "they might take" }
+];
+
+const lessonThirtySevenIoPassiveItems = [
+  { group: "Capiō Present Passive", caseName: "I", ending: "capior", meaning: "I am captured" },
+  { group: "Capiō Present Passive", caseName: "you singular", ending: "caperis", meaning: "you are captured" },
+  { group: "Capiō Present Passive", caseName: "he/she/it", ending: "capitur", meaning: "he, she, or it is captured" },
+  { group: "Capiō Present Passive", caseName: "we", ending: "capimur", meaning: "we are captured" },
+  { group: "Capiō Present Passive", caseName: "you plural", ending: "capiminī", meaning: "you all are captured" },
+  { group: "Capiō Present Passive", caseName: "they", ending: "capiuntur", meaning: "they are captured" },
+  { group: "Capiō Future Passive", caseName: "I", ending: "capiar", meaning: "I shall be captured" },
+  { group: "Capiō Future Passive", caseName: "you singular", ending: "capiēris", meaning: "you will be captured" },
+  { group: "Capiō Future Passive", caseName: "he/she/it", ending: "capiētur", meaning: "he, she, or it will be captured" },
+  { group: "Capiō Future Passive", caseName: "we", ending: "capiēmur", meaning: "we will be captured" },
+  { group: "Capiō Future Passive", caseName: "you plural", ending: "capiēminī", meaning: "you all will be captured" },
+  { group: "Capiō Future Passive", caseName: "they", ending: "capientur", meaning: "they will be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "I", ending: "capiar", meaning: "I may be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "you singular", ending: "capiāris", meaning: "you may be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "he/she/it", ending: "capiātur", meaning: "he, she, or it may be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "we", ending: "capiāmur", meaning: "we may be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "you plural", ending: "capiāminī", meaning: "you all may be captured" },
+  { group: "Capiō Present Passive Subjunctive", caseName: "they", ending: "capiantur", meaning: "they may be captured" }
+];
+
+const lessonThirtySevenTimeItems = [
+  { group: "Time When", caseName: "third watch", ending: "tertiā vigiliā", meaning: "at the third watch" },
+  { group: "Time When", caseName: "that day", ending: "eō diē", meaning: "on that day" },
+  { group: "Time When", caseName: "that time", ending: "eō tempore", meaning: "at that time" },
+  { group: "Time When", caseName: "that year", ending: "eō annō", meaning: "in that year" },
+  { group: "Extent of Time", caseName: "five days", ending: "quīnque diēs", meaning: "for five days" },
+  { group: "Extent of Time", caseName: "seven years", ending: "septem annōs", meaning: "for seven years" },
+  { group: "Extent of Space", caseName: "one mile", ending: "mille passūs", meaning: "one mile" },
+  { group: "Extent of Space", caseName: "miles", ending: "mīlia passuum", meaning: "miles / thousands of paces" },
+  { group: "Extent of Space", caseName: "two miles", ending: "duo mīlia passuum", meaning: "two miles" },
+  { group: "Degree Question", caseName: "how high", ending: "quam altus", meaning: "how high?" },
+  { group: "Degree Question", caseName: "how long", ending: "quam longum", meaning: "how long?" },
+  { group: "Time Within Which", caseName: "three days", ending: "tribus diēbus", meaning: "within three days" },
+  { group: "Time Within Which", caseName: "two hours", ending: "duābus hōrīs", meaning: "within two hours" },
+  { group: "Time Within Which", caseName: "six days", ending: "sex diēbus", meaning: "within six days" }
+];
+
+const lessonThirtySevenVocabularyFormItems = [
+  { group: "Lesson 37 Vocabulary", caseName: "make a plan", ending: "cōnsilium capere", meaning: "to make a plan" },
+  { group: "Lesson 37 Vocabulary", caseName: "march", ending: "iter facere", meaning: "to march" },
+  { group: "Lesson 37 Vocabulary", caseName: "throw into flight", ending: "in fugam conjicere", meaning: "to throw into flight" },
+  { group: "Lesson 37 Vocabulary", caseName: "withdraw", ending: "sē recipere", meaning: "to withdraw" },
+  { group: "Lesson 37 Vocabulary", caseName: "desire", ending: "cupiō", meaning: "I desire" },
+  { group: "Lesson 37 Vocabulary", caseName: "receive", ending: "accipiō", meaning: "I receive / I accept" },
+  { group: "Lesson 37 Vocabulary", caseName: "catch sight of", ending: "conspiciō", meaning: "I catch sight of" },
+  { group: "Lesson 37 Vocabulary", caseName: "finish/wear out", ending: "conficiō", meaning: "I finish / I wear out" },
+  { group: "Lesson 37 Vocabulary", caseName: "no one", ending: "nēmō", meaning: "no one" },
+  { group: "Lesson 37 Vocabulary", caseName: "enough", ending: "satis", meaning: "enough" }
+];
+
+const lessonThirtySevenVerbItems = [
+  ...lessonThirtySevenIoPresentActiveItems,
+  ...lessonThirtySevenIoImperfectActiveItems,
+  ...lessonThirtySevenIoFutureActiveItems,
+  ...lessonThirtySevenIoPerfectActiveItems,
+  ...lessonThirtySevenIoSubjunctiveActiveItems,
+  ...lessonThirtySevenIoPassiveItems
+];
+
+const lessonThirtySevenFormItems = [
+  ...lessonThirtySevenVerbItems,
+  ...lessonThirtySevenTimeItems,
+  ...lessonThirtySevenVocabularyFormItems
+];
+
+const lessonThirtySevenGrammarForms = {
+  singular: [
+    ...lessonThirtySevenVerbItems,
+    ...lessonThirtySevenVocabularyFormItems.slice(0, 4)
+  ].map((item) => [item.ending, item.meaning]),
+  plural: lessonThirtySevenTimeItems.map((item) => [item.ending, item.meaning]),
+  both: lessonThirtySevenFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtyEightDativeVerbItems = [
+  { group: "Dative Verbs", caseName: "harms me", ending: "mihi nocet", meaning: "he harms me / does harm to me" },
+  { group: "Dative Verbs", caseName: "harms you", ending: "tibi nocet", meaning: "he harms you / does harm to you" },
+  { group: "Dative Verbs", caseName: "harms the state", ending: "reī pūblicae nocet", meaning: "he harms the state" },
+  { group: "Dative Verbs", caseName: "in command of legion", ending: "legiōnī praeest", meaning: "he is in command of the legion" },
+  { group: "Dative Verbs", caseName: "in command of army", ending: "exercituī praeest", meaning: "he is in command of the army" },
+  { group: "Dative Verbs", caseName: "not yield to you", ending: "tibi nōn cēdam", meaning: "I will not yield to you" },
+  { group: "Dative Verbs", caseName: "yield to enemy", ending: "hostibus cēdunt", meaning: "they yield to the enemy" },
+  { group: "Dative Verbs", caseName: "winds harm ships", ending: "ventī navibus nocent", meaning: "the winds harm the ships" }
+];
+
+const lessonThirtyEightPraesumItems = [
+  { group: "Praesum Present", caseName: "I", ending: "praesum", meaning: "I am in charge of" },
+  { group: "Praesum Present", caseName: "you singular", ending: "praees", meaning: "you are in charge of" },
+  { group: "Praesum Present", caseName: "he/she/it", ending: "praeest", meaning: "he, she, or it is in charge of" },
+  { group: "Praesum Present", caseName: "we", ending: "praesumus", meaning: "we are in charge of" },
+  { group: "Praesum Present", caseName: "you plural", ending: "praeestis", meaning: "you all are in charge of" },
+  { group: "Praesum Present", caseName: "they", ending: "praesunt", meaning: "they are in charge of" },
+  { group: "Praesum Imperfect", caseName: "he/she/it", ending: "praeerat", meaning: "he, she, or it was in charge of" },
+  { group: "Praesum Perfect", caseName: "he/she/it", ending: "praefuit", meaning: "he, she, or it was in charge of" }
+];
+
+const lessonThirtyEightMareItems = [
+  { group: "Mare Forms", caseName: "nom./acc. singular", ending: "mare", meaning: "sea as subject or direct object" },
+  { group: "Mare Forms", caseName: "genitive singular", ending: "maris", meaning: "of the sea" },
+  { group: "Mare Forms", caseName: "dative/ablative singular", ending: "marī", meaning: "to, for, by, with, or from the sea" },
+  { group: "Mare Forms", caseName: "nom./acc. plural", ending: "maria", meaning: "seas as subject or direct object" },
+  { group: "Mare Forms", caseName: "genitive plural", ending: "marium", meaning: "of the seas" },
+  { group: "Mare Forms", caseName: "dative/ablative plural", ending: "maribus", meaning: "to, for, by, with, or from the seas" },
+  { group: "Sailing Phrases", caseName: "across the sea", ending: "trāns mare", meaning: "across the sea" },
+  { group: "Sailing Phrases", caseName: "sail", ending: "navigāre", meaning: "to sail" },
+  { group: "Sailing Phrases", caseName: "wind", ending: "ventus", meaning: "wind" },
+  { group: "Sailing Phrases", caseName: "force of the wind", ending: "magnitūdō ventī", meaning: "greatness or force of the wind" }
+];
+
+const lessonThirtyEightPredicateNominativeItems = [
+  { group: "Passive Calling", caseName: "Caesar commander", ending: "Caesar imperātor appellātur", meaning: "Caesar is called commander" },
+  { group: "Passive Calling", caseName: "city Rome", ending: "urbs Rōma vocātur", meaning: "the city is called Rome" },
+  { group: "Passive Calling", caseName: "soldiers brave", ending: "mīlitēs fortēs appellantur", meaning: "the soldiers are called brave" },
+  { group: "Passive Calling", caseName: "Columbus sailor", ending: "Columbus nauta fortis appellātur", meaning: "Columbus is called a brave sailor" },
+  { group: "Passive Calling", caseName: "predicate word", ending: "predicate nominative", meaning: "the naming word after passive calling/naming" },
+  { group: "Passive Calling", caseName: "active calling", ending: "tē rēgem fēcimus", meaning: "we made you king" }
+];
+
+const lessonThirtyEightFormItems = [
+  ...lessonThirtyEightDativeVerbItems,
+  ...lessonThirtyEightPraesumItems,
+  ...lessonThirtyEightMareItems,
+  ...lessonThirtyEightPredicateNominativeItems
+];
+
+const lessonThirtyEightGrammarForms = {
+  singular: [
+    ...lessonThirtyEightDativeVerbItems,
+    ...lessonThirtyEightPraesumItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonThirtyEightMareItems,
+    ...lessonThirtyEightPredicateNominativeItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonThirtyEightFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonThirtyNineActiveInfinitiveItems = [
+  { group: "Active Infinitives", caseName: "laudō present", ending: "laudāre", meaning: "to praise" },
+  { group: "Active Infinitives", caseName: "laudō perfect", ending: "laudāvisse", meaning: "to have praised" },
+  { group: "Active Infinitives", caseName: "laudō future", ending: "laudātūrus esse", meaning: "to be about to praise" },
+  { group: "Active Infinitives", caseName: "habeō present", ending: "habēre", meaning: "to have" },
+  { group: "Active Infinitives", caseName: "habeō perfect", ending: "habuisse", meaning: "to have had" },
+  { group: "Active Infinitives", caseName: "habeō future", ending: "habitūrus esse", meaning: "to be about to have" },
+  { group: "Active Infinitives", caseName: "audiō present", ending: "audīre", meaning: "to hear" },
+  { group: "Active Infinitives", caseName: "audiō perfect", ending: "audīvisse", meaning: "to have heard" },
+  { group: "Active Infinitives", caseName: "audiō future", ending: "audītūrus esse", meaning: "to be about to hear" },
+  { group: "Active Infinitives", caseName: "capiō present", ending: "capere", meaning: "to take / to capture" },
+  { group: "Active Infinitives", caseName: "capiō perfect", ending: "cēpisse", meaning: "to have taken / to have captured" },
+  { group: "Active Infinitives", caseName: "capiō future", ending: "captūrus esse", meaning: "to be about to capture" },
+  { group: "Active Infinitives", caseName: "faciō present", ending: "facere", meaning: "to do / to make" },
+  { group: "Active Infinitives", caseName: "faciō perfect", ending: "fēcisse", meaning: "to have done / to have made" },
+  { group: "Active Infinitives", caseName: "faciō future", ending: "factūrus esse", meaning: "to be about to do / make" },
+  { group: "Active Infinitives", caseName: "veniō present", ending: "venīre", meaning: "to come" },
+  { group: "Active Infinitives", caseName: "veniō perfect", ending: "vēnisse", meaning: "to have come" },
+  { group: "Active Infinitives", caseName: "veniō future", ending: "ventūrus esse", meaning: "to be about to come" }
+];
+
+const lessonThirtyNineAccusativeInfinitiveItems = [
+  { group: "Accusative + Infinitive", caseName: "God loves", ending: "Deum diligere", meaning: "that God loves" },
+  { group: "Accusative + Infinitive", caseName: "Caesar conquered", ending: "Caesarem vīcisse", meaning: "that Caesar conquered" },
+  { group: "Accusative + Infinitive", caseName: "God will give", ending: "Deum datūrum esse", meaning: "that God will give" },
+  { group: "Accusative + Infinitive", caseName: "Americans fight", ending: "Americanōs pugnāre", meaning: "that Americans fight" },
+  { group: "Accusative + Infinitive", caseName: "Gauls attacked", ending: "Gallōs oppugnāvisse", meaning: "that the Gauls attacked" },
+  { group: "Accusative + Infinitive", caseName: "Mary will see", ending: "Mariam vīsūram esse", meaning: "that Mary will see" },
+  { group: "Accusative + Infinitive", caseName: "I am Christian", ending: "mē esse Christianum", meaning: "that I am a Christian" },
+  { group: "Accusative + Infinitive", caseName: "we are free", ending: "nōs esse līberōs", meaning: "that we are free" },
+  { group: "Accusative + Infinitive", caseName: "Christ is Son", ending: "Christum esse Fīlium Deī", meaning: "that Christ is the Son of God" },
+  { group: "Accusative + Infinitive", caseName: "state is free", ending: "cīvitātem līberam esse", meaning: "that the state is free" },
+  { group: "Accusative + Infinitive", caseName: "Rome is great", ending: "Rōmam esse magnam", meaning: "that Rome is great" },
+  { group: "Accusative + Infinitive", caseName: "they will fight", ending: "eōs pugnātūrōs esse", meaning: "that they will fight" }
+];
+
+const lessonThirtyNineReportingVerbItems = [
+  { group: "Reporting Verbs", caseName: "say", ending: "dīcō", meaning: "I say" },
+  { group: "Reporting Verbs", caseName: "answer", ending: "respondeō", meaning: "I answer" },
+  { group: "Reporting Verbs", caseName: "think", ending: "putō", meaning: "I think" },
+  { group: "Reporting Verbs", caseName: "know", ending: "sciō", meaning: "I know" },
+  { group: "Reporting Verbs", caseName: "hear", ending: "audiō", meaning: "I hear" },
+  { group: "Reporting Verbs", caseName: "write", ending: "scrībō", meaning: "I write" },
+  { group: "Reporting Verbs", caseName: "find out", ending: "reperiō", meaning: "I find out" },
+  { group: "Reporting Verbs", caseName: "deny", ending: "negō", meaning: "I deny / say that not" },
+  { group: "Reporting Verbs", caseName: "announce", ending: "nūntiō", meaning: "I announce / report" },
+  { group: "Reporting Verbs", caseName: "show", ending: "dēmōnstrō", meaning: "I show / point out" },
+  { group: "Reporting Verbs", caseName: "think/consider", ending: "existimō", meaning: "I think / consider" },
+  { group: "Reporting Verbs", caseName: "perceive", ending: "sentiō", meaning: "I perceive / feel" }
+];
+
+const lessonThirtyNineImpersonalItems = [
+  { group: "Impersonal Infinitives", caseName: "it behooves", ending: "oportēre", meaning: "that it is necessary / that it behooves" },
+  { group: "Impersonal Infinitives", caseName: "it behooves us", ending: "oportēre nōs", meaning: "that it is necessary for us" },
+  { group: "Impersonal Infinitives", caseName: "to love God", ending: "nōs Deum diligere", meaning: "that we love God / for us to love God" },
+  { group: "Impersonal Infinitives", caseName: "there was fighting", ending: "ācriter pugnātum esse", meaning: "that there was bitter fighting" },
+  { group: "Impersonal Infinitives", caseName: "it was reported", ending: "nūntiātum esse", meaning: "to have been reported / that it was reported" },
+  { group: "Impersonal Infinitives", caseName: "it was written", ending: "scriptum esse", meaning: "to have been written / that it was written" },
+  { group: "Impersonal Infinitives", caseName: "it was fought", ending: "pugnātum esse", meaning: "that there was fighting" },
+  { group: "Impersonal Infinitives", caseName: "it is good", ending: "bonum esse", meaning: "that it is good" }
+];
+
+const lessonThirtyNinePassiveInfinitiveItems = [
+  { group: "Passive Infinitives", caseName: "laudō present passive", ending: "laudārī", meaning: "to be praised" },
+  { group: "Passive Infinitives", caseName: "laudō perfect passive masc.", ending: "laudātus esse", meaning: "to have been praised" },
+  { group: "Passive Infinitives", caseName: "laudō perfect passive fem.", ending: "laudātam esse", meaning: "to have been praised" },
+  { group: "Passive Infinitives", caseName: "laudō perfect passive pl.", ending: "laudātōs esse", meaning: "to have been praised" },
+  { group: "Passive Infinitives", caseName: "vincō present passive", ending: "vincī", meaning: "to be conquered" },
+  { group: "Passive Infinitives", caseName: "vincō perfect passive", ending: "victōs esse", meaning: "to have been conquered" },
+  { group: "Passive Infinitives", caseName: "mittō present passive", ending: "mittī", meaning: "to be sent" },
+  { group: "Passive Infinitives", caseName: "mittō perfect passive", ending: "missum esse", meaning: "to have been sent" },
+  { group: "Passive Infinitives", caseName: "capiō present passive", ending: "capī", meaning: "to be captured" },
+  { group: "Passive Infinitives", caseName: "capiō perfect passive", ending: "captum esse", meaning: "to have been captured" },
+  { group: "Passive Infinitives", caseName: "dēfendō present passive", ending: "dēfendī", meaning: "to be defended" },
+  { group: "Passive Infinitives", caseName: "dēfendō perfect passive", ending: "dēfēnsus esse", meaning: "to have been defended" },
+  { group: "Passive Infinitives", caseName: "videō present passive", ending: "vidērī", meaning: "to be seen" },
+  { group: "Passive Infinitives", caseName: "videō perfect passive", ending: "vīsus esse", meaning: "to have been seen" },
+  { group: "Passive Infinitives", caseName: "interficiō perfect passive", ending: "interfectum esse", meaning: "to have been killed" }
+];
+
+const lessonThirtyNineFormItems = [
+  ...lessonThirtyNineActiveInfinitiveItems,
+  ...lessonThirtyNineAccusativeInfinitiveItems,
+  ...lessonThirtyNineReportingVerbItems,
+  ...lessonThirtyNineImpersonalItems,
+  ...lessonThirtyNinePassiveInfinitiveItems
+];
+
+const lessonThirtyNineGrammarForms = {
+  singular: [
+    ...lessonThirtyNineActiveInfinitiveItems,
+    ...lessonThirtyNineAccusativeInfinitiveItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonThirtyNineReportingVerbItems,
+    ...lessonThirtyNineImpersonalItems,
+    ...lessonThirtyNinePassiveInfinitiveItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonThirtyNineFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonFortyRegularComparisonItems = [
+  { group: "Regular Comparison", caseName: "brave", ending: "fortis fortior fortissimus", meaning: "brave, braver, bravest" },
+  { group: "Regular Comparison", caseName: "useful", ending: "ūtilis ūtilior ūtilissimus", meaning: "useful, more useful, most useful" },
+  { group: "Regular Comparison", caseName: "high", ending: "altus altior altissimus", meaning: "high, higher, highest" },
+  { group: "Regular Comparison", caseName: "short", ending: "brevis brevior brevissimus", meaning: "short, shorter, shortest" },
+  { group: "Regular Comparison", caseName: "serious/heavy", ending: "gravis gravior gravissimus", meaning: "serious/heavy, more serious/heavier, most serious/heaviest" },
+  { group: "Regular Comparison", caseName: "noble", ending: "nōbilis nōbilior nōbilissimus", meaning: "noble, nobler, noblest" },
+  { group: "Regular Comparison", caseName: "holy", ending: "sanctus sanctior sanctissimus", meaning: "holy, holier, holiest" },
+  { group: "Regular Comparison", caseName: "true", ending: "vērus vērior vērissimus", meaning: "true, truer, truest" },
+  { group: "Regular Comparison", caseName: "safe", ending: "tūtus tūtior tūtissimus", meaning: "safe, safer, safest" },
+  { group: "Special Superlatives", caseName: "easy", ending: "facilis facilior facillimus", meaning: "easy, easier, easiest" },
+  { group: "Special Superlatives", caseName: "difficult", ending: "difficilis difficilior difficillimus", meaning: "difficult, more difficult, most difficult" },
+  { group: "Special Superlatives", caseName: "free", ending: "līber līberior līberrimus", meaning: "free, freer, freest" },
+  { group: "Special Superlatives", caseName: "wretched", ending: "miser miserior miserrimus", meaning: "wretched, more wretched, most wretched" },
+  { group: "Special Superlatives", caseName: "whole/sound", ending: "integer integrior integerrimus", meaning: "whole/sound, more whole, most whole" },
+  { group: "Special Superlatives", caseName: "similar", ending: "similis similior simillimus", meaning: "similar, more similar, most similar" }
+];
+
+const lessonFortyComparativeDeclensionItems = [
+  { group: "Comparative Forms", caseName: "masc./fem. subject", ending: "fortior", meaning: "braver as masculine/feminine subject" },
+  { group: "Comparative Forms", caseName: "neuter subject/direct object", ending: "fortius", meaning: "braver as neuter subject/direct object" },
+  { group: "Comparative Forms", caseName: "genitive singular", ending: "fortiōris", meaning: "of a braver one" },
+  { group: "Comparative Forms", caseName: "dative singular", ending: "fortiōrī", meaning: "to or for a braver one" },
+  { group: "Comparative Forms", caseName: "ablative singular", ending: "fortiōre", meaning: "by, with, or from a braver one" },
+  { group: "Comparative Forms", caseName: "masc./fem. plural", ending: "fortiōrēs", meaning: "braver ones as masculine/feminine plural" },
+  { group: "Comparative Forms", caseName: "neuter plural", ending: "fortiōra", meaning: "braver things" },
+  { group: "Comparative Forms", caseName: "genitive plural", ending: "fortiōrum", meaning: "of braver ones" },
+  { group: "Comparative Forms", caseName: "dative/ablative plural", ending: "fortiōribus", meaning: "to, for, by, with, or from braver ones" },
+  { group: "Superlative Forms", caseName: "masculine", ending: "fortissimus", meaning: "bravest masculine form" },
+  { group: "Superlative Forms", caseName: "feminine", ending: "fortissima", meaning: "bravest feminine form" },
+  { group: "Superlative Forms", caseName: "neuter", ending: "fortissimum", meaning: "bravest neuter form" },
+  { group: "Superlative Forms", caseName: "plural masculine", ending: "fortissimī", meaning: "bravest masculine plural" },
+  { group: "Superlative Forms", caseName: "plural feminine", ending: "fortissimae", meaning: "bravest feminine plural" },
+  { group: "Superlative Forms", caseName: "plural neuter", ending: "fortissima", meaning: "bravest neuter plural" }
+];
+
+const lessonFortyQuamCertiorItems = [
+  { group: "Quam Comparisons", caseName: "than the Gauls", ending: "quam Gallī", meaning: "than the Gauls as subject" },
+  { group: "Quam Comparisons", caseName: "than the Gauls as object", ending: "quam Gallōs", meaning: "than the Gauls as direct object" },
+  { group: "Quam Comparisons", caseName: "braver than Gauls", ending: "fortiōrēs quam Gallī", meaning: "braver than the Gauls" },
+  { group: "Quam Comparisons", caseName: "more useful than arms", ending: "ūtilior quam arma", meaning: "more useful than arms" },
+  { group: "Quam Comparisons", caseName: "shorter than that road", ending: "brevior quam illa via", meaning: "shorter than that road" },
+  { group: "Certiōrem Facere", caseName: "inform Caesar", ending: "Caesarem certiōrem facere", meaning: "to inform Caesar" },
+  { group: "Certiōrem Facere", caseName: "informed Caesar", ending: "Caesarem certiōrem fēcit", meaning: "he informed Caesar" },
+  { group: "Certiōrem Facere", caseName: "informed Gauls", ending: "Gallōs certiōrēs fēcit", meaning: "he informed the Gauls" },
+  { group: "Certiōrem Facere", caseName: "about this matter", ending: "dē hāc rē certiōrem fēcit", meaning: "he informed about this matter" },
+  { group: "Certiōrem Facere", caseName: "that Gaul was pacified", ending: "Galliam pācātam esse", meaning: "that Gaul had been pacified" }
+];
+
+const lessonFortyAblativeComparisonItems = [
+  { group: "Ablative of Comparison", caseName: "than Caesar", ending: "Caesare fortior", meaning: "braver than Caesar" },
+  { group: "Ablative of Comparison", caseName: "than other leaders", ending: "aliīs ducibus fortior", meaning: "braver than other leaders" },
+  { group: "Ablative of Comparison", caseName: "than this mountain", ending: "hōc monte altior", meaning: "higher than this mountain" },
+  { group: "Ablative of Comparison", caseName: "than that river", ending: "illō flūmine longior", meaning: "longer than that river" },
+  { group: "Ablative of Comparison", caseName: "than virtue", ending: "nihil virtūte melius", meaning: "nothing better than virtue" },
+  { group: "Ablative of Comparison", caseName: "than sin", ending: "nihil peccātō peius", meaning: "nothing worse than sin" },
+  { group: "Ablative of Comparison", caseName: "than Christ", ending: "nēmō Christō sanctior", meaning: "no one holier than Christ" },
+  { group: "Ablative of Comparison", caseName: "than hope", ending: "quid spē commūnius", meaning: "what is more common than hope?" }
+];
+
+const lessonFortyIrregularComparisonItems = [
+  { group: "Irregular Comparison", caseName: "good", ending: "bonus melior optimus", meaning: "good, better, best" },
+  { group: "Irregular Comparison", caseName: "bad", ending: "malus peior pessimus", meaning: "bad, worse, worst" },
+  { group: "Irregular Comparison", caseName: "great", ending: "magnus maior maximus", meaning: "great, greater, greatest" },
+  { group: "Irregular Comparison", caseName: "small", ending: "parvus minor minimus", meaning: "small, smaller, smallest" },
+  { group: "Irregular Comparison", caseName: "much", ending: "multus plūs plūrimus", meaning: "much, more, most" },
+  { group: "Irregular Comparison", caseName: "many", ending: "multī plūrēs plūrimī", meaning: "many, more, most" },
+  { group: "Irregular Comparison", caseName: "near", ending: "propior proximus", meaning: "nearer, nearest" },
+  { group: "Irregular Comparison", caseName: "upper/high", ending: "superior summus", meaning: "higher, highest / top of" },
+  { group: "Irregular Phrase", caseName: "best men", ending: "virī optimī", meaning: "the best men" },
+  { group: "Irregular Phrase", caseName: "greater forces", ending: "maiōribus cōpiīs", meaning: "with greater forces" },
+  { group: "Irregular Phrase", caseName: "greatest danger", ending: "in maximō perīculō", meaning: "in the greatest danger" },
+  { group: "Irregular Phrase", caseName: "more grain", ending: "plūs frūmentī", meaning: "more grain" },
+  { group: "Irregular Phrase", caseName: "many men", ending: "plūrimī hominēs", meaning: "very many men" }
+];
+
+const lessonFortyFormItems = [
+  ...lessonFortyRegularComparisonItems,
+  ...lessonFortyComparativeDeclensionItems,
+  ...lessonFortyQuamCertiorItems,
+  ...lessonFortyAblativeComparisonItems,
+  ...lessonFortyIrregularComparisonItems
+];
+
+const lessonFortyGrammarForms = {
+  singular: [
+    ...lessonFortyRegularComparisonItems,
+    ...lessonFortyComparativeDeclensionItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonFortyQuamCertiorItems,
+    ...lessonFortyAblativeComparisonItems,
+    ...lessonFortyIrregularComparisonItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonFortyFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonFortyOneIndicativeDeponentItems = [
+  { group: "Cōnor Indicative", caseName: "he tries", ending: "cōnātur", meaning: "he tries" },
+  { group: "Cōnor Indicative", caseName: "they try", ending: "cōnantur", meaning: "they try" },
+  { group: "Cōnor Indicative", caseName: "he was trying", ending: "cōnābātur", meaning: "he was trying" },
+  { group: "Cōnor Indicative", caseName: "they were trying", ending: "cōnābantur", meaning: "they were trying" },
+  { group: "Cōnor Indicative", caseName: "he will try", ending: "cōnābitur", meaning: "he will try" },
+  { group: "Cōnor Indicative", caseName: "he tried", ending: "cōnātus est", meaning: "he tried" },
+  { group: "Vereor Indicative", caseName: "he fears", ending: "verētur", meaning: "he fears" },
+  { group: "Vereor Indicative", caseName: "they fear", ending: "verentur", meaning: "they fear" },
+  { group: "Vereor Indicative", caseName: "they were fearing", ending: "verēbantur", meaning: "they were fearing" },
+  { group: "Vereor Indicative", caseName: "he will fear", ending: "verēbitur", meaning: "he will fear" },
+  { group: "Vereor Indicative", caseName: "they feared", ending: "veritī sunt", meaning: "they feared" },
+  { group: "Sequor Indicative", caseName: "he follows", ending: "sequitur", meaning: "he follows" },
+  { group: "Sequor Indicative", caseName: "they follow", ending: "sequuntur", meaning: "they follow" },
+  { group: "Sequor Indicative", caseName: "he was following", ending: "sequēbātur", meaning: "he was following" },
+  { group: "Sequor Indicative", caseName: "I will follow", ending: "sequar", meaning: "I will follow" },
+  { group: "Sequor Indicative", caseName: "they followed", ending: "secūtī sunt", meaning: "they followed" },
+  { group: "Patior Indicative", caseName: "I suffer/allow", ending: "patior", meaning: "I suffer / I allow" },
+  { group: "Patior Indicative", caseName: "he suffers/allows", ending: "patitur", meaning: "he suffers / he allows" },
+  { group: "Patior Indicative", caseName: "they suffer/allow", ending: "patiuntur", meaning: "they suffer / they allow" },
+  { group: "Patior Indicative", caseName: "we were allowing", ending: "patiēbāmur", meaning: "we were allowing / suffering" },
+  { group: "Patior Indicative", caseName: "we will allow", ending: "patiēmur", meaning: "we will allow / suffer" },
+  { group: "Patior Indicative", caseName: "he suffered", ending: "passus est", meaning: "he suffered / allowed" },
+  { group: "Orior Indicative", caseName: "he arises", ending: "oritur", meaning: "he arises" },
+  { group: "Orior Indicative", caseName: "they arise", ending: "oriuntur", meaning: "they arise" },
+  { group: "Orior Indicative", caseName: "he was arising", ending: "oriēbātur", meaning: "he was arising" },
+  { group: "Orior Indicative", caseName: "he will arise", ending: "oriētur", meaning: "he will arise" },
+  { group: "Orior Indicative", caseName: "war arose", ending: "bellum ortum est", meaning: "a war arose" },
+  { group: "Orior Indicative", caseName: "war had arisen", ending: "bellum ortum erat", meaning: "a war had arisen" }
+];
+
+const lessonFortyOneSubjunctiveItems = [
+  { group: "Deponent Subjunctive", caseName: "let him follow", ending: "sequātur", meaning: "let him follow / may he follow" },
+  { group: "Deponent Subjunctive", caseName: "let us follow", ending: "sequāmur", meaning: "let us follow" },
+  { group: "Deponent Subjunctive", caseName: "let them fear", ending: "vereantur", meaning: "let them fear / may they fear" },
+  { group: "Deponent Subjunctive", caseName: "let us not fear", ending: "nē vereāmur", meaning: "let us not fear" },
+  { group: "Deponent Subjunctive", caseName: "let him allow", ending: "patiātur", meaning: "let him allow / may he suffer" },
+  { group: "Deponent Subjunctive", caseName: "let us suffer/allow", ending: "patiāmur", meaning: "let us suffer / allow" },
+  { group: "Deponent Subjunctive", caseName: "let war arise", ending: "nē oriātur bellum", meaning: "let no war arise" },
+  { group: "Deponent Subjunctive", caseName: "let us try", ending: "cōnēmur", meaning: "let us try" },
+  { group: "Indirect Question", caseName: "whether war had arisen", ending: "num bellum ortum esset", meaning: "whether a war had arisen" },
+  { group: "Indirect Question", caseName: "whether they feared", ending: "num verērentur", meaning: "whether they feared" },
+  { group: "Cum Clause", caseName: "when trying", ending: "cum cōnārentur", meaning: "when they were trying" },
+  { group: "Cum Clause", caseName: "when he had followed", ending: "cum secūtus esset", meaning: "when he had followed" },
+  { group: "Cum Clause", caseName: "when suffering", ending: "cum paterētur", meaning: "when he was suffering" }
+];
+
+const lessonFortyOneParticipleItems = [
+  { group: "Deponent Participles", caseName: "having tried", ending: "cōnātus", meaning: "having tried" },
+  { group: "Deponent Participles", caseName: "having feared", ending: "veritus", meaning: "having feared" },
+  { group: "Deponent Participles", caseName: "having followed", ending: "secūtus", meaning: "having followed" },
+  { group: "Deponent Participles", caseName: "having suffered/allowed", ending: "passus", meaning: "having suffered / having allowed" },
+  { group: "Deponent Participles", caseName: "having arisen", ending: "ortus", meaning: "having arisen" },
+  { group: "Deponent Participles", caseName: "having promised", ending: "pollicitus", meaning: "having promised" },
+  { group: "Deponent Participles", caseName: "having spoken", ending: "locūtus", meaning: "having spoken" },
+  { group: "Deponent Participles", caseName: "having set out", ending: "profectus", meaning: "having set out" },
+  { group: "Deponent Participles", caseName: "having obtained", ending: "nactus", meaning: "having obtained / having found" },
+  { group: "Deponent Participles", caseName: "having gone out", ending: "ēgressus", meaning: "having gone out" },
+  { group: "Deponent Participles", caseName: "having advanced", ending: "prōgressus", meaning: "having advanced" },
+  { group: "Deponent Participles", caseName: "having thought", ending: "arbitrātus", meaning: "having thought / judged" },
+  { group: "Deponent Participles", caseName: "having encouraged", ending: "hortātus", meaning: "having urged / encouraged" }
+];
+
+const lessonFortyOneInfinitiveItems = [
+  { group: "Deponent Infinitives", caseName: "try present", ending: "cōnārī", meaning: "to try" },
+  { group: "Deponent Infinitives", caseName: "try perfect", ending: "cōnātum esse", meaning: "to have tried" },
+  { group: "Deponent Infinitives", caseName: "try future", ending: "cōnātūrum esse", meaning: "to be about to try" },
+  { group: "Deponent Infinitives", caseName: "fear present", ending: "verērī", meaning: "to fear" },
+  { group: "Deponent Infinitives", caseName: "fear perfect", ending: "veritum esse", meaning: "to have feared" },
+  { group: "Deponent Infinitives", caseName: "follow present", ending: "sequī", meaning: "to follow" },
+  { group: "Deponent Infinitives", caseName: "follow perfect", ending: "secūtum esse", meaning: "to have followed" },
+  { group: "Deponent Infinitives", caseName: "follow future", ending: "secūtūrum esse", meaning: "to be about to follow" },
+  { group: "Deponent Infinitives", caseName: "suffer present", ending: "patī", meaning: "to suffer / to allow" },
+  { group: "Deponent Infinitives", caseName: "suffer perfect", ending: "passum esse", meaning: "to have suffered / allowed" },
+  { group: "Deponent Infinitives", caseName: "arise present", ending: "orīrī", meaning: "to arise" },
+  { group: "Deponent Infinitives", caseName: "arise perfect", ending: "ortum esse", meaning: "to have arisen" },
+  { group: "Deponent Infinitives", caseName: "set out present", ending: "proficīscī", meaning: "to set out" },
+  { group: "Deponent Infinitives", caseName: "set out perfect", ending: "profectum esse", meaning: "to have set out" },
+  { group: "Deponent Infinitives", caseName: "set out future", ending: "profectūrum esse", meaning: "to be about to set out" },
+  { group: "Deponent Infinitives", caseName: "speak present", ending: "loquī", meaning: "to speak" },
+  { group: "Deponent Infinitives", caseName: "speak perfect", ending: "locūtum esse", meaning: "to have spoken" },
+  { group: "Deponent Infinitives", caseName: "speak future", ending: "locūtūrum esse", meaning: "to be about to speak" },
+  { group: "Deponent Infinitives", caseName: "go out present", ending: "ēgredī", meaning: "to go out" },
+  { group: "Deponent Infinitives", caseName: "go out perfect", ending: "ēgressum esse", meaning: "to have gone out" },
+  { group: "Deponent Infinitives", caseName: "advance present", ending: "prōgredī", meaning: "to advance" },
+  { group: "Deponent Infinitives", caseName: "advance perfect", ending: "prōgressum esse", meaning: "to have advanced" },
+  { group: "Deponent Infinitives", caseName: "think present", ending: "arbitrārī", meaning: "to think / judge" },
+  { group: "Deponent Infinitives", caseName: "encourage present", ending: "hortārī", meaning: "to urge / encourage" },
+  { group: "Deponent Infinitives", caseName: "promise future", ending: "pollicitūrum esse", meaning: "to be about to promise" }
+];
+
+const lessonFortyOnePhraseItems = [
+  { group: "Deponent Phrases", caseName: "follow Christ", ending: "Christum sequī", meaning: "to follow Christ" },
+  { group: "Deponent Phrases", caseName: "tried to flee", ending: "fugere cōnātus est", meaning: "he tried to flee" },
+  { group: "Deponent Phrases", caseName: "do not fear death", ending: "nē vereāmur mortem", meaning: "let us not fear death" },
+  { group: "Deponent Phrases", caseName: "suffered many things", ending: "multa passus est", meaning: "he suffered many things" },
+  { group: "Deponent Phrases", caseName: "a shout arose", ending: "clamor ortus est", meaning: "a shout arose" },
+  { group: "Deponent Phrases", caseName: "set out to Gaul", ending: "ad Galliam profectus", meaning: "having set out to Gaul" },
+  { group: "Deponent Phrases", caseName: "having obtained a place", ending: "locum nactus", meaning: "having obtained a place" },
+  { group: "Deponent Phrases", caseName: "encourage the soldiers", ending: "mīlitēs hortārī", meaning: "to encourage the soldiers" },
+  { group: "Deponent Phrases", caseName: "go out of camp", ending: "ex castrīs ēgredī", meaning: "to go out of camp" },
+  { group: "Deponent Phrases", caseName: "advance three miles", ending: "tria mīlia passuum prōgredī", meaning: "to advance three miles" }
+];
+
+const lessonFortyOneFormItems = [
+  ...lessonFortyOneIndicativeDeponentItems,
+  ...lessonFortyOneSubjunctiveItems,
+  ...lessonFortyOneParticipleItems,
+  ...lessonFortyOneInfinitiveItems,
+  ...lessonFortyOnePhraseItems
+];
+
+const lessonFortyOneGrammarForms = {
+  singular: [
+    ...lessonFortyOneIndicativeDeponentItems,
+    ...lessonFortyOneSubjunctiveItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonFortyOneParticipleItems,
+    ...lessonFortyOneInfinitiveItems,
+    ...lessonFortyOnePhraseItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonFortyOneFormItems.map((item) => [item.ending, item.meaning])
+};
+
+const lessonFortyTwoIndicativeItems = [
+  { group: "Eō Present", caseName: "I go", ending: "eō", meaning: "I go" },
+  { group: "Eō Present", caseName: "you go", ending: "īs", meaning: "you go" },
+  { group: "Eō Present", caseName: "he goes", ending: "it", meaning: "he, she, or it goes" },
+  { group: "Eō Present", caseName: "we go", ending: "īmus", meaning: "we go" },
+  { group: "Eō Present", caseName: "you all go", ending: "ītis", meaning: "you all go" },
+  { group: "Eō Present", caseName: "they go", ending: "eunt", meaning: "they go" },
+  { group: "Eō Imperfect", caseName: "I was going", ending: "ībam", meaning: "I was going" },
+  { group: "Eō Imperfect", caseName: "you were going", ending: "ībās", meaning: "you were going" },
+  { group: "Eō Imperfect", caseName: "he was going", ending: "ībat", meaning: "he, she, or it was going" },
+  { group: "Eō Imperfect", caseName: "we were going", ending: "ībāmus", meaning: "we were going" },
+  { group: "Eō Imperfect", caseName: "you all were going", ending: "ībātis", meaning: "you all were going" },
+  { group: "Eō Imperfect", caseName: "they were going", ending: "ībant", meaning: "they were going" },
+  { group: "Eō Future", caseName: "I will go", ending: "ībō", meaning: "I will go" },
+  { group: "Eō Future", caseName: "you will go", ending: "ībis", meaning: "you will go" },
+  { group: "Eō Future", caseName: "he will go", ending: "ībit", meaning: "he, she, or it will go" },
+  { group: "Eō Future", caseName: "we will go", ending: "ībimus", meaning: "we will go" },
+  { group: "Eō Future", caseName: "you all will go", ending: "ībitis", meaning: "you all will go" },
+  { group: "Eō Future", caseName: "they will go", ending: "ībunt", meaning: "they will go" },
+  { group: "Eō Perfect", caseName: "I went", ending: "iī", meaning: "I went" },
+  { group: "Eō Perfect", caseName: "he went", ending: "iit", meaning: "he, she, or it went" },
+  { group: "Eō Perfect", caseName: "he went also", ending: "īvit", meaning: "he, she, or it went" },
+  { group: "Eō Perfect", caseName: "they went", ending: "iērunt", meaning: "they went" },
+  { group: "Eō Pluperfect", caseName: "I had gone", ending: "ieram", meaning: "I had gone" },
+  { group: "Eō Pluperfect", caseName: "he had gone", ending: "ierat", meaning: "he, she, or it had gone" },
+  { group: "Eō Pluperfect", caseName: "they had gone", ending: "ierant", meaning: "they had gone" }
+];
+
+const lessonFortyTwoCompoundItems = [
+  { group: "Exeō", caseName: "I go out", ending: "exeō", meaning: "I go out" },
+  { group: "Exeō", caseName: "he goes out", ending: "exit", meaning: "he goes out" },
+  { group: "Exeō", caseName: "they go out", ending: "exeunt", meaning: "they go out" },
+  { group: "Exeō", caseName: "he was going out", ending: "exībat", meaning: "he was going out" },
+  { group: "Exeō", caseName: "he will go out", ending: "exibit", meaning: "he will go out" },
+  { group: "Exeō", caseName: "he went out", ending: "exiit", meaning: "he went out" },
+  { group: "Exeō", caseName: "they went out", ending: "exiērunt", meaning: "they went out" },
+  { group: "Ineō", caseName: "I enter upon", ending: "ineō", meaning: "I enter upon" },
+  { group: "Ineō", caseName: "he enters upon", ending: "init", meaning: "he enters upon" },
+  { group: "Ineō", caseName: "they enter upon", ending: "ineunt", meaning: "they enter upon" },
+  { group: "Ineō", caseName: "he entered upon", ending: "iniit", meaning: "he entered upon" },
+  { group: "Ineō", caseName: "they entered upon", ending: "iniērunt", meaning: "they entered upon" },
+  { group: "Redeō", caseName: "I return", ending: "redeō", meaning: "I return" },
+  { group: "Redeō", caseName: "he returns", ending: "redit", meaning: "he returns" },
+  { group: "Redeō", caseName: "they return", ending: "redeunt", meaning: "they return" },
+  { group: "Redeō", caseName: "he will return", ending: "redībit", meaning: "he will return" },
+  { group: "Redeō", caseName: "they will return", ending: "redībunt", meaning: "they will return" },
+  { group: "Redeō", caseName: "he returned", ending: "rediit", meaning: "he returned" },
+  { group: "Transeō", caseName: "I cross", ending: "transeō", meaning: "I cross / go across" },
+  { group: "Transeō", caseName: "he crosses", ending: "transit", meaning: "he crosses" },
+  { group: "Transeō", caseName: "they cross", ending: "transeunt", meaning: "they cross" },
+  { group: "Transeō", caseName: "they crossed", ending: "transiērunt", meaning: "they crossed" },
+  { group: "Adeō", caseName: "I approach", ending: "adeō", meaning: "I approach / visit" },
+  { group: "Adeō", caseName: "he approaches", ending: "adit", meaning: "he approaches / visits" },
+  { group: "Adeō", caseName: "he approached", ending: "adiit", meaning: "he approached / visited" }
+];
+
+const lessonFortyTwoSubjunctiveItems = [
+  { group: "Eō Subjunctive", caseName: "let me go", ending: "eam", meaning: "let me go / I may go" },
+  { group: "Eō Subjunctive", caseName: "let him go", ending: "eat", meaning: "let him go / may he go" },
+  { group: "Eō Subjunctive", caseName: "let us go", ending: "eāmus", meaning: "let us go" },
+  { group: "Eō Subjunctive", caseName: "let them go", ending: "eant", meaning: "let them go / may they go" },
+  { group: "Exeō Subjunctive", caseName: "let us not go out", ending: "nē exeāmus", meaning: "let us not go out" },
+  { group: "Exeō Subjunctive", caseName: "lest they go out", ending: "nē exeant", meaning: "lest they go out" },
+  { group: "Redeō Subjunctive", caseName: "let us return", ending: "redeāmus", meaning: "let us return" },
+  { group: "Redeō Subjunctive", caseName: "let them return", ending: "redeant", meaning: "let them return / may they return" },
+  { group: "Adeō Subjunctive", caseName: "let us visit", ending: "adeāmus", meaning: "let us approach / visit" },
+  { group: "Transeō Subjunctive", caseName: "that they cross", ending: "transeant", meaning: "that they cross" },
+  { group: "Imperfect Subjunctive", caseName: "he was going", ending: "īret", meaning: "he was going / might go" },
+  { group: "Imperfect Subjunctive", caseName: "they were returning", ending: "redīrent", meaning: "they were returning / might return" },
+  { group: "Imperfect Subjunctive", caseName: "he was crossing", ending: "transīret", meaning: "he was crossing / might cross" },
+  { group: "Imperfect Subjunctive", caseName: "he was entering upon", ending: "inīret", meaning: "he was entering upon / might enter upon" },
+  { group: "Perfect Subjunctive", caseName: "whether you went", ending: "num īeris", meaning: "whether you went" },
+  { group: "Perfect Subjunctive", caseName: "by what road they went", ending: "quā viā ierint", meaning: "by what road they went" },
+  { group: "Pluperfect Subjunctive", caseName: "when they had gone out", ending: "cum exiissent", meaning: "when they had gone out" },
+  { group: "Pluperfect Subjunctive", caseName: "when they had crossed", ending: "cum transiissent", meaning: "when they had crossed" },
+  { group: "Pluperfect Subjunctive", caseName: "when they had gone", ending: "cum iissent", meaning: "when they had gone" },
+  { group: "Pluperfect Subjunctive", caseName: "what races they had visited", ending: "quās gentēs adiissent", meaning: "what tribes they had visited" }
+];
+
+const lessonFortyTwoInfinitiveItems = [
+  { group: "Eō Infinitives", caseName: "to go", ending: "īre", meaning: "to go" },
+  { group: "Eō Infinitives", caseName: "to have gone", ending: "iisse", meaning: "to have gone" },
+  { group: "Eō Infinitives", caseName: "to be about to go", ending: "itūrum esse", meaning: "to be about to go" },
+  { group: "Exeō Infinitives", caseName: "to go out", ending: "exīre", meaning: "to go out" },
+  { group: "Exeō Infinitives", caseName: "to have gone out", ending: "exiisse", meaning: "to have gone out" },
+  { group: "Exeō Infinitives", caseName: "to be about to go out", ending: "exitūrum esse", meaning: "to be about to go out" },
+  { group: "Ineō Infinitives", caseName: "to enter upon", ending: "inīre", meaning: "to enter upon" },
+  { group: "Ineō Infinitives", caseName: "to have entered upon", ending: "iniisse", meaning: "to have entered upon" },
+  { group: "Ineō Infinitives", caseName: "to be about to enter upon", ending: "initūrum esse", meaning: "to be about to enter upon" },
+  { group: "Redeō Infinitives", caseName: "to return", ending: "redīre", meaning: "to return" },
+  { group: "Redeō Infinitives", caseName: "to have returned", ending: "rediisse", meaning: "to have returned" },
+  { group: "Redeō Infinitives", caseName: "to be about to return", ending: "reditūrum esse", meaning: "to be about to return" },
+  { group: "Transeō Infinitives", caseName: "to cross", ending: "transīre", meaning: "to cross / go across" },
+  { group: "Transeō Infinitives", caseName: "to have crossed", ending: "transiisse", meaning: "to have crossed" },
+  { group: "Transeō Infinitives", caseName: "to be about to cross", ending: "transitūrum esse", meaning: "to be about to cross" },
+  { group: "Adeō Infinitives", caseName: "to approach", ending: "adīre", meaning: "to approach / visit" },
+  { group: "Adeō Infinitives", caseName: "to have approached", ending: "adiisse", meaning: "to have approached / visited" },
+  { group: "Adeō Infinitives", caseName: "to be about to approach", ending: "aditūrum esse", meaning: "to be about to approach / visit" }
+];
+
+const lessonFortyTwoPhraseItems = [
+  { group: "Eō Phrases", caseName: "they went the whole night", ending: "tōtam noctem iērunt", meaning: "they went the whole night" },
+  { group: "Eō Phrases", caseName: "he went two miles", ending: "duo mīlia passuum iit", meaning: "he went two miles" },
+  { group: "Eō Phrases", caseName: "he had gone one hundred feet", ending: "centum pedēs ierat", meaning: "he had gone one hundred feet" },
+  { group: "Eō Phrases", caseName: "he goes to the river", ending: "ad flūmen it", meaning: "he goes to the river" },
+  { group: "Eō Phrases", caseName: "they went through difficult places", ending: "per loca difficillima iērunt", meaning: "they went through very difficult places" },
+  { group: "Exeō Phrases", caseName: "he went out at the second watch", ending: "secundā vigiliā exiit", meaning: "he went out at the second watch" },
+  { group: "Exeō Phrases", caseName: "he will go out within three days", ending: "tribus diēbus exibit", meaning: "he will go out within three days" },
+  { group: "Exeō Phrases", caseName: "they were going out from their borders", ending: "dē fīnibus suīs exībant", meaning: "they were going out from their borders" },
+  { group: "Ineō Phrases", caseName: "they entered towns", ending: "in oppida iniērunt", meaning: "they entered towns" },
+  { group: "Ineō Phrases", caseName: "they entered upon a new plan", ending: "novum cōnsilium iniērunt", meaning: "they entered upon a new plan" },
+  { group: "Redeō Phrases", caseName: "let us return to winter quarters", ending: "in hīberna redeāmus", meaning: "let us return to winter quarters" },
+  { group: "Redeō Phrases", caseName: "they will return to us", ending: "ad nōs redībunt", meaning: "they will return to us" },
+  { group: "Transeō Phrases", caseName: "they crossed the very wide sea", ending: "mare latissimum transiērunt", meaning: "they crossed the very wide sea" },
+  { group: "Transeō Phrases", caseName: "to cross the river", ending: "flūmen transīre", meaning: "to cross the river" },
+  { group: "Transeō Phrases", caseName: "that they might cross the river", ending: "quī flūmen transīrent", meaning: "to cross the river / that they might cross the river" },
+  { group: "Adeō Phrases", caseName: "let us visit every city", ending: "omnēs cīvitātēs adeāmus", meaning: "let us visit every city" },
+  { group: "Adeō Phrases", caseName: "what tribes they visited", ending: "quās gentēs adiērint", meaning: "what tribes they visited" },
+  { group: "Infinitive Phrases", caseName: "he said he would go", ending: "dīxit sē itūrum esse", meaning: "he said that he would go" },
+  { group: "Infinitive Phrases", caseName: "he said he would return", ending: "dīxit sē reditūrum esse", meaning: "he said that he would return" },
+  { group: "Infinitive Phrases", caseName: "they had crossed", ending: "barbarōs transiisse", meaning: "that the barbarians had crossed" }
+];
+
+const lessonFortyTwoFormItems = [
+  ...lessonFortyTwoIndicativeItems,
+  ...lessonFortyTwoCompoundItems,
+  ...lessonFortyTwoSubjunctiveItems,
+  ...lessonFortyTwoInfinitiveItems,
+  ...lessonFortyTwoPhraseItems
+];
+
+const lessonFortyTwoGrammarForms = {
+  singular: [
+    ...lessonFortyTwoIndicativeItems,
+    ...lessonFortyTwoCompoundItems
+  ].map((item) => [item.ending, item.meaning]),
+  plural: [
+    ...lessonFortyTwoSubjunctiveItems,
+    ...lessonFortyTwoInfinitiveItems,
+    ...lessonFortyTwoPhraseItems
+  ].map((item) => [item.ending, item.meaning]),
+  both: lessonFortyTwoFormItems.map((item) => [item.ending, item.meaning])
+};
+
 const lessonNineEndingPractice = {
   present: {
     title: "Laudō Present Forms",
@@ -10549,6 +14355,385 @@ const lessonThirtyOneEndingPractice = {
 };
 lessonThirtyOneEndingPractice.both = lessonThirtyOneEndingPractice.mixed;
 
+const lessonThirtyTwoEndingPractice = {
+  prepositions: {
+    title: "Lesson 32 Prepositions",
+    subtitle: "Fill ex, ē, ab, ā, and dē in order.",
+    items: lessonThirtyTwoPrepositionItems
+  },
+  phrases: {
+    title: "Lesson 32 Place Phrases",
+    subtitle: "Fill Lesson 32 place phrases in order.",
+    items: lessonThirtyTwoPlacePhraseItems
+  },
+  vocabulary: {
+    title: "Lesson 32 Vocabulary Forms",
+    subtitle: "Fill the Lesson 32 vocabulary forms in order.",
+    items: lessonThirtyTwoVocabularyFormItems
+  },
+  mixed: {
+    title: "Lesson 32 Prepositions and Phrases",
+    subtitle: "Fill all Lesson 32 prepositions, place phrases, and vocabulary cues.",
+    items: lessonThirtyTwoFormItems
+  }
+};
+lessonThirtyTwoEndingPractice.singular = lessonThirtyTwoEndingPractice.prepositions;
+lessonThirtyTwoEndingPractice.plural = lessonThirtyTwoEndingPractice.phrases;
+lessonThirtyTwoEndingPractice.both = lessonThirtyTwoEndingPractice.mixed;
+
+const lessonThirtyThreeEndingPractice = {
+  ille: {
+    title: "Ille, Illa, Illud Forms",
+    subtitle: "Fill all ille forms by gender, number, and case.",
+    items: lessonThirtyThreeIlleFormItems
+  },
+  is: {
+    title: "Is, Ea, Id Forms",
+    subtitle: "Fill all is, ea, id forms by gender, number, and case.",
+    items: lessonThirtyThreeIsFormItems
+  },
+  singular: {
+    title: "Lesson 33 Singular Forms",
+    subtitle: "Fill singular ille and is forms in case order.",
+    items: lessonThirtyThreeFormItems.filter((item) => item.group.includes("Singular"))
+  },
+  plural: {
+    title: "Lesson 33 Plural Forms",
+    subtitle: "Fill plural ille and is forms in case order.",
+    items: lessonThirtyThreeFormItems.filter((item) => item.group.includes("Plural"))
+  },
+  rules: {
+    title: "Lesson 33 Rule and Vocabulary Cues",
+    subtitle: "Fill the Lesson 33 rule and vocabulary cues in order.",
+    items: lessonThirtyThreeRuleItems
+  },
+  mixed: {
+    title: "Lesson 33 Ille and Is Forms",
+    subtitle: "Fill all Lesson 33 demonstrative and pronoun forms.",
+    items: lessonThirtyThreeFormItems
+  }
+};
+lessonThirtyThreeEndingPractice.both = lessonThirtyThreeEndingPractice.mixed;
+
+const lessonThirtyFourEndingPractice = {
+  separation: {
+    title: "Ablative of Separation",
+    subtitle: "Fill Lesson 34 separation phrases in order.",
+    items: lessonThirtyFourSeparationItems
+  },
+  review: {
+    title: "Ablative Review Phrases",
+    subtitle: "Fill the ablative review phrases in order.",
+    items: lessonThirtyFourAblativeReviewItems
+  },
+  vocabulary: {
+    title: "Lesson 34 Vocabulary Forms",
+    subtitle: "Fill the Lesson 34 vocabulary forms in order.",
+    items: lessonThirtyFourVocabularyFormItems
+  },
+  mixed: {
+    title: "Lesson 34 Ablative Constructions",
+    subtitle: "Fill all Lesson 34 separation, review, and vocabulary cues.",
+    items: lessonThirtyFourFormItems
+  }
+};
+lessonThirtyFourEndingPractice.singular = lessonThirtyFourEndingPractice.separation;
+lessonThirtyFourEndingPractice.plural = lessonThirtyFourEndingPractice.review;
+lessonThirtyFourEndingPractice.both = lessonThirtyFourEndingPractice.mixed;
+
+const lessonThirtyFiveEndingPractice = {
+  present: {
+    title: "Possum Present Forms",
+    subtitle: "Fill the present forms of possum in person order.",
+    items: lessonThirtyFivePossumPresentItems
+  },
+  imperfect: {
+    title: "Possum Imperfect Forms",
+    subtitle: "Fill the imperfect forms of possum in person order.",
+    items: lessonThirtyFivePossumImperfectItems
+  },
+  future: {
+    title: "Possum Future Forms",
+    subtitle: "Fill the future forms of possum in person order.",
+    items: lessonThirtyFivePossumFutureItems
+  },
+  perfect: {
+    title: "Possum Perfect Forms",
+    subtitle: "Fill the perfect forms of possum in person order.",
+    items: lessonThirtyFivePossumPerfectItems
+  },
+  subjunctive: {
+    title: "Possum Subjunctive Forms",
+    subtitle: "Fill the present and imperfect subjunctive forms of possum.",
+    items: lessonThirtyFivePossumSubjunctiveItems
+  },
+  infinitives: {
+    title: "Infinitive and Accusative-Infinitive Patterns",
+    subtitle: "Fill Lesson 35 infinitive phrases and construction cues.",
+    items: lessonThirtyFiveInfinitivePatternItems
+  },
+  mixed: {
+    title: "Lesson 35 Possum and Infinitive Forms",
+    subtitle: "Fill possum forms, infinitives, and infinitive construction patterns.",
+    items: lessonThirtyFiveFormItems
+  }
+};
+lessonThirtyFiveEndingPractice.singular = lessonThirtyFiveEndingPractice.present;
+lessonThirtyFiveEndingPractice.plural = lessonThirtyFiveEndingPractice.infinitives;
+lessonThirtyFiveEndingPractice.both = lessonThirtyFiveEndingPractice.mixed;
+
+const lessonThirtySixEndingPractice = {
+  cardinals: {
+    title: "Cardinal Numerals",
+    subtitle: "Fill Lesson 36 cardinal numerals and quot in order.",
+    items: lessonThirtySixCardinalItems
+  },
+  unus: {
+    title: "Ūnus Forms",
+    subtitle: "Fill the key declined forms of ūnus.",
+    items: lessonThirtySixUnusItems
+  },
+  duoTres: {
+    title: "Duo and Trēs Forms",
+    subtitle: "Fill the key declined forms of duo and trēs.",
+    items: lessonThirtySixDuoTresItems
+  },
+  adjectives: {
+    title: "Irregular Adjective Forms",
+    subtitle: "Fill the special genitive and dative singular forms.",
+    items: lessonThirtySixIrregularAdjectiveItems
+  },
+  phrases: {
+    title: "Lesson 36 Number and Adjective Phrases",
+    subtitle: "Fill number phrases and irregular adjective phrases.",
+    items: lessonThirtySixPhraseItems
+  },
+  mixed: {
+    title: "Lesson 36 Numerals and Irregular Adjectives",
+    subtitle: "Fill all Lesson 36 numeral forms, adjective forms, and phrase cues.",
+    items: lessonThirtySixFormItems
+  }
+};
+lessonThirtySixEndingPractice.singular = lessonThirtySixEndingPractice.cardinals;
+lessonThirtySixEndingPractice.plural = lessonThirtySixEndingPractice.adjectives;
+lessonThirtySixEndingPractice.both = lessonThirtySixEndingPractice.mixed;
+
+const lessonThirtySevenEndingPractice = {
+  active: {
+    title: "Capiō Active Forms",
+    subtitle: "Fill capiō active forms in tense and person order.",
+    items: [
+      ...lessonThirtySevenIoPresentActiveItems,
+      ...lessonThirtySevenIoImperfectActiveItems,
+      ...lessonThirtySevenIoFutureActiveItems,
+      ...lessonThirtySevenIoPerfectActiveItems
+    ]
+  },
+  subjunctive: {
+    title: "Capiō Active Subjunctive Forms",
+    subtitle: "Fill present and imperfect subjunctive active -iō forms.",
+    items: lessonThirtySevenIoSubjunctiveActiveItems
+  },
+  passive: {
+    title: "Capiō Passive Forms",
+    subtitle: "Fill passive -iō forms in person order.",
+    items: lessonThirtySevenIoPassiveItems
+  },
+  time: {
+    title: "Lesson 37 Time and Distance Phrases",
+    subtitle: "Fill time when, extent, degree, and within-which phrases.",
+    items: lessonThirtySevenTimeItems
+  },
+  vocabulary: {
+    title: "Lesson 37 Vocabulary Forms",
+    subtitle: "Fill the Lesson 37 vocabulary forms and idioms.",
+    items: lessonThirtySevenVocabularyFormItems
+  },
+  mixed: {
+    title: "Lesson 37 -iō Verbs and Time",
+    subtitle: "Fill all Lesson 37 verb forms, time phrases, and vocabulary cues.",
+    items: lessonThirtySevenFormItems
+  }
+};
+lessonThirtySevenEndingPractice.singular = lessonThirtySevenEndingPractice.active;
+lessonThirtySevenEndingPractice.plural = lessonThirtySevenEndingPractice.time;
+lessonThirtySevenEndingPractice.both = lessonThirtySevenEndingPractice.mixed;
+
+const lessonThirtyEightEndingPractice = {
+  dative: {
+    title: "Lesson 38 Dative Verb Phrases",
+    subtitle: "Fill phrases that use the dative with noceō, praesum, and cēdō.",
+    items: lessonThirtyEightDativeVerbItems
+  },
+  praesum: {
+    title: "Praesum Forms",
+    subtitle: "Fill the present and key past forms of praesum.",
+    items: lessonThirtyEightPraesumItems
+  },
+  mare: {
+    title: "Mare and Sailing Forms",
+    subtitle: "Fill mare forms and sailing phrases.",
+    items: lessonThirtyEightMareItems
+  },
+  calling: {
+    title: "Passive Calling and Naming",
+    subtitle: "Fill predicate-nominative calling phrases.",
+    items: lessonThirtyEightPredicateNominativeItems
+  },
+  mixed: {
+    title: "Lesson 38 Dative Verbs and Passive Calling",
+    subtitle: "Fill all Lesson 38 forms and phrase cues.",
+    items: lessonThirtyEightFormItems
+  }
+};
+lessonThirtyEightEndingPractice.singular = lessonThirtyEightEndingPractice.dative;
+lessonThirtyEightEndingPractice.plural = lessonThirtyEightEndingPractice.calling;
+lessonThirtyEightEndingPractice.both = lessonThirtyEightEndingPractice.mixed;
+
+const lessonThirtyNineEndingPractice = {
+  activeInfinitives: {
+    title: "Active Infinitives",
+    subtitle: "Fill present, perfect, and future active infinitives in order.",
+    items: lessonThirtyNineActiveInfinitiveItems
+  },
+  accInf: {
+    title: "Accusative with Infinitive Patterns",
+    subtitle: "Fill accusative-subject plus infinitive patterns.",
+    items: lessonThirtyNineAccusativeInfinitiveItems
+  },
+  reporting: {
+    title: "Reporting, Thinking, and Knowing Verbs",
+    subtitle: "Fill the verbs that may introduce an accusative with infinitive.",
+    items: lessonThirtyNineReportingVerbItems
+  },
+  impersonal: {
+    title: "Impersonal Infinitive Patterns",
+    subtitle: "Fill impersonal infinitive expressions in order.",
+    items: lessonThirtyNineImpersonalItems
+  },
+  passiveInfinitives: {
+    title: "Passive Infinitives",
+    subtitle: "Fill present and perfect passive infinitives in order.",
+    items: lessonThirtyNinePassiveInfinitiveItems
+  },
+  mixed: {
+    title: "Lesson 39 Accusative with Infinitive",
+    subtitle: "Fill all Lesson 39 infinitive forms, sentence patterns, and reporting verbs.",
+    items: lessonThirtyNineFormItems
+  }
+};
+lessonThirtyNineEndingPractice.singular = lessonThirtyNineEndingPractice.activeInfinitives;
+lessonThirtyNineEndingPractice.plural = lessonThirtyNineEndingPractice.passiveInfinitives;
+lessonThirtyNineEndingPractice.both = lessonThirtyNineEndingPractice.mixed;
+
+const lessonFortyEndingPractice = {
+  regular: {
+    title: "Regular Comparisons",
+    subtitle: "Fill positive, comparative, and superlative forms in order.",
+    items: lessonFortyRegularComparisonItems
+  },
+  declension: {
+    title: "Comparative and Superlative Declension",
+    subtitle: "Fill comparative and superlative agreement forms.",
+    items: lessonFortyComparativeDeclensionItems
+  },
+  quamCertior: {
+    title: "Quam and Certiōrem Facere",
+    subtitle: "Fill than-comparison and inform phrases.",
+    items: lessonFortyQuamCertiorItems
+  },
+  ablativeComparison: {
+    title: "Ablative of Comparison",
+    subtitle: "Fill comparison phrases that use the ablative.",
+    items: lessonFortyAblativeComparisonItems
+  },
+  irregular: {
+    title: "Irregular Comparisons",
+    subtitle: "Fill good/better/best and other irregular comparison forms.",
+    items: lessonFortyIrregularComparisonItems
+  },
+  mixed: {
+    title: "Lesson 40 Comparison of Adjectives",
+    subtitle: "Fill all Lesson 40 comparison forms and patterns.",
+    items: lessonFortyFormItems
+  }
+};
+lessonFortyEndingPractice.singular = lessonFortyEndingPractice.regular;
+lessonFortyEndingPractice.plural = lessonFortyEndingPractice.irregular;
+lessonFortyEndingPractice.both = lessonFortyEndingPractice.mixed;
+
+const lessonFortyOneEndingPractice = {
+  indicative: {
+    title: "Indicative Deponent Forms",
+    subtitle: "Fill present-system and perfect-system deponent forms.",
+    items: lessonFortyOneIndicativeDeponentItems
+  },
+  subjunctive: {
+    title: "Subjunctive Deponent Forms",
+    subtitle: "Fill deponent forms used in wishes, exhortations, questions, and cum clauses.",
+    items: lessonFortyOneSubjunctiveItems
+  },
+  participles: {
+    title: "Deponent Perfect Participles",
+    subtitle: "Fill perfect participles with active meanings.",
+    items: lessonFortyOneParticipleItems
+  },
+  infinitives: {
+    title: "Deponent Infinitives",
+    subtitle: "Fill present, perfect, and future infinitives of deponent verbs.",
+    items: lessonFortyOneInfinitiveItems
+  },
+  phrases: {
+    title: "Deponent Sentence Phrases",
+    subtitle: "Fill common deponent phrases from Lesson 41.",
+    items: lessonFortyOnePhraseItems
+  },
+  mixed: {
+    title: "Lesson 41 Deponent Verbs",
+    subtitle: "Fill all Lesson 41 deponent forms and patterns.",
+    items: lessonFortyOneFormItems
+  }
+};
+lessonFortyOneEndingPractice.singular = lessonFortyOneEndingPractice.indicative;
+lessonFortyOneEndingPractice.plural = lessonFortyOneEndingPractice.infinitives;
+lessonFortyOneEndingPractice.both = lessonFortyOneEndingPractice.mixed;
+
+const lessonFortyTwoEndingPractice = {
+  indicative: {
+    title: "Eō Indicative Forms",
+    subtitle: "Fill present, imperfect, future, perfect, and pluperfect forms of eō.",
+    items: lessonFortyTwoIndicativeItems
+  },
+  compounds: {
+    title: "Eō Compound Forms",
+    subtitle: "Fill exeō, ineō, redeō, transeō, and adeō forms.",
+    items: lessonFortyTwoCompoundItems
+  },
+  subjunctive: {
+    title: "Eō Subjunctive Forms",
+    subtitle: "Fill subjunctive forms of eō and its compounds.",
+    items: lessonFortyTwoSubjunctiveItems
+  },
+  infinitives: {
+    title: "Eō Infinitives",
+    subtitle: "Fill present, perfect, and future infinitives of eō compounds.",
+    items: lessonFortyTwoInfinitiveItems
+  },
+  phrases: {
+    title: "Eō Sentence Phrases",
+    subtitle: "Fill common eō phrases from Lesson 42.",
+    items: lessonFortyTwoPhraseItems
+  },
+  mixed: {
+    title: "Lesson 42 Irregular Verb Eō",
+    subtitle: "Fill all Lesson 42 eō forms and patterns.",
+    items: lessonFortyTwoFormItems
+  }
+};
+lessonFortyTwoEndingPractice.singular = lessonFortyTwoEndingPractice.indicative;
+lessonFortyTwoEndingPractice.plural = lessonFortyTwoEndingPractice.infinitives;
+lessonFortyTwoEndingPractice.both = lessonFortyTwoEndingPractice.mixed;
+
 const cumulativeFirstDeclensionEndingItems = [
   ...firstDeclensionEndingPractice.singular.items.map((item) => ({ ...item, group: "1st Feminine Singular" })),
   ...firstDeclensionEndingPractice.plural.items.map((item) => ({ ...item, group: "1st Feminine Plural" }))
@@ -10714,6 +14899,64 @@ const cumulativeLessonThirtyOneFormItems = [
 ].map((item) => ({
   ...item,
   group: `31st ${item.group}`
+}));
+
+const cumulativeLessonThirtyTwoFormItems = lessonThirtyTwoFormItems.map((item) => ({
+  ...item,
+  group: `32nd ${item.group}`
+}));
+
+const cumulativeLessonThirtyThreeFormItems = [
+  ...lessonThirtyThreeFormItems,
+  ...lessonThirtyThreeRuleItems
+].map((item) => ({
+  ...item,
+  group: `33rd ${item.group}`
+}));
+
+const cumulativeLessonThirtyFourFormItems = lessonThirtyFourFormItems.map((item) => ({
+  ...item,
+  group: `34th ${item.group}`
+}));
+
+const cumulativeLessonThirtyFiveFormItems = lessonThirtyFiveFormItems.map((item) => ({
+  ...item,
+  group: `35th ${item.group}`
+}));
+
+const cumulativeLessonThirtySixFormItems = lessonThirtySixFormItems.map((item) => ({
+  ...item,
+  group: `36th ${item.group}`
+}));
+
+const cumulativeLessonThirtySevenFormItems = lessonThirtySevenFormItems.map((item) => ({
+  ...item,
+  group: `37th ${item.group}`
+}));
+
+const cumulativeLessonThirtyEightFormItems = lessonThirtyEightFormItems.map((item) => ({
+  ...item,
+  group: `38th ${item.group}`
+}));
+
+const cumulativeLessonThirtyNineFormItems = lessonThirtyNineFormItems.map((item) => ({
+  ...item,
+  group: `39th ${item.group}`
+}));
+
+const cumulativeLessonFortyFormItems = lessonFortyFormItems.map((item) => ({
+  ...item,
+  group: `40th ${item.group}`
+}));
+
+const cumulativeLessonFortyOneFormItems = lessonFortyOneFormItems.map((item) => ({
+  ...item,
+  group: `41st ${item.group}`
+}));
+
+const cumulativeLessonFortyTwoFormItems = lessonFortyTwoFormItems.map((item) => ({
+  ...item,
+  group: `42nd ${item.group}`
 }));
 
 const cumulativeEndingFinalPractice = {
@@ -11257,6 +15500,138 @@ cumulativeEndingFinalPractice.lesson31 = {
   completionNote: "You typed all earlier forms and the Lesson 31 hic, haec, hoc forms without visible hints."
 };
 
+cumulativeEndingFinalPractice.lesson32 = {
+  title: "Lessons 1-32 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 32 preposition and place-phrase forms with no hints.",
+  finalNote: "Type all forms through Lesson 31, then the Lesson 32 prepositions, place phrases, and vocabulary cues. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson31.items,
+    ...cumulativeLessonThirtyTwoFormItems
+  ],
+  completionTitle: "The Lessons 1-32 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 32 preposition and place phrases without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson33 = {
+  title: "Lessons 1-33 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus the Lesson 33 ille and is forms with no hints.",
+  finalNote: "Type all forms through Lesson 32, then the Lesson 33 ille, illa, illud and is, ea, id forms. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson32.items,
+    ...cumulativeLessonThirtyThreeFormItems
+  ],
+  completionTitle: "The Lessons 1-33 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 33 demonstrative/pronoun forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson34 = {
+  title: "Lessons 1-34 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 34 ablative construction cues with no hints.",
+  finalNote: "Type all forms through Lesson 33, then the Lesson 34 ablative separation, ablative review, and vocabulary cues. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson33.items,
+    ...cumulativeLessonThirtyFourFormItems
+  ],
+  completionTitle: "The Lessons 1-34 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 34 ablative construction cues without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson35 = {
+  title: "Lessons 1-35 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 35 possum and infinitive forms with no hints.",
+  finalNote: "Type all forms through Lesson 34, then the Lesson 35 possum, infinitive, and accusative-infinitive patterns. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson34.items,
+    ...cumulativeLessonThirtyFiveFormItems
+  ],
+  completionTitle: "The Lessons 1-35 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 35 possum and infinitive forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson36 = {
+  title: "Lessons 1-36 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 36 numerals and irregular adjective forms with no hints.",
+  finalNote: "Type all forms through Lesson 35, then the Lesson 36 numerals, number forms, and irregular adjective forms. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson35.items,
+    ...cumulativeLessonThirtySixFormItems
+  ],
+  completionTitle: "The Lessons 1-36 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 36 numeral and irregular adjective forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson37 = {
+  title: "Lessons 1-37 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 37 -iō verb, time, and distance forms with no hints.",
+  finalNote: "Type all forms through Lesson 36, then the Lesson 37 -iō verb forms, time expressions, and idiom cues. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson36.items,
+    ...cumulativeLessonThirtySevenFormItems
+  ],
+  completionTitle: "The Lessons 1-37 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 37 -iō verb and time forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson38 = {
+  title: "Lessons 1-38 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 38 dative-verb, mare, and passive-calling forms with no hints.",
+  finalNote: "Type all forms through Lesson 37, then the Lesson 38 dative-verb phrases, mare forms, and passive-calling patterns. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson37.items,
+    ...cumulativeLessonThirtyEightFormItems
+  ],
+  completionTitle: "The Lessons 1-38 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 38 dative-verb, mare, and passive-calling forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson39 = {
+  title: "Lessons 1-39 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 39 infinitive forms and accusative-with-infinitive patterns with no hints.",
+  finalNote: "Type all forms through Lesson 38, then the Lesson 39 active infinitives, accusative-with-infinitive patterns, reporting verbs, impersonal patterns, and passive infinitives. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson38.items,
+    ...cumulativeLessonThirtyNineFormItems
+  ],
+  completionTitle: "The Lessons 1-39 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 39 infinitive and accusative-with-infinitive forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson40 = {
+  title: "Lessons 1-40 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 40 comparison forms and patterns with no hints.",
+  finalNote: "Type all forms through Lesson 39, then the Lesson 40 comparison forms, quam patterns, certiōrem facere phrases, ablative comparisons, and irregular comparisons. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson39.items,
+    ...cumulativeLessonFortyFormItems
+  ],
+  completionTitle: "The Lessons 1-40 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 40 comparison forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson41 = {
+  title: "Lessons 1-41 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 41 deponent verb forms and patterns with no hints.",
+  finalNote: "Type all forms through Lesson 40, then the Lesson 41 deponent indicative, subjunctive, participle, infinitive, and phrase patterns. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson40.items,
+    ...cumulativeLessonFortyOneFormItems
+  ],
+  completionTitle: "The Lessons 1-41 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 41 deponent verb forms without visible hints."
+};
+
+cumulativeEndingFinalPractice.lesson42 = {
+  title: "Lessons 1-42 Cumulative No-Hint Forms",
+  subtitle: "Type all earlier forms plus Lesson 42 eō forms and patterns with no hints.",
+  finalNote: "Type all forms through Lesson 41, then the Lesson 42 eō indicative forms, compounds, subjunctives, infinitives, and phrase patterns. When one is correct, the cursor moves forward.",
+  items: [
+    ...cumulativeEndingFinalPractice.lesson41.items,
+    ...cumulativeLessonFortyTwoFormItems
+  ],
+  completionTitle: "The Lessons 1-42 forms are yours.",
+  completionNote: "You typed all earlier forms and the Lesson 42 eō forms without visible hints."
+};
+
 const unitEndingFinalPractice = {
   unit1: {
     title: "Unit 1 No-Hint Forms",
@@ -11369,15 +15744,76 @@ const unitEndingFinalPractice = {
   },
   unit9: {
     title: "Unit 9 No-Hint Forms",
-    subtitle: "Type the Unit 9 perfect participle passive and hic, haec, hoc forms with no hints.",
+    subtitle: "Type the Unit 9 participle, demonstrative, preposition, pronoun, and ablative construction forms with no hints.",
     finalStepTitle: "Unit 9 Review · No-Hint Typing",
-    finalNote: "Type the Unit 9 perfect participle passive forms plus hic, haec, hoc. This review stays inside Unit 9.",
+    finalNote: "Type the Unit 9 perfect participles, demonstratives, prepositions, pronouns, and ablative construction cues. This review stays inside Unit 9.",
     items: [
       ...cumulativeLessonThirtyFormItems,
-      ...cumulativeLessonThirtyOneFormItems
+      ...cumulativeLessonThirtyOneFormItems,
+      ...cumulativeLessonThirtyTwoFormItems,
+      ...cumulativeLessonThirtyThreeFormItems,
+      ...cumulativeLessonThirtyFourFormItems
     ],
     completionTitle: "Unit 9 Review complete.",
-    completionNote: "You typed the Unit 9 participle and demonstrative forms without visible hints."
+    completionNote: "You typed the Unit 9 participle, demonstrative, preposition, pronoun, and ablative forms without visible hints."
+  },
+  unit10: {
+    title: "Unit 10 No-Hint Forms",
+    subtitle: "Type the Unit 10 possum, infinitive, numeral, and irregular adjective forms with no hints.",
+    finalStepTitle: "Unit 10 Review · No-Hint Typing",
+    finalNote: "Type the Unit 10 possum forms, infinitive patterns, numerals, and irregular adjective forms. This review stays inside Unit 10.",
+    items: [
+      ...cumulativeLessonThirtyFiveFormItems,
+      ...cumulativeLessonThirtySixFormItems
+    ],
+    completionTitle: "Unit 10 Review complete.",
+    completionNote: "You typed the Unit 10 possum, infinitive, numeral, and irregular adjective forms without visible hints."
+  },
+  unit11: {
+    title: "Unit 11 No-Hint Forms",
+    subtitle: "Type the Unit 11 -iō verb, time, dative-verb, and passive-calling forms with no hints.",
+    finalStepTitle: "Unit 11 Review · No-Hint Typing",
+    finalNote: "Type the Unit 11 -iō verb forms, time expressions, dative-verb phrases, mare forms, and passive-calling patterns. This review stays inside Unit 11.",
+    items: [
+      ...cumulativeLessonThirtySevenFormItems,
+      ...cumulativeLessonThirtyEightFormItems
+    ],
+    completionTitle: "Unit 11 Review complete.",
+    completionNote: "You typed the Unit 11 -iō, time, dative-verb, mare, and passive-calling forms without visible hints."
+  },
+  unit12: {
+    title: "Unit 12 No-Hint Forms",
+    subtitle: "Type the Unit 12 infinitive forms and accusative-with-infinitive patterns with no hints.",
+    finalStepTitle: "Unit 12 Review · No-Hint Typing",
+    finalNote: "Type the Unit 12 active infinitives, accusative-with-infinitive patterns, reporting verbs, impersonal patterns, and passive infinitives. This review stays inside Unit 12.",
+    items: [
+      ...cumulativeLessonThirtyNineFormItems
+    ],
+    completionTitle: "Unit 12 Review complete.",
+    completionNote: "You typed the Unit 12 infinitive and accusative-with-infinitive patterns without visible hints."
+  },
+  unit13: {
+    title: "Unit 13 No-Hint Forms",
+    subtitle: "Type the Unit 13 comparison and deponent verb forms with no hints.",
+    finalStepTitle: "Unit 13 Review · No-Hint Typing",
+    finalNote: "Type the Unit 13 comparison forms, irregular comparisons, deponent forms, deponent participles, and deponent infinitives. This review stays inside Unit 13.",
+    items: [
+      ...cumulativeLessonFortyFormItems,
+      ...cumulativeLessonFortyOneFormItems
+    ],
+    completionTitle: "Unit 13 Review complete.",
+    completionNote: "You typed the Unit 13 comparison and deponent verb forms without visible hints."
+  },
+  unit14: {
+    title: "Unit 14 No-Hint Forms",
+    subtitle: "Type the Unit 14 irregular verb eō forms with no hints.",
+    finalStepTitle: "Unit 14 Review · No-Hint Typing",
+    finalNote: "Type the Unit 14 eō indicative forms, compounds, subjunctives, infinitives, and phrase patterns. This review stays inside Unit 14.",
+    items: [
+      ...cumulativeLessonFortyTwoFormItems
+    ],
+    completionTitle: "Unit 14 Review complete.",
+    completionNote: "You typed the Unit 14 eō forms and patterns without visible hints."
   }
 };
 
@@ -11971,6 +16407,264 @@ const lessonThirtyOneVocabulary = [
   ["ā tergō", "from the rear, in the rear"],
   ["ā fronte", "from the front, in the front"],
   ["summus, summa, summum", "highest, top of, very great"]
+];
+
+const lessonThirtyTwoVocabulary = [
+  ["discēdō, discēdere, discessī, discessūrus", "withdraw, depart"],
+  ["navis, navis", "ship"],
+  ["ex / ē + ablative", "out of, from"],
+  ["ab / ā + ablative", "away from, from"],
+  ["dē + ablative", "down from, from, concerning"],
+  ["cadō, cadere, cecidī, cāsūrus", "fall"],
+  ["ē castrīs", "out of the camp"],
+  ["ā castrīs", "away from the camp"],
+  ["ex flūmine", "out of the river"],
+  ["ā flūmine", "away from the river"],
+  ["dē mūrō", "down from the wall"],
+  ["dē monte", "down from the mountain"],
+  ["ab before vowel or h", "full form of ā"],
+  ["ex before vowel or h", "full form of ē"]
+];
+
+const lessonThirtyThreeVocabulary = [
+  ["ille, illa, illud", "that; plural those"],
+  ["is, ea, id", "that; he, she, it"],
+  ["illīus", "of that"],
+  ["illī", "to or for that; those as subject"],
+  ["illum", "that man/thing as direct object"],
+  ["illam", "that woman/thing as direct object"],
+  ["illud", "that thing as subject or direct object"],
+  ["illīs", "to, for, by, with, or from those"],
+  ["eum", "him / that man as direct object"],
+  ["eam", "her / that woman as direct object"],
+  ["eōrum", "of them, masculine or neuter"],
+  ["eārum", "of them, feminine"],
+  ["numquam", "never"],
+  ["praetereā", "besides, furthermore"],
+  ["ratiō, ratiōnis", "reason, manner"]
+];
+
+const lessonThirtyFourVocabulary = [
+  ["ablative of separation", "shows from what something is separated"],
+  ["līberō, līberāre, līberāvī, līberātus", "free, set free"],
+  ["vacuus, vacua, vacuum", "empty, free from"],
+  ["līber, lībera, līberum", "free from"],
+  ["prohibeō, prohibēre, prohibuī, prohibitus", "keep off, prevent"],
+  ["tūtus, tūta, tūtum", "safe from"],
+  ["dēfendō, dēfendere, dēfendī, dēfēnsus", "defend from"],
+  ["plēnus, plēna, plēnum", "full"],
+  ["cum + ablative", "with"],
+  ["in + ablative", "in, on"],
+  ["prō + ablative", "in front of; on behalf of"],
+  ["sine + ablative", "without"],
+  ["absum, abesse, āfuī, āfutūrus", "be away, be distant"],
+  ["metū līber", "free from fear"],
+  ["ā perīculō tūtus", "safe from danger"]
+];
+
+const lessonThirtyFiveVocabulary = [
+  ["possum, posse, potuī", "can, am able"],
+  ["nōn possum", "I am unable, I cannot"],
+  ["posse", "to be able"],
+  ["pote + sum", "the parts behind possum"],
+  ["adversus, adversa, adversum", "facing, unfavorable"],
+  ["proximus, proxima, proximum", "nearest, next"],
+  ["iam", "now, already"],
+  ["prīmum", "first"],
+  ["parō + infinitive", "prepare to do something"],
+  ["timeō + infinitive", "fear to do something"],
+  ["parātus + infinitive", "ready to do something"],
+  ["contendō + infinitive", "strive, hasten to do something"],
+  ["cōnstituō, cōnstituere, cōnstituī, cōnstitūtus", "place, set up, decide, determine"],
+  ["cōnsuēvī, cōnsuētus", "have become accustomed, am accustomed"],
+  ["sententia, sententiae", "opinion, vote"],
+  ["regiō, regiōnis", "region"],
+  ["omnīnō", "at all with negatives; in all with numerals"],
+  ["iubeō, iubēre, iussī, iussus", "order, command"],
+  ["oportet, oportēre, oportuit", "it is necessary, ought, should"],
+  ["timor, timōris", "fear"]
+];
+
+const lessonThirtySixVocabulary = [
+  ["quot", "how many?"],
+  ["ūnus, ūna, ūnum", "one"],
+  ["duo, duae, duo", "two"],
+  ["trēs, tria", "three"],
+  ["quattuor", "four"],
+  ["quīnque", "five"],
+  ["sex", "six"],
+  ["septem", "seven"],
+  ["octō", "eight"],
+  ["novem", "nine"],
+  ["decem", "ten"],
+  ["centum", "one hundred"],
+  ["aeternus, aeterna, aeternum", "eternal, everlasting"],
+  ["caput, capitis", "head"],
+  ["alius, alia, aliud", "other, another of more than two"],
+  ["alter, altera, alterum", "the other of two"],
+  ["uter, utra, utrum", "which of two?"],
+  ["neuter, neutra, neutrum", "neither of two"],
+  ["ūllus, ūlla, ūllum", "any"],
+  ["nūllus, nūlla, nūllum", "no, none"],
+  ["sōlus, sōla, sōlum", "alone, only"],
+  ["tōtus, tōta, tōtum", "whole, all of"]
+];
+
+const lessonThirtySevenVocabulary = [
+  ["capiō, capere, cēpī, captus", "take, capture"],
+  ["fugiō, fugere, fūgī, fugitūrus", "flee"],
+  ["faciō, facere, fēcī, factus", "do, make"],
+  ["voluntās, voluntātis", "will, good will"],
+  ["iter facere", "to march"],
+  ["cōnsilium capere", "to make a plan"],
+  ["in + accusative", "towards, with fidēs or voluntās"],
+  ["annus, annī", "year"],
+  ["vigilia, vigiliae", "watch"],
+  ["tempus, temporis", "time"],
+  ["diēs, diēī", "day"],
+  ["hōra, hōrae", "hour"],
+  ["prīmus, prīma, prīmum", "first"],
+  ["secundus, secunda, secundum", "second"],
+  ["tertius, tertia, tertium", "third"],
+  ["conjiciō, conjicere, conjēcī, conjectus", "throw, hurl"],
+  ["recipiō, recipere, recēpī, receptus", "receive, accept, recover"],
+  ["sē recipere", "withdraw"],
+  ["cupiō, cupere, cupīvī, cupītus", "desire"],
+  ["rursus", "again"],
+  ["pēs, pedis", "foot"],
+  ["passus, passūs", "pace"],
+  ["mille", "thousand"],
+  ["mīlia, mīlium", "thousands"],
+  ["mille passūs", "a mile"],
+  ["mīlia passuum", "miles"],
+  ["quam", "how, to what degree"],
+  ["interficiō, interficere, interfēcī, interfectus", "kill"],
+  ["ēripiō, ēripere, ēripuī, ēreptus", "snatch away, save from"],
+  ["nihil", "nothing"],
+  ["conspiciō, conspicere, conspexī, conspectus", "catch sight of"],
+  ["accipiō, accipere, accēpī, acceptus", "receive, accept"],
+  ["conficiō, conficere, confēcī, confectus", "finish, wear out"],
+  ["nēmō, nēminis", "no one"],
+  ["magnitūdō, magnitūdinis", "size, greatness"],
+  ["satis", "enough"],
+  ["animus, animī", "soul, spirit, mind"]
+];
+
+const lessonThirtyEightVocabulary = [
+  ["dative verbs", "verbs that take a dative instead of an accusative object"],
+  ["noceō, nocēre, nocuī, nocitūrus", "do harm to, injure"],
+  ["praesum, praeesse, praefuī, praefutūrus", "be in command of, be in charge of"],
+  ["cēdō + dative", "yield to"],
+  ["mare, maris", "sea"],
+  ["ventus, ventī", "wind"],
+  ["navigō, navigāre, navigāvī, navigātus", "sail"],
+  ["predicate nominative", "the naming word after a passive calling verb"],
+  ["appellātur", "he, she, or it is called"],
+  ["vocātur", "he, she, or it is called"],
+  ["trāns mare", "across the sea"],
+  ["magnitūdō ventī", "greatness or force of the wind"]
+];
+
+const lessonThirtyNineVocabulary = [
+  ["present infinitive active", "to do something at the same time as the main verb"],
+  ["perfect infinitive active", "to have done something before the main verb"],
+  ["future infinitive active", "to be about to do something after the main verb"],
+  ["perfect stem + -isse", "how the perfect infinitive active is formed"],
+  ["future participle active + esse", "how the future infinitive active is formed"],
+  ["accusative with infinitive", "Latin construction for that after saying, thinking, seeing, and knowing"],
+  ["tense by relation", "choosing the infinitive by time compared with the main verb"],
+  ["dīcō, dīcere, dīxī, dictus", "say"],
+  ["respondeō, respondēre, respondī, respōnsus", "answer"],
+  ["putō, putāre, putāvī, putātus", "think"],
+  ["sciō, scīre, scīvī, scītus", "know"],
+  ["audiō, audīre, audīvī, audītus", "hear"],
+  ["scrībō, scrībere, scrīpsī, scrīptus", "write"],
+  ["reperiō, reperīre, repperī, repertus", "find, find out"],
+  ["negō, negāre, negāvī, negātus", "deny; say that not"],
+  ["nūntiō, nūntiāre, nūntiāvī, nūntiātus", "announce, report"],
+  ["dēmōnstrō, dēmōnstrāre, dēmōnstrāvī, dēmōnstrātus", "show, point out"],
+  ["existimō, existimāre, existimāvī, existimātus", "think, consider"],
+  ["sentiō, sentīre, sēnsī, sēnsus", "perceive, feel, think"],
+  ["present infinitive passive", "to be done"],
+  ["perfect infinitive passive", "to have been done"],
+  ["perfect participle passive + esse", "how the perfect infinitive passive is formed"]
+];
+
+const lessonFortyVocabulary = [
+  ["positive degree", "the ordinary describing form of an adjective"],
+  ["comparative degree", "the -er or more form of an adjective"],
+  ["superlative degree", "the -est or most form of an adjective"],
+  ["fortis, fortior, fortissimus", "brave, braver, bravest"],
+  ["ūtilis, ūtilior, ūtilissimus", "useful, more useful, most useful"],
+  ["quam", "than"],
+  ["aestimō, aestimāre, aestimāvī, aestimātus", "think, estimate"],
+  ["iūdicō, iūdicāre, iūdicāvī, iūdicātus", "judge"],
+  ["certiōrem facere", "to inform"],
+  ["ablative of comparison", "ablative used to mean than after a comparative"],
+  ["bonus, melior, optimus", "good, better, best"],
+  ["malus, peior, pessimus", "bad, worse, worst"],
+  ["magnus, maior, maximus", "great, greater, greatest"],
+  ["parvus, minor, minimus", "small, smaller, smallest"],
+  ["multus, plūs, plūrimus", "much, more, most"],
+  ["multī, plūrēs, plūrimī", "many, more, most"],
+  ["propior, proximus", "nearer, nearest"],
+  ["superior, summus", "higher, highest / top of"],
+  ["facilis, facillimus", "easy, easiest"],
+  ["difficilis, difficillimus", "difficult, most difficult"],
+  ["līber, līberrimus", "free, freest"],
+  ["miser, miserrimus", "wretched, most wretched"]
+];
+
+const lessonFortyOneVocabulary = [
+  ["deponent verb", "a verb with passive forms but active meanings"],
+  ["cōnor, cōnārī, cōnātus sum", "try, attempt"],
+  ["vereor, verērī, veritus sum", "fear"],
+  ["sequor, sequī, secūtus sum", "follow"],
+  ["patior, patī, passus sum", "suffer, allow"],
+  ["orior, orīrī, ortus sum", "rise, arise"],
+  ["perfect participle of a deponent", "a perfect participle with active meaning"],
+  ["secūtus", "having followed"],
+  ["passus", "having suffered / having allowed"],
+  ["cōnātus", "having tried"],
+  ["veritus", "having feared"],
+  ["ortus", "having arisen"],
+  ["polliceor, pollicērī, pollicitus sum", "promise"],
+  ["loquor, loquī, locūtus sum", "speak, talk"],
+  ["proficīscor, proficīscī, profectus sum", "set out"],
+  ["nactus", "having obtained, having found"],
+  ["ēgredior, ēgredī, ēgressus sum", "go out"],
+  ["prōgredior, prōgredī, prōgressus sum", "advance"],
+  ["arbitror, arbitrārī, arbitrātus sum", "think, judge"],
+  ["hortor, hortārī, hortātus sum", "urge, encourage"],
+  ["future infinitive of a deponent", "active in form and meaning"],
+  ["profectūrum esse", "to be about to set out"]
+];
+
+const lessonFortyTwoVocabulary = [
+  ["eō, īre, īvī, itum", "go"],
+  ["iī", "I went"],
+  ["iit", "he, she, or it went"],
+  ["iērunt", "they went"],
+  ["ierat", "he, she, or it had gone"],
+  ["ībō", "I will go"],
+  ["ībunt", "they will go"],
+  ["exeō, exīre, exiī, exitum", "go out"],
+  ["exiit", "he, she, or it went out"],
+  ["exiērunt", "they went out"],
+  ["ineō, inīre, iniī, initus", "enter upon"],
+  ["iniit", "he, she, or it entered upon"],
+  ["iniērunt", "they entered upon"],
+  ["redeō, redīre, rediī, reditum", "return"],
+  ["rediit", "he, she, or it returned"],
+  ["redībunt", "they will return"],
+  ["transeō, transīre, transiī, transitus", "cross, go across"],
+  ["transiērunt", "they crossed"],
+  ["adeō, adīre, adiī, aditus", "approach, visit"],
+  ["adiit", "he, she, or it approached / visited"],
+  ["īre", "to go"],
+  ["iisse", "to have gone"],
+  ["itūrum esse", "to be about to go"],
+  ["reditūrum esse", "to be about to return"]
 ];
 
 const secondDeclensionEndings = [
@@ -13132,6 +17826,215 @@ const lessonThirtyOneWordFormPairs = [
   ["summus collis", "the highest hill / top of the hill", "singular"]
 ];
 
+const lessonThirtyTwoWordFormPairs = [
+  ...lessonThirtyTwoPrepositionItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyTwoPlacePhraseItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtyTwoVocabularyFormItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ["dē nāvī", "from the ship", "singular"],
+  ["dē nāvibus", "from the ships", "plural"],
+  ["ex fīnibus hostium", "out of the enemy's territory", "plural"],
+  ["ab hōc locō", "away from this place", "singular"],
+  ["ē silvā vēnērunt", "they came out of the forest", "singular"],
+  ["dē monte vēnit", "he came down from the mountain", "singular"],
+  ["ab aciē discessērunt", "they withdrew from the battle line", "plural"],
+  ["in aquam cecidit", "he fell into the water", "singular"],
+  ["dē ponte in flūmen", "from the bridge into the river", "singular"],
+  ["ā flūmine contendit", "he hastened away from the river", "singular"]
+];
+
+const lessonThirtyThreeWordFormPairs = [
+  ...lessonThirtyThreeIlleFormItems.map((item) => [item.ending, item.meaning, item.group.includes("Plural") ? "plural" : "singular"]),
+  ...lessonThirtyThreeIsFormItems.map((item) => [item.ending, item.meaning, item.group.includes("Plural") ? "plural" : "singular"]),
+  ["ille nauta", "that sailor", "singular"],
+  ["illa porta", "that gate", "singular"],
+  ["illud oppidum", "that town", "singular"],
+  ["illum servum", "that slave as direct object", "singular"],
+  ["illam nāvem", "that ship as direct object", "singular"],
+  ["illō locō", "in/by/from that place", "singular"],
+  ["illī mīlitēs", "those soldiers as subject", "plural"],
+  ["illa castra", "that camp / those camp-things", "plural"],
+  ["illīs tēlīs", "by/with/from those darts", "plural"],
+  ["illārum nāvium", "of those ships", "plural"],
+  ["eum laudāvit", "he praised him", "singular"],
+  ["eam vīdit", "he saw her", "singular"],
+  ["eī hoc nūntiāvērunt", "they announced this", "plural"],
+  ["eōrum castra", "their camp", "plural"],
+  ["numquam discessit", "he never withdrew", "singular"],
+  ["praetereā vēnērunt", "besides, they came", "plural"],
+  ["propter illās ratiōnēs", "on account of those reasons", "plural"]
+];
+
+const lessonThirtyFourWordFormPairs = [
+  ...lessonThirtyFourSeparationItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFourAblativeReviewItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtyFourVocabularyFormItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ["vīta vacua metū", "life free from fear", "singular"],
+  ["rēgēs metū līberī nōn sunt", "kings are not free from fear", "plural"],
+  ["mē ab hostibus dēfendit", "he defended me from the enemy", "singular"],
+  ["castra ab omnī perīculō tūta", "camp safe from every danger", "singular"],
+  ["mūrus mīlitibus vacuus", "wall empty of soldiers", "singular"],
+  ["prōvinciam ab hostibus dēfendere", "to defend the province from enemies", "singular"],
+  ["suis fīnibus prohibent", "they keep them from their territory", "plural"],
+  ["frūmentō plēnum", "full of grain", "singular"],
+  ["cum omnibus cōpiīs", "with all the troops", "plural"],
+  ["sine morā", "without delay", "singular"],
+  ["prō commūnī salūte", "on behalf of the common safety", "singular"]
+];
+
+const lessonThirtyFiveWordFormPairs = [
+  ...lessonThirtyFivePossumPresentItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFivePossumImperfectItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFivePossumFutureItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFivePossumPerfectItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFivePossumSubjunctiveItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyFiveInfinitivePatternItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ["nōn possumus", "we cannot / we are unable", "singular"],
+  ["pugnāre possunt", "they can fight", "plural"],
+  ["oppidum expugnārī potest", "the town can be taken by storm", "plural"],
+  ["arma parāre utile est", "to prepare arms is useful", "plural"],
+  ["Deum laudāre sanctum est", "to praise God is holy", "plural"],
+  ["rēbus adversīs", "in adversity / in unfavorable circumstances", "plural"],
+  ["regiōnēs proximās", "the nearest regions", "plural"],
+  ["omnīnō nōn poterant", "they were not at all able", "singular"],
+  ["sententiam ostendere", "to show an opinion", "plural"],
+  ["timōre perturbātī", "disturbed by fear", "plural"]
+];
+
+const lessonThirtySixWordFormPairs = [
+  ...lessonThirtySixCardinalItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtySixUnusItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtySixDuoTresItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtySixIrregularAdjectiveItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtySixPhraseItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ["quot hominēs", "how many men?", "singular"],
+  ["in quot urbibus", "in how many cities?", "singular"],
+  ["vita aeterna", "eternal life", "plural"],
+  ["caput hominis", "the head of the man", "singular"],
+  ["duae portae", "two gates", "singular"],
+  ["duōs nautās", "two sailors as direct object", "singular"],
+  ["tria tēla", "three darts as subject or object", "singular"],
+  ["tribus virtūtibus", "by/with/from three virtues", "singular"],
+  ["alius... alius...", "one... another...", "plural"],
+  ["alter... alter...", "the one... the other...", "plural"],
+  ["nūllam viam", "no road as direct object", "plural"],
+  ["sōlus Deus", "God alone", "plural"],
+  ["tōtum oppidum", "the whole town", "plural"],
+  ["tōtīs castrīs", "in the whole camp", "plural"],
+  ["ūllīus regnī", "of any kingdom", "plural"]
+];
+
+const lessonThirtySevenWordFormPairs = [
+  ...lessonThirtySevenVerbItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtySevenTimeItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtySevenVocabularyFormItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ["fugiunt", "they flee", "singular"],
+  ["faciēbant", "they were making / doing", "singular"],
+  ["cōnsilium cēpērunt", "they made a plan", "mixed"],
+  ["iter fēcērunt", "they marched", "mixed"],
+  ["tē rēgem fēcimus", "we made you king", "mixed"],
+  ["tua in mē voluntās", "your good will towards me", "mixed"],
+  ["hostēs in fugam conjēcit", "he threw the enemy into flight", "singular"],
+  ["ad castra sē recēpērunt", "they withdrew to the camp", "singular"],
+  ["nihil captum est", "nothing was captured", "singular"],
+  ["ē perīculō ēreptus est", "he was saved from danger", "singular"],
+  ["tribus diēbus pervēnērunt", "they arrived within three days", "plural"],
+  ["multōs annōs", "for many years", "plural"]
+];
+
+const lessonThirtyEightWordFormPairs = [
+  ...lessonThirtyEightDativeVerbItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyEightPraesumItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyEightMareItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtyEightPredicateNominativeItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ["noceō", "I harm / do harm to", "singular"],
+  ["nocent", "they harm / do harm to", "singular"],
+  ["praefuī", "I was in charge of", "singular"],
+  ["mare magnum", "the great sea", "plural"],
+  ["ventī magnī", "great winds", "plural"],
+  ["nautae navigant", "the sailors sail", "plural"],
+  ["nāvibus nocent", "they harm the ships", "singular"],
+  ["exercituī Americanō praefuit", "he was in command of the American army", "singular"],
+  ["dux fortis appellātur", "he is called a brave leader", "plural"]
+];
+
+const lessonThirtyNineWordFormPairs = [
+  ...lessonThirtyNineActiveInfinitiveItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyNineAccusativeInfinitiveItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonThirtyNineReportingVerbItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ...lessonThirtyNineImpersonalItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonThirtyNinePassiveInfinitiveItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ["omnēs hominēs Deum diligere", "that all men love God", "singular"],
+  ["Caesarem Gallōs vincere", "that Caesar was conquering the Gauls", "singular"],
+  ["mīlitēs fortiter pugnāre", "that the soldiers fight bravely", "singular"],
+  ["Gallōs oppugnāvisse urbem", "that the Gauls had attacked the city", "singular"],
+  ["Americanōs pugnātūrōs esse", "that the Americans will fight", "singular"],
+  ["sē ventūrum esse", "that he would come", "singular"],
+  ["sē nōn ventūrum esse", "that he would not come", "singular"],
+  ["mē ā Deō dēfendī", "that I am defended by God", "plural"],
+  ["Gallōs ā Caesare victōs esse", "that the Gauls were conquered by Caesar", "plural"],
+  ["Rōmam oppugnārī", "that Rome was being attacked", "plural"],
+  ["oppidum captum esse", "that the town had been captured", "plural"],
+  ["gratiam omnibus hominibus darī", "that grace is being given to all men", "plural"]
+];
+
+const lessonFortyWordFormPairs = [
+  ...lessonFortyRegularComparisonItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyComparativeDeclensionItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyQuamCertiorItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ...lessonFortyAblativeComparisonItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonFortyIrregularComparisonItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ["via brevior", "a shorter road", "singular"],
+  ["flūmen latissimum", "the widest river", "singular"],
+  ["mōns altissimus", "the highest mountain", "singular"],
+  ["vir fortissimus", "the bravest man", "singular"],
+  ["cīvitās līberrima", "the freest state", "singular"],
+  ["loca tūtissima", "the safest places", "plural"],
+  ["mīlitēs fortiōrēs", "braver soldiers", "plural"],
+  ["optimī virī", "the best men", "plural"],
+  ["pessima mors", "the worst death", "plural"],
+  ["plūrēs hominēs", "more men", "plural"],
+  ["via facillima", "the easiest road", "singular"],
+  ["per maximōs labōrēs", "through the greatest labors", "plural"]
+];
+
+const lessonFortyOneWordFormPairs = [
+  ...lessonFortyOneIndicativeDeponentItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyOneSubjunctiveItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyOneParticipleItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonFortyOneInfinitiveItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonFortyOnePhraseItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ["hostēs sequitur", "he follows the enemy", "singular"],
+  ["hostēs secūtī sunt", "they followed the enemy", "singular"],
+  ["mortem veritus est", "he feared death", "singular"],
+  ["plūrima patiēbantur", "they were suffering very many things", "singular"],
+  ["novum bellum oritur", "a new war arises", "singular"],
+  ["dux mīlitēs hortātus est", "the leader encouraged the soldiers", "mixed"],
+  ["prima lūce proficīscī", "to set out at dawn", "plural"],
+  ["castrīs ēgressī sunt", "they went out of camp", "plural"],
+  ["duō mīlia passuum prōgressī", "having advanced two miles", "plural"],
+  ["sē profectūrum esse", "that he would set out", "plural"]
+];
+
+const lessonFortyTwoWordFormPairs = [
+  ...lessonFortyTwoIndicativeItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyTwoCompoundItems.map((item) => [item.ending, item.meaning, "singular"]),
+  ...lessonFortyTwoSubjunctiveItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonFortyTwoInfinitiveItems.map((item) => [item.ending, item.meaning, "plural"]),
+  ...lessonFortyTwoPhraseItems.map((item) => [item.ending, item.meaning, "mixed"]),
+  ["eō ad flūmen", "I go to the river", "singular"],
+  ["it ad portam", "he goes to the gate", "singular"],
+  ["exeunt ē castrīs", "they go out of camp", "singular"],
+  ["redit in urbem", "he returns into the city", "singular"],
+  ["transit flūmen", "he crosses the river", "singular"],
+  ["adeunt principēs", "they approach the chief men", "singular"],
+  ["eāmus ad Deum", "let us go to God", "plural"],
+  ["nē exeant", "lest they go out", "plural"],
+  ["quō ierint", "where they went", "plural"],
+  ["sē reditūrum esse", "that he would return", "plural"],
+  ["flūmen transīre", "to cross the river", "plural"],
+  ["castra inīre", "to enter camp", "plural"]
+];
+
 const wordFormsByLesson = {
   lesson1: wordFormPairs,
   lesson2: secondWordFormPairs,
@@ -13163,7 +18066,18 @@ const wordFormsByLesson = {
   lesson28: lessonTwentyEightWordFormPairs,
   lesson29: lessonTwentyNineWordFormPairs,
   lesson30: lessonThirtyWordFormPairs,
-  lesson31: lessonThirtyOneWordFormPairs
+  lesson31: lessonThirtyOneWordFormPairs,
+  lesson32: lessonThirtyTwoWordFormPairs,
+  lesson33: lessonThirtyThreeWordFormPairs,
+  lesson34: lessonThirtyFourWordFormPairs,
+  lesson35: lessonThirtyFiveWordFormPairs,
+  lesson36: lessonThirtySixWordFormPairs,
+  lesson37: lessonThirtySevenWordFormPairs,
+  lesson38: lessonThirtyEightWordFormPairs,
+  lesson39: lessonThirtyNineWordFormPairs,
+  lesson40: lessonFortyWordFormPairs,
+  lesson41: lessonFortyOneWordFormPairs,
+  lesson42: lessonFortyTwoWordFormPairs
 };
 
 function getLessonWordFormPairs(lessonSet, scope = "mixed", limit = 20) {
@@ -14530,6 +19444,495 @@ const lessonThirtyOneGrammar = [
   }
 ];
 
+const lessonThirtyTwoGrammar = [
+  {
+    title: "Ex or ē",
+    points: [
+      "Ex/ē takes the ablative.",
+      "It means out of or from when motion begins inside a place.",
+      "Use ex before a vowel or h; ē is used before many consonants."
+    ]
+  },
+  {
+    title: "Ab or ā",
+    points: [
+      "Ab/ā takes the ablative.",
+      "It means away from or from when motion begins outside the place.",
+      "Use ab before a vowel or h; ā is used before many consonants."
+    ]
+  },
+  {
+    title: "Dē",
+    points: [
+      "Dē takes the ablative.",
+      "It may mean down from or from.",
+      "It can also mean concerning or about in later review vocabulary."
+    ]
+  },
+  {
+    title: "Movement contrast",
+    points: [
+      "Ē castrīs means out of the camp.",
+      "Ā castrīs means away from the camp.",
+      "Dē monte means down from or from the mountain."
+    ]
+  },
+  {
+    title: "Lesson 32 vocabulary",
+    points: [
+      "Discēdō means withdraw or depart.",
+      "Navis means ship.",
+      "Cadō means fall; cecidit means he fell."
+    ]
+  }
+];
+
+const lessonThirtyThreeGrammar = [
+  {
+    title: "Ille, illa, illud",
+    points: [
+      "Ille, illa, illud means that in the singular and those in the plural.",
+      "It can be used as an adjective or pronoun.",
+      "It is declined by gender, number, and case."
+    ]
+  },
+  {
+    title: "Is, ea, id",
+    points: [
+      "Is, ea, id can mean that or he, she, it.",
+      "In the plural it can mean those or they.",
+      "The sentence decides whether the pointing or personal-pronoun meaning sounds best."
+    ]
+  },
+  {
+    title: "Shared form patterns",
+    points: [
+      "Illīus is genitive singular for all three genders.",
+      "Illī is dative singular for all three genders and also masculine plural nominative.",
+      "Illīs is dative and ablative plural for all three genders."
+    ]
+  },
+  {
+    title: "Contrast with hic",
+    points: [
+      "Hic usually points to this or these.",
+      "Ille usually points to that or those.",
+      "Hic and ille can be used together to contrast this one and that one."
+    ]
+  },
+  {
+    title: "Lesson 33 vocabulary",
+    points: [
+      "Numquam means never.",
+      "Praetereā means besides or furthermore.",
+      "Ratiō can mean reason or manner depending on the sentence."
+    ]
+  }
+];
+
+const lessonThirtyFourGrammar = [
+  {
+    title: "Ablative of separation",
+    points: [
+      "The ablative of separation shows from what someone or something is separated.",
+      "Metū līber means free from fear.",
+      "Vacuus, līber, līberō, and prohibeō often lead into this construction."
+    ]
+  },
+  {
+    title: "With persons",
+    points: [
+      "Tūtus and dēfendō may use ab/ā with things.",
+      "They regularly use ab/ā with persons.",
+      "Ab hostibus tūtus means safe from enemies."
+    ]
+  },
+  {
+    title: "Ablative review",
+    points: [
+      "Ablative of agent: ā Caesare, by Caesar.",
+      "Ablative of means: tēlō, by or with a dart.",
+      "Ablative of accompaniment: cum amīcīs, with friends."
+    ]
+  },
+  {
+    title: "More ablatives",
+    points: [
+      "Place where: in castrīs, in the camp.",
+      "Cause: spē victōriae, because of hope of victory.",
+      "Separation: metū līber, free from fear."
+    ]
+  },
+  {
+    title: "Review vocabulary",
+    points: [
+      "Plēnus means full and may be used with the genitive or ablative.",
+      "Sine means without and takes the ablative.",
+      "Prō with the ablative can mean in front of or on behalf of."
+    ]
+  }
+];
+
+const lessonThirtyFiveGrammar = [
+  {
+    title: "Possum",
+    points: [
+      "Possum means I am able or I can.",
+      "Use pos- before forms of sum beginning with s: possum, possumus, possunt.",
+      "Use pot- before the other forms: potes, potest, poteram, poterit."
+    ]
+  },
+  {
+    title: "Perfect stem potu-",
+    points: [
+      "The perfect-system forms use potu-.",
+      "Potuī means I was able or I have been able.",
+      "Potuerant means they had been able."
+    ]
+  },
+  {
+    title: "Infinitives",
+    points: [
+      "The present active infinitive is the second principal part.",
+      "Laudāre means to praise; laudārī means to be praised.",
+      "The infinitive is a neuter verbal noun."
+    ]
+  },
+  {
+    title: "How infinitives are used",
+    points: [
+      "An infinitive may be a subject: ōrāre est bonum.",
+      "An infinitive may complete a verb: pugnāre possunt.",
+      "Do not use a bare infinitive to show purpose in classical Latin."
+    ]
+  },
+  {
+    title: "Iubeō and oportet",
+    points: [
+      "The subject of an infinitive is accusative.",
+      "Iubeō often uses accusative plus infinitive: mīlitēs manēre iubet.",
+      "Oportet can mean ought, should, or it is necessary."
+    ]
+  }
+];
+
+const lessonThirtySixGrammar = [
+  {
+    title: "Cardinal numerals",
+    points: [
+      "Ūnus through decem mean one through ten.",
+      "Centum means one hundred.",
+      "Quot means how many and does not change form."
+    ]
+  },
+  {
+    title: "Ūnus, duo, trēs",
+    points: [
+      "Ūnus is declined like magnus except genitive singular ūnīus and dative singular ūnī.",
+      "Duo and trēs have special plural forms worth practicing.",
+      "Tria is the neuter plural nominative and accusative form of three."
+    ]
+  },
+  {
+    title: "Irregular adjective endings",
+    points: [
+      "Several adjectives have genitive singular -īus and dative singular -ī.",
+      "Examples include alter, ūter, neuter, ūllus, nūllus, sōlus, and tōtus.",
+      "Alius has the special neuter nominative and accusative singular form aliud."
+    ]
+  },
+  {
+    title: "Alius and alter",
+    points: [
+      "Alius means another or other when there are more than two.",
+      "Alter means the other when there are two.",
+      "Aliī... aliī... can mean some... others...."
+    ]
+  },
+  {
+    title: "Totus with place",
+    points: [
+      "Totus means whole or all of.",
+      "With a place-where ablative, in is not used.",
+      "Tōtā urbe means in the whole city."
+    ]
+  }
+];
+
+const lessonThirtySevenGrammar = [
+  {
+    title: "Third-conjugation -iō verbs",
+    points: [
+      "A third-conjugation -iō verb has -iō in the first principal part and -ere in the second.",
+      "Capiō, capere is the model for this lesson.",
+      "These verbs act partly like third conjugation and partly like fourth conjugation."
+    ]
+  },
+  {
+    title: "Capiō active forms",
+    points: [
+      "Present: capiō, capis, capit, capimus, capitis, capiunt.",
+      "Imperfect: capiēbam, capiēbās, capiēbat, capiēbāmus, capiēbātis, capiēbant.",
+      "Future: capiam, capiēs, capiet, capiēmus, capiētis, capient."
+    ]
+  },
+  {
+    title: "Useful idioms",
+    points: [
+      "Iter facere means to march.",
+      "Cōnsilium capere means to make a plan.",
+      "In with the accusative can mean towards with words such as voluntās and fidēs."
+    ]
+  },
+  {
+    title: "Rules for time",
+    points: [
+      "Time when uses the ablative: tertiā vigiliā, at the third watch.",
+      "Extent of time uses the accusative: quīnque diēs, for five days.",
+      "Time within which uses the ablative: tribus diēbus, within three days."
+    ]
+  },
+  {
+    title: "Passive and subjunctive -iō forms",
+    points: [
+      "Present passive forms include capior, caperis, capitur, capimur, capiminī, capiuntur.",
+      "Future passive forms include capiar, capiēris, capiētur, capiēmur, capiēminī, capientur.",
+      "Present passive subjunctive forms include capiar, capiāris, capiātur, capiāmur, capiāminī, capiantur."
+    ]
+  }
+];
+
+const lessonThirtyEightGrammar = [
+  {
+    title: "Verbs that take the dative",
+    points: [
+      "Some Latin verbs take a dative where English sounds like a direct object.",
+      "Noceō means do harm to and takes the dative.",
+      "Cēdō can mean yield to and takes the dative."
+    ]
+  },
+  {
+    title: "Praesum",
+    points: [
+      "Praesum means I am in charge of or I am in command of.",
+      "It is a compound of sum and is followed by the dative.",
+      "Legiōnī praeest means he is in command of the legion."
+    ]
+  },
+  {
+    title: "Passive verbs of calling",
+    points: [
+      "Active calling verbs can use a direct object plus a predicate accusative.",
+      "In the passive, the naming word becomes predicate nominative.",
+      "Caesar imperātor appellātur means Caesar is called commander."
+    ]
+  },
+  {
+    title: "Mare and sailing",
+    points: [
+      "Mare means sea.",
+      "Mare is declined like the neuter of gravis, not like flūmen.",
+      "Navigō means I sail, and trāns mare means across the sea."
+    ]
+  },
+  {
+    title: "Lesson 38 vocabulary",
+    points: [
+      "Ventus means wind.",
+      "Nocet can mean he harms or does harm to.",
+      "Praefuit means he was in charge of."
+    ]
+  }
+];
+
+const lessonThirtyNineGrammar = [
+  {
+    title: "Active infinitives",
+    points: [
+      "The present infinitive active is the second principal part: laudāre, to praise.",
+      "The perfect infinitive active is the perfect stem plus -isse: laudāvisse, to have praised.",
+      "The future infinitive active is the future active participle plus esse: laudātūrus esse, to be about to praise."
+    ]
+  },
+  {
+    title: "Accusative with infinitive",
+    points: [
+      "After verbs of saying, thinking, seeing, knowing, and the like, Latin often uses accusative plus infinitive.",
+      "The subject of the infinitive is accusative.",
+      "The English word that is not translated as a separate Latin word in this construction."
+    ]
+  },
+  {
+    title: "Tense by relation",
+    points: [
+      "Use the present infinitive for action happening at the same time as the main verb.",
+      "Use the perfect infinitive for action that happened before the main verb.",
+      "Use the future infinitive for action that happens after the main verb."
+    ]
+  },
+  {
+    title: "Impersonal expressions",
+    points: [
+      "An impersonal verb can be used as an infinitive without an expressed subject.",
+      "Dīcō oportēre nōs Deum diligere means I say that it behooves us to love God.",
+      "Dīcō ācriter pugnātum esse means I say that there was bitter fighting."
+    ]
+  },
+  {
+    title: "Passive infinitives",
+    points: [
+      "The present infinitive passive means to be done: laudārī, to be praised.",
+      "The perfect infinitive passive is the perfect participle passive plus esse.",
+      "The participle agrees with the accusative subject: Gallōs victōs esse."
+    ]
+  }
+];
+
+const lessonFortyGrammar = [
+  {
+    title: "Three degrees",
+    points: [
+      "Positive simply describes: fortis means brave.",
+      "Comparative compares: fortior means braver or more brave.",
+      "Superlative gives the highest degree: fortissimus means bravest or most brave."
+    ]
+  },
+  {
+    title: "Regular comparison",
+    points: [
+      "Many adjectives form the comparative with -ior, -ius.",
+      "Many form the superlative with -issimus, -issima, -issimum.",
+      "Fortis, fortior, fortissimus is the model pattern."
+    ]
+  },
+  {
+    title: "Declining comparison forms",
+    points: [
+      "The comparative uses -ior for masculine/feminine and -ius for neuter nominative or accusative singular.",
+      "Superlatives decline like magnus, magna, magnum.",
+      "Facilis, difficilis, and similis form superlatives with -limus; līber, miser, and integer use -rimus."
+    ]
+  },
+  {
+    title: "Quam and certiōrem facere",
+    points: [
+      "Quam means than and takes the same case after it as before it.",
+      "Certiōrem facere means to inform, literally to make more certain.",
+      "Certiōrem or certiōrēs agrees with the direct object being informed."
+    ]
+  },
+  {
+    title: "Ablative of comparison",
+    points: [
+      "Instead of quam, Latin can use an ablative after a comparative.",
+      "Nēmō Christō sanctior means no one is holier than Christ.",
+      "Nihil virtūte melius est means nothing is better than virtue."
+    ]
+  },
+  {
+    title: "Irregular comparisons",
+    points: [
+      "Bonus compares as melior, optimus.",
+      "Malus compares as peior, pessimus.",
+      "Magnus compares as maior, maximus; parvus compares as minor, minimus."
+    ]
+  }
+];
+
+const lessonFortyOneGrammar = [
+  {
+    title: "What deponent means",
+    points: [
+      "A deponent verb has passive forms but active meanings.",
+      "Cōnor looks passive but means I try.",
+      "Sequitur means he follows, not he is followed."
+    ]
+  },
+  {
+    title: "Indicative deponents",
+    points: [
+      "Deponent verbs are conjugated like passive verbs.",
+      "Each passive-looking form keeps an active meaning.",
+      "Cōnātus est means he tried; secūtī sunt means they followed."
+    ]
+  },
+  {
+    title: "Subjunctive deponents",
+    points: [
+      "Deponents use the same passive-looking forms in the subjunctive.",
+      "Sequāmur Christum means let us follow Christ.",
+      "Nē vereāmur mortem means let us not fear death."
+    ]
+  },
+  {
+    title: "Perfect participles",
+    points: [
+      "The perfect participle of a deponent has active meaning.",
+      "Secūtus means having followed.",
+      "Passus means having suffered or having allowed."
+    ]
+  },
+  {
+    title: "Deponent infinitives",
+    points: [
+      "Present and perfect deponent infinitives look like passive infinitives.",
+      "They still have active meanings: proficīscī means to set out.",
+      "The future infinitive of a deponent is active in both form and meaning."
+    ]
+  }
+];
+
+const lessonFortyTwoGrammar = [
+  {
+    title: "The irregular verb eō",
+    points: [
+      "Eō means I go.",
+      "Its present forms are irregular: eō, īs, it, īmus, ītis, eunt.",
+      "The imperfect and future are built on īb-: ībam, ībat, ībō, ībit."
+    ]
+  },
+  {
+    title: "Perfect-system forms",
+    points: [
+      "The perfect system is formed on iv- or i-.",
+      "You may see īvit or iit for he went.",
+      "Iērunt means they went, and ierat means he had gone."
+    ]
+  },
+  {
+    title: "Compounds of eō",
+    points: [
+      "Exeō means go out.",
+      "Ineō means enter upon.",
+      "Redeō means return, transeō means cross, and adeō means approach or visit."
+    ]
+  },
+  {
+    title: "Perfect stems in compounds",
+    points: [
+      "Compounds of eō are conjugated like eō.",
+      "The v is usually dropped in the perfect stem of compounds.",
+      "That is why you see exiit, rediit, transiit, and iniit."
+    ]
+  },
+  {
+    title: "Subjunctive uses",
+    points: [
+      "Eāmus means let us go.",
+      "Nē exeāmus means let us not go out.",
+      "Forms like transīrent and exiissent appear in purpose clauses, indirect questions, and cum clauses."
+    ]
+  },
+  {
+    title: "Infinitives of eō",
+    points: [
+      "Īre means to go.",
+      "Iisse means to have gone.",
+      "Itūrum esse means to be about to go or would go in an accusative-with-infinitive sentence."
+    ]
+  }
+];
+
 const unitCatalog = {
   unit1: {
     label: "Unit 1",
@@ -14565,7 +19968,27 @@ const unitCatalog = {
   },
   unit9: {
     label: "Unit 9",
-    title: "Participles and demonstratives"
+    title: "Participles, demonstratives, and ablatives"
+  },
+  unit10: {
+    label: "Unit 10",
+    title: "Infinitives, numerals, and irregular adjectives"
+  },
+  unit11: {
+    label: "Unit 11",
+    title: "-iō verbs, time, and dative verbs"
+  },
+  unit12: {
+    label: "Unit 12",
+    title: "Accusative with infinitive"
+  },
+  unit13: {
+    label: "Unit 13",
+    title: "Comparison and deponent verbs"
+  },
+  unit14: {
+    label: "Unit 14",
+    title: "The irregular verb eō"
   }
 };
 
@@ -14597,7 +20020,12 @@ function getUnitReviewInfo(unitKey = lessonCatalog[activeLessonSet]?.unit || "un
 }
 
 function unitReviewEndingDescription(unitKey) {
-  if (unitKey === "unit9") return "Type the Unit 9 perfect participle passive and hic, haec, hoc forms with no hints.";
+  if (unitKey === "unit14") return "Type the Unit 14 irregular verb eō forms with no hints.";
+  if (unitKey === "unit13") return "Type the Unit 13 comparison and deponent verb forms with no hints.";
+  if (unitKey === "unit12") return "Type the Unit 12 infinitive forms and accusative-with-infinitive patterns with no hints.";
+  if (unitKey === "unit11") return "Type the Unit 11 -iō verb, time, dative-verb, and passive-calling forms with no hints.";
+  if (unitKey === "unit10") return "Type the Unit 10 possum, infinitive, numeral, and irregular adjective forms with no hints.";
+  if (unitKey === "unit9") return "Type the Unit 9 participle, demonstrative, preposition, pronoun, and ablative construction forms with no hints.";
   if (unitKey === "unit8") return "Type the Unit 8 vocative, imperative, reflexive, passive subjunctive, cum, causa, and cause patterns with no hints.";
   if (unitKey === "unit7") return "Type the Unit 7 direct-question, interrogative, and perfect-system subjunctive forms with no hints.";
   if (unitKey === "unit6") return "Type the Unit 6 present subjunctive, imperfect subjunctive, and relative pronoun forms with no hints.";
@@ -14887,10 +20315,578 @@ const lessonCatalog = {
     title: "Lesson 31 · Hic, Haec, Hoc",
     description: "Five Lesson 31 quests · demonstrative forms, adjective use, pronoun use, contra, ā tergō, ā fronte, and summus",
     badge: "Henle Lesson 31"
+  },
+  lesson32: {
+    label: "Lesson 32",
+    tabTitle: "Prepositions",
+    unit: "unit9",
+    eyebrow: "Unit nine",
+    title: "Lesson 32 · The Prepositions",
+    description: "Five Lesson 32 quests · ex/ē, ab/ā, dē, short forms, ships, falling, and place phrases",
+    badge: "Henle Lesson 32"
+  },
+  lesson33: {
+    label: "Lesson 33",
+    tabTitle: "Ille & Is",
+    unit: "unit9",
+    eyebrow: "Unit nine",
+    title: "Lesson 33 · Ille and Is",
+    description: "Five Lesson 33 quests · ille, is, demonstrative contrast, numquam, praetereā, and ratiō",
+    badge: "Henle Lesson 33"
+  },
+  lesson34: {
+    label: "Lesson 34",
+    tabTitle: "Ablatives",
+    unit: "unit9",
+    eyebrow: "Unit nine",
+    title: "Lesson 34 · Ablative Constructions",
+    description: "Five Lesson 34 quests · ablative of separation, key separation words, ablative review, and review vocabulary",
+    badge: "Henle Lesson 34"
+  },
+  lesson35: {
+    label: "Lesson 35",
+    tabTitle: "Possum & Inf.",
+    unit: "unit10",
+    eyebrow: "Unit ten",
+    title: "Lesson 35 · Possum and Infinitive Constructions",
+    description: "Five Lesson 35 quests · possum, infinitives, subjunctive possum, iubeō, and oportet",
+    badge: "Henle Lesson 35"
+  },
+  lesson36: {
+    label: "Lesson 36",
+    tabTitle: "Numerals",
+    unit: "unit10",
+    eyebrow: "Unit ten",
+    title: "Lesson 36 · Numerals and Irregular Adjectives",
+    description: "Five Lesson 36 quests · numbers, quot, caput, aeternus, and special genitive/dative adjectives",
+    badge: "Henle Lesson 36"
+  },
+  lesson37: {
+    label: "Lesson 37",
+    tabTitle: "-iō Verbs",
+    unit: "unit11",
+    eyebrow: "Unit eleven",
+    title: "Lesson 37 · -iō Verbs and Rules for Time",
+    description: "Six Lesson 37 quests · capiō, fugiō, faciō, time when, extent, passive -iō, and time within which",
+    badge: "Henle Lesson 37"
+  },
+  lesson38: {
+    label: "Lesson 38",
+    tabTitle: "Dative Verbs",
+    unit: "unit11",
+    eyebrow: "Unit eleven",
+    title: "Lesson 38 · Dative Verbs and Passive Calling",
+    description: "Five Lesson 38 quests · noceō, praesum, mare, ventus, navigō, and predicate nominatives",
+    badge: "Henle Lesson 38"
+  },
+  lesson39: {
+    label: "Lesson 39",
+    tabTitle: "Acc. + Inf.",
+    unit: "unit12",
+    eyebrow: "Unit twelve",
+    title: "Lesson 39 · The Accusative with the Infinitive",
+    description: "Six Lesson 39 quests · active infinitives, tense by relation, saying verbs, impersonal uses, and passive infinitives",
+    badge: "Henle Lesson 39"
+  },
+  lesson40: {
+    label: "Lesson 40",
+    tabTitle: "Comparison",
+    unit: "unit13",
+    eyebrow: "Unit thirteen",
+    title: "Lesson 40 · The Comparison of Adjectives",
+    description: "Six Lesson 40 quests · positive, comparative, superlative, quam, certiōrem facere, ablative comparison, and irregular forms",
+    badge: "Henle Lesson 40"
+  },
+  lesson41: {
+    label: "Lesson 41",
+    tabTitle: "Deponents",
+    unit: "unit13",
+    eyebrow: "Unit thirteen",
+    title: "Lesson 41 · Deponent Verbs",
+    description: "Six Lesson 41 quests · passive-looking verbs with active meanings, subjunctives, participles, infinitives, and deponent phrases",
+    badge: "Henle Lesson 41"
+  },
+  lesson42: {
+    label: "Lesson 42",
+    tabTitle: "Irregular Eō",
+    unit: "unit14",
+    eyebrow: "Unit fourteen",
+    title: "Lesson 42 · The Irregular Verb Eō",
+    description: "Six Lesson 42 quests · eō, exeō, ineō, redeō, transeō, adeō, subjunctives, and infinitives",
+    badge: "Henle Lesson 42"
   }
 };
 
 function getReviewResources(lessonSet = activeLessonSet) {
+  if (lessonSet === "lesson42") {
+    return {
+      vocabulary: lessonFortyTwoVocabulary,
+      endings: lessonFortyTwoGrammarForms.both,
+      grammarEndings: lessonFortyTwoGrammarForms,
+      grammar: lessonFortyTwoGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson42",
+      grammarModes: {
+        singular: "grammar-lesson42-singular",
+        plural: "grammar-lesson42-plural",
+        both: "grammar-lesson42-both"
+      },
+      formModes: {
+        singular: "forms-lesson42-singular",
+        plural: "forms-lesson42-plural",
+        mixed: "forms-lesson42-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson42",
+        grammar: "grammarLesson42",
+        grammarSingular: "grammarLesson42Singular",
+        grammarPlural: "grammarLesson42Plural",
+        singular: "formsLesson42Singular",
+        plural: "formsLesson42Plural",
+        mixed: "formsLesson42Mixed"
+      },
+      grammarModeLabels: { singular: "Ind./Comp.", plural: "Subj./Inf.", both: "All" },
+      grammarButtonLabels: { singular: "Indicative/Compounds", plural: "Subjunctive/Infinitives", both: "All" },
+      formModeLabels: { singular: "Ind./Comp.", plural: "Subj./Inf.", mixed: "Mix" },
+      formButtonLabels: { singular: "Indicative/Compounds", plural: "Subjunctive/Infinitives", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 42 word garden",
+      grammarTitle: "Lesson 42 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match eō forms",
+      grammarMatchDescription: "Match eō, its compounds, subjunctive forms, infinitives, and sentence patterns with their meanings.",
+      grammarPairTitle: "Lesson 42 The Irregular Verb Eō",
+      grammarPairDescription: "Match irregular eō forms and compounds with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 42 eō forms, compounds, infinitives, and sentence patterns. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 42 eō form or phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson41") {
+    return {
+      vocabulary: lessonFortyOneVocabulary,
+      endings: lessonFortyOneGrammarForms.both,
+      grammarEndings: lessonFortyOneGrammarForms,
+      grammar: lessonFortyOneGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson41",
+      grammarModes: {
+        singular: "grammar-lesson41-singular",
+        plural: "grammar-lesson41-plural",
+        both: "grammar-lesson41-both"
+      },
+      formModes: {
+        singular: "forms-lesson41-singular",
+        plural: "forms-lesson41-plural",
+        mixed: "forms-lesson41-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson41",
+        grammar: "grammarLesson41",
+        grammarSingular: "grammarLesson41Singular",
+        grammarPlural: "grammarLesson41Plural",
+        singular: "formsLesson41Singular",
+        plural: "formsLesson41Plural",
+        mixed: "formsLesson41Mixed"
+      },
+      grammarModeLabels: { singular: "Ind./Subj.", plural: "Parts/Inf.", both: "All" },
+      grammarButtonLabels: { singular: "Indicative/Subj.", plural: "Parts/Inf.", both: "All" },
+      formModeLabels: { singular: "Ind./Subj.", plural: "Parts/Inf.", mixed: "Mix" },
+      formButtonLabels: { singular: "Indicative/Subj.", plural: "Participles/Inf.", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 41 word garden",
+      grammarTitle: "Lesson 41 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match deponent forms",
+      grammarMatchDescription: "Match deponent verb forms, participles, infinitives, and phrase patterns with their meanings.",
+      grammarPairTitle: "Lesson 41 Deponent Verbs",
+      grammarPairDescription: "Match passive-looking deponent forms with their active meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 41 deponent forms, participles, infinitives, and phrases. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 41 deponent form or phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson40") {
+    return {
+      vocabulary: lessonFortyVocabulary,
+      endings: lessonFortyGrammarForms.both,
+      grammarEndings: lessonFortyGrammarForms,
+      grammar: lessonFortyGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson40",
+      grammarModes: {
+        singular: "grammar-lesson40-singular",
+        plural: "grammar-lesson40-plural",
+        both: "grammar-lesson40-both"
+      },
+      formModes: {
+        singular: "forms-lesson40-singular",
+        plural: "forms-lesson40-plural",
+        mixed: "forms-lesson40-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson40",
+        grammar: "grammarLesson40",
+        grammarSingular: "grammarLesson40Singular",
+        grammarPlural: "grammarLesson40Plural",
+        singular: "formsLesson40Singular",
+        plural: "formsLesson40Plural",
+        mixed: "formsLesson40Mixed"
+      },
+      grammarModeLabels: { singular: "Forms", plural: "Patterns", both: "All" },
+      grammarButtonLabels: { singular: "Forms", plural: "Patterns", both: "All" },
+      formModeLabels: { singular: "Forms", plural: "Patterns", mixed: "Mix" },
+      formButtonLabels: { singular: "Forms", plural: "Patterns", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 40 word garden",
+      grammarTitle: "Lesson 40 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match comparison forms",
+      grammarMatchDescription: "Match positive, comparative, superlative, quam, ablative comparison, certiōrem facere, and irregular comparison forms with their meanings.",
+      grammarPairTitle: "Lesson 40 Comparison of Adjectives",
+      grammarPairDescription: "Match comparison forms and sentence patterns with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 40 comparison forms and sentence patterns. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 40 comparison form or sentence pattern with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson39") {
+    return {
+      vocabulary: lessonThirtyNineVocabulary,
+      endings: lessonThirtyNineGrammarForms.both,
+      grammarEndings: lessonThirtyNineGrammarForms,
+      grammar: lessonThirtyNineGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson39",
+      grammarModes: {
+        singular: "grammar-lesson39-singular",
+        plural: "grammar-lesson39-plural",
+        both: "grammar-lesson39-both"
+      },
+      formModes: {
+        singular: "forms-lesson39-singular",
+        plural: "forms-lesson39-plural",
+        mixed: "forms-lesson39-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson39",
+        grammar: "grammarLesson39",
+        grammarSingular: "grammarLesson39Singular",
+        grammarPlural: "grammarLesson39Plural",
+        singular: "formsLesson39Singular",
+        plural: "formsLesson39Plural",
+        mixed: "formsLesson39Mixed"
+      },
+      grammarModeLabels: { singular: "Active", plural: "Passive", both: "All" },
+      grammarButtonLabels: { singular: "Active", plural: "Passive", both: "All" },
+      formModeLabels: { singular: "Active", plural: "Passive", mixed: "Mix" },
+      formButtonLabels: { singular: "Active", plural: "Passive", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 39 word garden",
+      grammarTitle: "Lesson 39 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match infinitive patterns",
+      grammarMatchDescription: "Match active infinitives, passive infinitives, accusative-with-infinitive patterns, and reporting verbs with their meanings.",
+      grammarPairTitle: "Lesson 39 Accusative with Infinitive",
+      grammarPairDescription: "Match infinitive forms and accusative-with-infinitive patterns with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 39 infinitive forms and accusative-with-infinitive sentence patterns. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 39 infinitive form or sentence pattern with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson38") {
+    return {
+      vocabulary: lessonThirtyEightVocabulary,
+      endings: lessonThirtyEightGrammarForms.both,
+      grammarEndings: lessonThirtyEightGrammarForms,
+      grammar: lessonThirtyEightGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson38",
+      grammarModes: {
+        singular: "grammar-lesson38-singular",
+        plural: "grammar-lesson38-plural",
+        both: "grammar-lesson38-both"
+      },
+      formModes: {
+        singular: "forms-lesson38-singular",
+        plural: "forms-lesson38-plural",
+        mixed: "forms-lesson38-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson38",
+        grammar: "grammarLesson38",
+        grammarSingular: "grammarLesson38Singular",
+        grammarPlural: "grammarLesson38Plural",
+        singular: "formsLesson38Singular",
+        plural: "formsLesson38Plural",
+        mixed: "formsLesson38Mixed"
+      },
+      grammarModeLabels: { singular: "Dative", plural: "Calling", both: "All" },
+      grammarButtonLabels: { singular: "Dative", plural: "Calling", both: "All" },
+      formModeLabels: { singular: "Dative", plural: "Calling", mixed: "Mix" },
+      formButtonLabels: { singular: "Dative", plural: "Calling", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 38 word garden",
+      grammarTitle: "Lesson 38 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match dative and calling patterns",
+      grammarMatchDescription: "Match dative-verb phrases, mare forms, and passive-calling patterns with their meanings.",
+      grammarPairTitle: "Lesson 38 Dative Verbs and Passive Calling",
+      grammarPairDescription: "Match noceō, praesum, mare, sailing, and passive-calling patterns with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 38 dative-verb phrases, mare forms, sailing words, and passive-calling patterns. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 38 phrase or form with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson37") {
+    return {
+      vocabulary: lessonThirtySevenVocabulary,
+      endings: lessonThirtySevenGrammarForms.both,
+      grammarEndings: lessonThirtySevenGrammarForms,
+      grammar: lessonThirtySevenGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson37",
+      grammarModes: {
+        singular: "grammar-lesson37-singular",
+        plural: "grammar-lesson37-plural",
+        both: "grammar-lesson37-both"
+      },
+      formModes: {
+        singular: "forms-lesson37-singular",
+        plural: "forms-lesson37-plural",
+        mixed: "forms-lesson37-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson37",
+        grammar: "grammarLesson37",
+        grammarSingular: "grammarLesson37Singular",
+        grammarPlural: "grammarLesson37Plural",
+        singular: "formsLesson37Singular",
+        plural: "formsLesson37Plural",
+        mixed: "formsLesson37Mixed"
+      },
+      grammarModeLabels: { singular: "Verbs", plural: "Time", both: "All" },
+      grammarButtonLabels: { singular: "Verbs", plural: "Time", both: "All" },
+      formModeLabels: { singular: "Verbs", plural: "Time", mixed: "Mix" },
+      formButtonLabels: { singular: "Verbs", plural: "Time", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 37 word garden",
+      grammarTitle: "Lesson 37 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match -iō verbs and time",
+      grammarMatchDescription: "Match Lesson 37 -iō verb forms, time expressions, distance expressions, and idioms with their meanings.",
+      grammarPairTitle: "Lesson 37 -iō Verbs and Rules for Time",
+      grammarPairDescription: "Match capiō forms, time expressions, distance expressions, and Lesson 37 idioms with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 37 -iō verb forms, time expressions, and idioms with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 37 form or phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson36") {
+    return {
+      vocabulary: lessonThirtySixVocabulary,
+      endings: lessonThirtySixGrammarForms.both,
+      grammarEndings: lessonThirtySixGrammarForms,
+      grammar: lessonThirtySixGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson36",
+      grammarModes: {
+        singular: "grammar-lesson36-singular",
+        plural: "grammar-lesson36-plural",
+        both: "grammar-lesson36-both"
+      },
+      formModes: {
+        singular: "forms-lesson36-singular",
+        plural: "forms-lesson36-plural",
+        mixed: "forms-lesson36-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson36",
+        grammar: "grammarLesson36",
+        grammarSingular: "grammarLesson36Singular",
+        grammarPlural: "grammarLesson36Plural",
+        singular: "formsLesson36Singular",
+        plural: "formsLesson36Plural",
+        mixed: "formsLesson36Mixed"
+      },
+      grammarModeLabels: { singular: "Num.", plural: "Adj.", both: "All" },
+      grammarButtonLabels: { singular: "Numbers", plural: "Adjectives", both: "All" },
+      formModeLabels: { singular: "Num.", plural: "Adj.", mixed: "Mix" },
+      formButtonLabels: { singular: "Numbers", plural: "Adjectives", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 36 word garden",
+      grammarTitle: "Lesson 36 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match numerals and adjectives",
+      grammarMatchDescription: "Match Lesson 36 numerals, declined number forms, and irregular adjective forms with their meanings.",
+      grammarPairTitle: "Lesson 36 Numerals and Irregular Adjectives",
+      grammarPairDescription: "Match numbers, ūnus/duo/trēs forms, and the special genitive/dative adjective forms with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 36 number forms, irregular adjective forms, and phrase patterns with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 36 numeral, adjective form, or phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson35") {
+    return {
+      vocabulary: lessonThirtyFiveVocabulary,
+      endings: lessonThirtyFiveGrammarForms.both,
+      grammarEndings: lessonThirtyFiveGrammarForms,
+      grammar: lessonThirtyFiveGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson35",
+      grammarModes: {
+        singular: "grammar-lesson35-singular",
+        plural: "grammar-lesson35-plural",
+        both: "grammar-lesson35-both"
+      },
+      formModes: {
+        singular: "forms-lesson35-singular",
+        plural: "forms-lesson35-plural",
+        mixed: "forms-lesson35-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson35",
+        grammar: "grammarLesson35",
+        grammarSingular: "grammarLesson35Singular",
+        grammarPlural: "grammarLesson35Plural",
+        singular: "formsLesson35Singular",
+        plural: "formsLesson35Plural",
+        mixed: "formsLesson35Mixed"
+      },
+      grammarModeLabels: { singular: "Possum", plural: "Inf.", both: "All" },
+      grammarButtonLabels: { singular: "Possum", plural: "Infinitives", both: "All" },
+      formModeLabels: { singular: "Possum", plural: "Inf.", mixed: "Mix" },
+      formButtonLabels: { singular: "Possum", plural: "Infinitives", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 35 word garden",
+      grammarTitle: "Lesson 35 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match possum and infinitives",
+      grammarMatchDescription: "Match possum forms, infinitive patterns, and accusative-infinitive constructions with their meanings.",
+      grammarPairTitle: "Lesson 35 Possum and Infinitive Forms",
+      grammarPairDescription: "Match possum forms, infinitives, and iubeō/oportet patterns with their English meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 35 possum forms and infinitive phrases with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 35 possum form or infinitive phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson34") {
+    return {
+      vocabulary: lessonThirtyFourVocabulary,
+      endings: lessonThirtyFourGrammarForms.both,
+      grammarEndings: lessonThirtyFourGrammarForms,
+      grammar: lessonThirtyFourGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson34",
+      grammarModes: {
+        singular: "grammar-lesson34-singular",
+        plural: "grammar-lesson34-plural",
+        both: "grammar-lesson34-both"
+      },
+      formModes: {
+        singular: "forms-lesson34-singular",
+        plural: "forms-lesson34-plural",
+        mixed: "forms-lesson34-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson34",
+        grammar: "grammarLesson34",
+        grammarSingular: "grammarLesson34Singular",
+        grammarPlural: "grammarLesson34Plural",
+        singular: "formsLesson34Singular",
+        plural: "formsLesson34Plural",
+        mixed: "formsLesson34Mixed"
+      },
+      grammarModeLabels: { singular: "Sep.", plural: "Review", both: "All" },
+      grammarButtonLabels: { singular: "Separation", plural: "Review", both: "All" },
+      formModeLabels: { singular: "Sep.", plural: "Review", mixed: "Mix" },
+      formButtonLabels: { singular: "Separation", plural: "Review", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 34 word garden",
+      grammarTitle: "Lesson 34 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match ablative constructions",
+      grammarMatchDescription: "Match ablative separation, ablative review phrases, and Lesson 34 vocabulary cues with their meanings.",
+      grammarPairTitle: "Lesson 34 Ablative Constructions",
+      grammarPairDescription: "Match separation phrases, ablative review examples, and Lesson 34 vocabulary cues with their meanings.",
+      grammarPromptNoun: "construction",
+      wordFormsStepDescription: "Match Lesson 34 ablative phrases and vocabulary forms with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 34 phrase or form with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson33") {
+    return {
+      vocabulary: lessonThirtyThreeVocabulary,
+      endings: lessonThirtyThreeGrammarForms.both,
+      grammarEndings: lessonThirtyThreeGrammarForms,
+      grammar: lessonThirtyThreeGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson33",
+      grammarModes: {
+        singular: "grammar-lesson33-singular",
+        plural: "grammar-lesson33-plural",
+        both: "grammar-lesson33-both"
+      },
+      formModes: {
+        singular: "forms-lesson33-singular",
+        plural: "forms-lesson33-plural",
+        mixed: "forms-lesson33-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson33",
+        grammar: "grammarLesson33",
+        grammarSingular: "grammarLesson33Singular",
+        grammarPlural: "grammarLesson33Plural",
+        singular: "formsLesson33Singular",
+        plural: "formsLesson33Plural",
+        mixed: "formsLesson33Mixed"
+      },
+      wordGardenTitle: "Lesson 33 word garden",
+      grammarTitle: "Lesson 33 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match ille and is forms",
+      grammarMatchDescription: "Match ille, illa, illud and is, ea, id forms with their meanings.",
+      grammarPairTitle: "Lesson 33 Ille and Is Forms",
+      grammarPairDescription: "Match demonstrative and pronoun forms, rule cues, and Lesson 33 vocabulary with their meanings.",
+      grammarPromptNoun: "form",
+      wordFormsStepDescription: "Match Lesson 33 ille and is forms and phrase patterns with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 33 form or phrase with its English meaning."
+    };
+  }
+
+  if (lessonSet === "lesson32") {
+    return {
+      vocabulary: lessonThirtyTwoVocabulary,
+      endings: lessonThirtyTwoGrammarForms.both,
+      grammarEndings: lessonThirtyTwoGrammarForms,
+      grammar: lessonThirtyTwoGrammar,
+      wordFormTotal: 20,
+      vocabularyMode: "vocabulary-lesson32",
+      grammarModes: {
+        singular: "grammar-lesson32-singular",
+        plural: "grammar-lesson32-plural",
+        both: "grammar-lesson32-both"
+      },
+      formModes: {
+        singular: "forms-lesson32-singular",
+        plural: "forms-lesson32-plural",
+        mixed: "forms-lesson32-mixed"
+      },
+      bestKeys: {
+        vocabulary: "vocabularyLesson32",
+        grammar: "grammarLesson32",
+        grammarSingular: "grammarLesson32Singular",
+        grammarPlural: "grammarLesson32Plural",
+        singular: "formsLesson32Singular",
+        plural: "formsLesson32Plural",
+        mixed: "formsLesson32Mixed"
+      },
+      grammarModeLabels: { singular: "Prep.", plural: "Phrase", both: "All" },
+      grammarButtonLabels: { singular: "Prepositions", plural: "Phrases", both: "All" },
+      formModeLabels: { singular: "Prep.", plural: "Phrase", mixed: "Mix" },
+      formButtonLabels: { singular: "Prepositions", plural: "Phrases", mixed: "Mixed" },
+      wordGardenTitle: "Lesson 32 word garden",
+      grammarTitle: "Lesson 32 grammar map",
+      grammarMatchStepTitle: "Step 4 · Match prepositions and meanings",
+      grammarMatchDescription: "Match ex/ē, ab/ā, dē, and Lesson 32 place phrases with their meanings.",
+      grammarPairTitle: "Lesson 32 Prepositions and Place Phrases",
+      grammarPairDescription: "Match Lesson 32 prepositions, place phrases, and vocabulary cues with their meanings.",
+      grammarPromptNoun: "phrase",
+      wordFormsStepDescription: "Match Lesson 32 prepositions, place phrases, and vocabulary forms with their meanings. Each round has up to 20 forms.",
+      wordFormsPairSubtitle: "Match each Lesson 32 preposition or phrase with its English meaning."
+    };
+  }
+
   if (lessonSet === "lesson31") {
     return {
       vocabulary: lessonThirtyOneVocabulary,
@@ -16083,7 +22079,18 @@ const endingPracticeByLesson = {
   lesson28: lessonTwentyEightEndingPractice,
   lesson29: lessonTwentyNineEndingPractice,
   lesson30: lessonThirtyEndingPractice,
-  lesson31: lessonThirtyOneEndingPractice
+  lesson31: lessonThirtyOneEndingPractice,
+  lesson32: lessonThirtyTwoEndingPractice,
+  lesson33: lessonThirtyThreeEndingPractice,
+  lesson34: lessonThirtyFourEndingPractice,
+  lesson35: lessonThirtyFiveEndingPractice,
+  lesson36: lessonThirtySixEndingPractice,
+  lesson37: lessonThirtySevenEndingPractice,
+  lesson38: lessonThirtyEightEndingPractice,
+  lesson39: lessonThirtyNineEndingPractice,
+  lesson40: lessonFortyEndingPractice,
+  lesson41: lessonFortyOneEndingPractice,
+  lesson42: lessonFortyTwoEndingPractice
 };
 
 const endingPracticeCopy = {
@@ -16458,6 +22465,138 @@ const endingPracticeCopy = {
     typeNote: "Type the hic, haec, hoc forms in order. Plain keyboard forms count, so <strong>his</strong> is accepted for <strong>hīs</strong>.",
     completionTitle: "The Lesson 31 Hic, Haec, Hoc Forms are yours.",
     completionNote: "You typed the demonstrative forms without visible hints."
+  },
+  lesson32: {
+    shortName: "Prepositions and Place Phrases",
+    step1Description: "Match the Lesson 32 prepositions and place phrases in order.",
+    step2Description: "Copy the Lesson 32 prepositions and place phrases in order.",
+    finalStepTitle: "Step 3 · Lesson 32 Prepositions Test - in Order",
+    finalCardDescription: "Choose prepositions, place phrases, vocabulary, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 32 Prepositions Final Test",
+    finalNote: "Type each Lesson 32 preposition or phrase with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 32 prepositions and phrases in order. Plain keyboard forms count, so <strong>e</strong> is accepted for <strong>ē</strong>.",
+    completionTitle: "The Lesson 32 Prepositions are yours.",
+    completionNote: "You typed the Lesson 32 prepositions and place phrases without visible hints."
+  },
+  lesson33: {
+    shortName: "Ille and Is Forms",
+    step1Description: "Match the Lesson 33 ille and is forms from Nominative to Ablative.",
+    step2Description: "Copy the Lesson 33 ille and is forms from Nominative to Ablative.",
+    finalStepTitle: "Step 3 · Ille and Is Test - in Order",
+    finalCardDescription: "Choose ille, is, singular, plural, rules, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 33 Ille and Is Final Test",
+    finalNote: "Type each Lesson 33 ille or is form with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 33 forms in order. Plain keyboard forms count, so <strong>illius</strong> is accepted for <strong>illīus</strong>.",
+    completionTitle: "The Lesson 33 Ille and Is Forms are yours.",
+    completionNote: "You typed the Lesson 33 demonstrative and pronoun forms without visible hints."
+  },
+  lesson34: {
+    shortName: "Ablative Construction Cues",
+    step1Description: "Match the Lesson 34 ablative separation and review phrases in order.",
+    step2Description: "Copy the Lesson 34 ablative separation and review phrases in order.",
+    finalStepTitle: "Step 3 · Ablative Constructions Test - in Order",
+    finalCardDescription: "Choose separation, review, vocabulary, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 34 Ablative Constructions Final Test",
+    finalNote: "Type each Lesson 34 ablative construction cue with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 34 ablative phrases in order. Plain keyboard forms count, so <strong>metu liber</strong> is accepted for <strong>metū līber</strong>.",
+    completionTitle: "The Lesson 34 Ablative Constructions are yours.",
+    completionNote: "You typed the Lesson 34 ablative construction cues without visible hints."
+  },
+  lesson35: {
+    shortName: "Possum and Infinitive Forms",
+    step1Description: "Match the Lesson 35 possum forms and infinitive patterns in order.",
+    step2Description: "Copy the Lesson 35 possum forms and infinitive patterns in order.",
+    finalStepTitle: "Step 3 · Possum and Infinitive Test - in Order",
+    finalCardDescription: "Choose present, imperfect, future, perfect, subjunctive, infinitives, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 35 Possum and Infinitive Final Test",
+    finalNote: "Type each Lesson 35 possum form or infinitive pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 35 forms in order. Plain keyboard forms count, so <strong>possum</strong> is accepted for <strong>possum</strong> and <strong>laudare</strong> for <strong>laudāre</strong>.",
+    completionTitle: "The Lesson 35 Possum and Infinitive Forms are yours.",
+    completionNote: "You typed the Lesson 35 possum and infinitive forms without visible hints."
+  },
+  lesson36: {
+    shortName: "Numerals and Irregular Adjectives",
+    step1Description: "Match the Lesson 36 numerals and irregular adjective forms in order.",
+    step2Description: "Copy the Lesson 36 numerals and irregular adjective forms in order.",
+    finalStepTitle: "Step 3 · Numerals and Irregular Adjectives Test - in Order",
+    finalCardDescription: "Choose cardinals, ūnus, duo/trēs, adjectives, phrases, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 36 Numerals and Irregular Adjectives Final Test",
+    finalNote: "Type each Lesson 36 numeral, irregular adjective form, or phrase with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 36 forms in order. Plain keyboard forms count, so <strong>unius</strong> is accepted for <strong>ūnīus</strong>.",
+    completionTitle: "The Lesson 36 Numerals and Irregular Adjectives are yours.",
+    completionNote: "You typed the Lesson 36 numerals and irregular adjective forms without visible hints."
+  },
+  lesson37: {
+    shortName: "-iō Verbs and Time",
+    step1Description: "Match the Lesson 37 -iō verb forms, time expressions, and idioms in order.",
+    step2Description: "Copy the Lesson 37 -iō verb forms, time expressions, and idioms in order.",
+    finalStepTitle: "Step 3 · Lesson 37 Forms Test - in Order",
+    finalCardDescription: "Choose active, subjunctive, passive, time, vocabulary, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 37 -iō Verbs and Time Final Test",
+    finalNote: "Type each Lesson 37 -iō form, time phrase, or idiom with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 37 forms in order. Plain keyboard forms count, so <strong>capio</strong> is accepted for <strong>capiō</strong>.",
+    completionTitle: "The Lesson 37 -iō Verbs and Time are yours.",
+    completionNote: "You typed the Lesson 37 -iō verb forms, time expressions, and idioms without visible hints."
+  },
+  lesson38: {
+    shortName: "Dative Verbs and Passive Calling",
+    step1Description: "Match the Lesson 38 dative-verb, mare, and passive-calling forms in order.",
+    step2Description: "Copy the Lesson 38 dative-verb, mare, and passive-calling forms in order.",
+    finalStepTitle: "Step 3 · Lesson 38 Forms Test - in Order",
+    finalCardDescription: "Choose dative verbs, praesum, mare, calling, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 38 Dative Verbs and Passive Calling Final Test",
+    finalNote: "Type each Lesson 38 dative-verb phrase, mare form, or passive-calling pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 38 forms in order. Plain keyboard forms count, so <strong>praesum</strong> is accepted for <strong>praesum</strong>.",
+    completionTitle: "The Lesson 38 Dative Verbs and Passive Calling are yours.",
+    completionNote: "You typed the Lesson 38 dative-verb, mare, and passive-calling forms without visible hints."
+  },
+  lesson39: {
+    shortName: "Accusative with Infinitive",
+    step1Description: "Match the Lesson 39 infinitive forms and accusative-with-infinitive patterns in order.",
+    step2Description: "Copy the Lesson 39 infinitive forms and accusative-with-infinitive patterns in order.",
+    finalStepTitle: "Step 3 · Lesson 39 Forms Test - in Order",
+    finalCardDescription: "Choose active infinitives, accusative-with-infinitive patterns, reporting verbs, impersonal patterns, passive infinitives, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 39 Accusative with Infinitive Final Test",
+    finalNote: "Type each Lesson 39 infinitive form, reporting verb, or accusative-with-infinitive pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 39 forms in order. Plain keyboard forms count, so <strong>laudavisse</strong> is accepted for <strong>laudāvisse</strong>.",
+    completionTitle: "The Lesson 39 Accusative with Infinitive is yours.",
+    completionNote: "You typed the Lesson 39 infinitive and accusative-with-infinitive forms without visible hints."
+  },
+  lesson40: {
+    shortName: "Comparison of Adjectives",
+    step1Description: "Match the Lesson 40 comparison forms and patterns in order.",
+    step2Description: "Copy the Lesson 40 comparison forms and patterns in order.",
+    finalStepTitle: "Step 3 · Lesson 40 Forms Test - in Order",
+    finalCardDescription: "Choose regular, declension, quam/inform, ablative, irregular, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 40 Comparison of Adjectives Final Test",
+    finalNote: "Type each Lesson 40 comparison form or phrase pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 40 comparison forms in order. Plain keyboard forms count, so <strong>fortior</strong> is accepted for <strong>fortior</strong>.",
+    completionTitle: "The Lesson 40 Comparison Forms are yours.",
+    completionNote: "You typed the Lesson 40 comparison forms and patterns without visible hints."
+  },
+  lesson41: {
+    shortName: "Deponent Verbs",
+    step1Description: "Match the Lesson 41 deponent forms and patterns in order.",
+    step2Description: "Copy the Lesson 41 deponent forms and patterns in order.",
+    finalStepTitle: "Step 3 · Lesson 41 Forms Test - in Order",
+    finalCardDescription: "Choose indicative, subjunctive, participles, infinitives, phrases, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 41 Deponent Verbs Final Test",
+    finalNote: "Type each Lesson 41 deponent form, participle, infinitive, or phrase pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 41 deponent forms in order. Plain keyboard forms count, so <strong>conor</strong> is accepted for <strong>cōnor</strong>.",
+    completionTitle: "The Lesson 41 Deponent Forms are yours.",
+    completionNote: "You typed the Lesson 41 deponent forms and patterns without visible hints."
+  },
+  lesson42: {
+    shortName: "Irregular Verb Eō",
+    step1Description: "Match the Lesson 42 eō forms and patterns in order.",
+    step2Description: "Copy the Lesson 42 eō forms and patterns in order.",
+    finalStepTitle: "Step 3 · Lesson 42 Forms Test - in Order",
+    finalCardDescription: "Choose indicative, compounds, subjunctive, infinitives, phrases, or all. Type the forms with no visible hint.",
+    finalHeading: "The Lesson 42 Irregular Verb Eō Final Test",
+    finalNote: "Type each Lesson 42 eō form, compound, infinitive, or phrase pattern with no visible hint. When one is correct, the cursor moves forward.",
+    typeNote: "Type the Lesson 42 eō forms in order. Plain keyboard forms count, so <strong>eo</strong> is accepted for <strong>eō</strong> and <strong>ire</strong> for <strong>īre</strong>.",
+    completionTitle: "The Lesson 42 Eō Forms are yours.",
+    completionNote: "You typed the Lesson 42 eō forms and patterns without visible hints."
   }
 };
 
@@ -16670,6 +22809,90 @@ const endingModeOptionsByLesson = {
     { mode: "singular", label: "Singular", titleLabel: "Hic Singular", typeTitle: "Type out all Singular Hic Forms" },
     { mode: "plural", label: "Plural", titleLabel: "Hic Plural", typeTitle: "Type out all Plural Hic Forms" },
     { mode: "mixed", label: "All", titleLabel: "Hic, Haec, Hoc", typeTitle: "Type out all Hic, Haec, Hoc Forms" }
+  ],
+  lesson32: [
+    { mode: "prepositions", label: "Preps", titleLabel: "Lesson 32 Prepositions", typeTitle: "Type out the Lesson 32 Prepositions" },
+    { mode: "phrases", label: "Phrases", titleLabel: "Lesson 32 Place Phrases", typeTitle: "Type out the Lesson 32 Place Phrases" },
+    { mode: "vocabulary", label: "Vocab", titleLabel: "Lesson 32 Vocabulary", typeTitle: "Type out the Lesson 32 Vocabulary Forms" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 32 Prepositions and Phrases", typeTitle: "Type out all Lesson 32 Forms and Cues" }
+  ],
+  lesson33: [
+    { mode: "ille", label: "Ille", titleLabel: "Ille, Illa, Illud", typeTitle: "Type out the Ille, Illa, Illud Forms" },
+    { mode: "is", label: "Is", titleLabel: "Is, Ea, Id", typeTitle: "Type out the Is, Ea, Id Forms" },
+    { mode: "singular", label: "Singular", titleLabel: "Lesson 33 Singular", typeTitle: "Type out the Singular Ille and Is Forms" },
+    { mode: "plural", label: "Plural", titleLabel: "Lesson 33 Plural", typeTitle: "Type out the Plural Ille and Is Forms" },
+    { mode: "rules", label: "Rules", titleLabel: "Lesson 33 Rule Cues", typeTitle: "Type out the Lesson 33 Rule and Vocabulary Cues" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 33 Ille and Is", typeTitle: "Type out all Lesson 33 Forms" }
+  ],
+  lesson34: [
+    { mode: "separation", label: "Separation", titleLabel: "Ablative of Separation", typeTitle: "Type out Ablative of Separation Phrases" },
+    { mode: "review", label: "Review", titleLabel: "Ablative Review", typeTitle: "Type out Ablative Review Phrases" },
+    { mode: "vocabulary", label: "Vocab", titleLabel: "Lesson 34 Vocabulary", typeTitle: "Type out the Lesson 34 Vocabulary Forms" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 34 Ablative Constructions", typeTitle: "Type out all Lesson 34 Forms and Cues" }
+  ],
+  lesson35: [
+    { mode: "present", label: "Present", titleLabel: "Possum Present", typeTitle: "Type out the Possum Present Forms" },
+    { mode: "imperfect", label: "Imperf.", titleLabel: "Possum Imperfect", typeTitle: "Type out the Possum Imperfect Forms" },
+    { mode: "future", label: "Future", titleLabel: "Possum Future", typeTitle: "Type out the Possum Future Forms" },
+    { mode: "perfect", label: "Perfect", titleLabel: "Possum Perfect", typeTitle: "Type out the Possum Perfect Forms" },
+    { mode: "subjunctive", label: "Subj.", titleLabel: "Possum Subjunctive", typeTitle: "Type out the Possum Subjunctive Forms" },
+    { mode: "infinitives", label: "Inf.", titleLabel: "Infinitive Patterns", typeTitle: "Type out the Infinitive Patterns" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 35 Possum and Infinitives", typeTitle: "Type out all Lesson 35 Forms" }
+  ],
+  lesson36: [
+    { mode: "cardinals", label: "Numbers", titleLabel: "Cardinal Numerals", typeTitle: "Type out the Cardinal Numerals" },
+    { mode: "unus", label: "Ūnus", titleLabel: "Ūnus Forms", typeTitle: "Type out the Ūnus Forms" },
+    { mode: "duoTres", label: "Duo/Trēs", titleLabel: "Duo and Trēs Forms", typeTitle: "Type out the Duo and Trēs Forms" },
+    { mode: "adjectives", label: "Adjectives", titleLabel: "Irregular Adjectives", typeTitle: "Type out the Irregular Adjective Forms" },
+    { mode: "phrases", label: "Phrases", titleLabel: "Lesson 36 Phrases", typeTitle: "Type out Lesson 36 Number and Adjective Phrases" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 36 Numerals and Irregular Adjectives", typeTitle: "Type out all Lesson 36 Forms" }
+  ],
+  lesson37: [
+    { mode: "active", label: "Active", titleLabel: "Capiō Active", typeTitle: "Type out the Capiō Active Forms" },
+    { mode: "subjunctive", label: "Subj.", titleLabel: "Capiō Subjunctive Active", typeTitle: "Type out the Capiō Active Subjunctive Forms" },
+    { mode: "passive", label: "Passive", titleLabel: "Capiō Passive", typeTitle: "Type out the Capiō Passive Forms" },
+    { mode: "time", label: "Time", titleLabel: "Time and Distance", typeTitle: "Type out the Time and Distance Phrases" },
+    { mode: "vocabulary", label: "Vocab", titleLabel: "Lesson 37 Vocabulary", typeTitle: "Type out the Lesson 37 Vocabulary Forms" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 37 -iō Verbs and Time", typeTitle: "Type out all Lesson 37 Forms" }
+  ],
+  lesson38: [
+    { mode: "dative", label: "Dative", titleLabel: "Dative Verbs", typeTitle: "Type out Dative Verb Phrases" },
+    { mode: "praesum", label: "Praesum", titleLabel: "Praesum", typeTitle: "Type out Praesum Forms" },
+    { mode: "mare", label: "Mare", titleLabel: "Mare and Sailing", typeTitle: "Type out Mare and Sailing Forms" },
+    { mode: "calling", label: "Calling", titleLabel: "Passive Calling", typeTitle: "Type out Passive Calling Phrases" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 38 Dative Verbs and Passive Calling", typeTitle: "Type out all Lesson 38 Forms" }
+  ],
+  lesson39: [
+    { mode: "activeInfinitives", label: "Active Inf.", titleLabel: "Active Infinitives", typeTitle: "Type out the Active Infinitives" },
+    { mode: "accInf", label: "Acc. + Inf.", titleLabel: "Accusative with Infinitive", typeTitle: "Type out Accusative-with-Infinitive Patterns" },
+    { mode: "reporting", label: "Reporting", titleLabel: "Reporting Verbs", typeTitle: "Type out the Reporting Verbs" },
+    { mode: "impersonal", label: "Impersonal", titleLabel: "Impersonal Infinitives", typeTitle: "Type out Impersonal Infinitive Patterns" },
+    { mode: "passiveInfinitives", label: "Passive Inf.", titleLabel: "Passive Infinitives", typeTitle: "Type out the Passive Infinitives" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 39 Accusative with Infinitive", typeTitle: "Type out all Lesson 39 Forms" }
+  ],
+  lesson40: [
+    { mode: "regular", label: "Regular", titleLabel: "Regular Comparisons", typeTitle: "Type out Regular Comparisons" },
+    { mode: "declension", label: "Decline", titleLabel: "Comparative and Superlative Declension", typeTitle: "Type out Comparative and Superlative Forms" },
+    { mode: "quamCertior", label: "Quam/Inform", titleLabel: "Quam and Certiōrem Facere", typeTitle: "Type out Quam and Inform Phrases" },
+    { mode: "ablativeComparison", label: "Ablative", titleLabel: "Ablative of Comparison", typeTitle: "Type out Ablative Comparison Phrases" },
+    { mode: "irregular", label: "Irregular", titleLabel: "Irregular Comparisons", typeTitle: "Type out Irregular Comparisons" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 40 Comparison of Adjectives", typeTitle: "Type out all Lesson 40 Forms" }
+  ],
+  lesson41: [
+    { mode: "indicative", label: "Indic.", titleLabel: "Indicative Deponents", typeTitle: "Type out Indicative Deponent Forms" },
+    { mode: "subjunctive", label: "Subj.", titleLabel: "Subjunctive Deponents", typeTitle: "Type out Subjunctive Deponent Forms" },
+    { mode: "participles", label: "Parts", titleLabel: "Deponent Participles", typeTitle: "Type out Deponent Participles" },
+    { mode: "infinitives", label: "Inf.", titleLabel: "Deponent Infinitives", typeTitle: "Type out Deponent Infinitives" },
+    { mode: "phrases", label: "Phrases", titleLabel: "Deponent Phrases", typeTitle: "Type out Deponent Phrases" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 41 Deponent Verbs", typeTitle: "Type out all Lesson 41 Forms" }
+  ],
+  lesson42: [
+    { mode: "indicative", label: "Indic.", titleLabel: "Eō Indicative", typeTitle: "Type out Eō Indicative Forms" },
+    { mode: "compounds", label: "Compounds", titleLabel: "Eō Compounds", typeTitle: "Type out Eō Compound Forms" },
+    { mode: "subjunctive", label: "Subj.", titleLabel: "Eō Subjunctive", typeTitle: "Type out Eō Subjunctive Forms" },
+    { mode: "infinitives", label: "Inf.", titleLabel: "Eō Infinitives", typeTitle: "Type out Eō Infinitives" },
+    { mode: "phrases", label: "Phrases", titleLabel: "Eō Phrases", typeTitle: "Type out Eō Sentence Phrases" },
+    { mode: "mixed", label: "All", titleLabel: "Lesson 42 Irregular Verb Eō", typeTitle: "Type out all Lesson 42 Forms" }
   ]
 };
 
@@ -16735,6 +22958,11 @@ const defaultState = {
     unitVocabularyUnit7: null,
     unitVocabularyUnit8: null,
     unitVocabularyUnit9: null,
+    unitVocabularyUnit10: null,
+    unitVocabularyUnit11: null,
+    unitVocabularyUnit12: null,
+    unitVocabularyUnit13: null,
+    unitVocabularyUnit14: null,
     cumulativeVocabularyLesson2: null,
     cumulativeVocabularyLesson3: null,
     cumulativeVocabularyLesson4: null,
@@ -16831,6 +23059,17 @@ const defaultState = {
     cumulativeVocabularyLesson29: null,
     cumulativeVocabularyLesson30: null,
     cumulativeVocabularyLesson31: null,
+    cumulativeVocabularyLesson32: null,
+    cumulativeVocabularyLesson33: null,
+    cumulativeVocabularyLesson34: null,
+    cumulativeVocabularyLesson35: null,
+    cumulativeVocabularyLesson36: null,
+    cumulativeVocabularyLesson37: null,
+    cumulativeVocabularyLesson38: null,
+    cumulativeVocabularyLesson39: null,
+    cumulativeVocabularyLesson40: null,
+    cumulativeVocabularyLesson41: null,
+    cumulativeVocabularyLesson42: null,
     vocabularyLesson12: null,
     grammarLesson12: null,
     grammarLesson12Singular: null,
@@ -16970,7 +23209,84 @@ const defaultState = {
     grammarLesson31Plural: null,
     formsLesson31Singular: null,
     formsLesson31Plural: null,
-    formsLesson31Mixed: null
+    formsLesson31Mixed: null,
+    vocabularyLesson32: null,
+    grammarLesson32: null,
+    grammarLesson32Singular: null,
+    grammarLesson32Plural: null,
+    formsLesson32Singular: null,
+    formsLesson32Plural: null,
+    formsLesson32Mixed: null,
+    vocabularyLesson33: null,
+    grammarLesson33: null,
+    grammarLesson33Singular: null,
+    grammarLesson33Plural: null,
+    formsLesson33Singular: null,
+    formsLesson33Plural: null,
+    formsLesson33Mixed: null,
+    vocabularyLesson34: null,
+    grammarLesson34: null,
+    grammarLesson34Singular: null,
+    grammarLesson34Plural: null,
+    formsLesson34Singular: null,
+    formsLesson34Plural: null,
+    formsLesson34Mixed: null,
+    vocabularyLesson35: null,
+    grammarLesson35: null,
+    grammarLesson35Singular: null,
+    grammarLesson35Plural: null,
+    formsLesson35Singular: null,
+    formsLesson35Plural: null,
+    formsLesson35Mixed: null,
+    vocabularyLesson36: null,
+    grammarLesson36: null,
+    grammarLesson36Singular: null,
+    grammarLesson36Plural: null,
+    formsLesson36Singular: null,
+    formsLesson36Plural: null,
+    formsLesson36Mixed: null,
+    vocabularyLesson37: null,
+    grammarLesson37: null,
+    grammarLesson37Singular: null,
+    grammarLesson37Plural: null,
+    formsLesson37Singular: null,
+    formsLesson37Plural: null,
+    formsLesson37Mixed: null,
+    vocabularyLesson38: null,
+    grammarLesson38: null,
+    grammarLesson38Singular: null,
+    grammarLesson38Plural: null,
+    formsLesson38Singular: null,
+    formsLesson38Plural: null,
+    formsLesson38Mixed: null,
+    vocabularyLesson39: null,
+    grammarLesson39: null,
+    grammarLesson39Singular: null,
+    grammarLesson39Plural: null,
+    formsLesson39Singular: null,
+    formsLesson39Plural: null,
+    formsLesson39Mixed: null,
+    vocabularyLesson40: null,
+    grammarLesson40: null,
+    grammarLesson40Singular: null,
+    grammarLesson40Plural: null,
+    formsLesson40Singular: null,
+    formsLesson40Plural: null,
+    formsLesson40Mixed: null,
+    vocabularyLesson41: null,
+    grammarLesson41: null,
+    grammarLesson41Singular: null,
+    grammarLesson41Plural: null,
+    formsLesson41Singular: null,
+    formsLesson41Plural: null,
+    formsLesson41Mixed: null,
+    vocabularyLesson42: null,
+    grammarLesson42: null,
+    grammarLesson42Singular: null,
+    grammarLesson42Plural: null,
+    formsLesson42Singular: null,
+    formsLesson42Plural: null,
+    formsLesson42Mixed: null
   }
 };
 
@@ -17150,6 +23466,17 @@ function getCumulativeLessonSets(lessonSet = activeLessonSet) {
 }
 
 function getVocabularyForLessonSet(lessonSet) {
+  if (lessonSet === "lesson42") return lessonFortyTwoVocabulary;
+  if (lessonSet === "lesson41") return lessonFortyOneVocabulary;
+  if (lessonSet === "lesson40") return lessonFortyVocabulary;
+  if (lessonSet === "lesson39") return lessonThirtyNineVocabulary;
+  if (lessonSet === "lesson38") return lessonThirtyEightVocabulary;
+  if (lessonSet === "lesson37") return lessonThirtySevenVocabulary;
+  if (lessonSet === "lesson36") return lessonThirtySixVocabulary;
+  if (lessonSet === "lesson35") return lessonThirtyFiveVocabulary;
+  if (lessonSet === "lesson34") return lessonThirtyFourVocabulary;
+  if (lessonSet === "lesson33") return lessonThirtyThreeVocabulary;
+  if (lessonSet === "lesson32") return lessonThirtyTwoVocabulary;
   if (lessonSet === "lesson31") return lessonThirtyOneVocabulary;
   if (lessonSet === "lesson30") return lessonThirtyVocabulary;
   if (lessonSet === "lesson29") return lessonTwentyNineVocabulary;
@@ -17612,6 +23939,10 @@ function renderReview() {
     mixed: getLessonWordFormCount(activeLessonSet, "mixed")
   };
   const maxWordFormCount = Math.max(wordFormCounts.singular, wordFormCounts.plural, wordFormCounts.mixed);
+  const grammarScoreLabels = resources.grammarModeLabels || { singular: "Sing.", plural: "Pl.", both: "Both" };
+  const grammarButtonLabels = resources.grammarButtonLabels || { singular: "Singular", plural: "Plural", both: "Both" };
+  const formScoreLabels = resources.formModeLabels || { singular: "Sing.", plural: "Pl.", mixed: "Mix" };
+  const formButtonLabels = resources.formButtonLabels || { singular: "Singular", plural: "Plural", mixed: "Mixed" };
   const endingTrainerCard = getEndingPractice(activeLessonSet) ? `
         <article class="pair-mode-card endings-mode">
           <div class="pair-mode-icon" aria-hidden="true">1-5</div>
@@ -17643,15 +23974,15 @@ function renderReview() {
             <h3>${escapeHTML(resources.grammarMatchStepTitle || "Step 4 · Match endings to meanings")}</h3>
             <p>${escapeHTML(resources.grammarMatchDescription || "Match a Latin ending with the job it does in English.")}</p>
             <div class="mini-score-grid">
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammarSingular], resources.grammarEndings.singular.length, "Sing.")}</span>
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammarPlural], resources.grammarEndings.plural.length, "Pl.")}</span>
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammar], resources.grammarEndings.both.length, "Both")}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammarSingular], resources.grammarEndings.singular.length, grammarScoreLabels.singular)}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammarPlural], resources.grammarEndings.plural.length, grammarScoreLabels.plural)}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.grammar], resources.grammarEndings.both.length, grammarScoreLabels.both)}</span>
             </div>
           </div>
           <div class="form-button-grid">
-            <button class="primary-button" data-pairs="${resources.grammarModes.singular}">Singular</button>
-            <button class="primary-button" data-pairs="${resources.grammarModes.plural}">Plural</button>
-            <button class="primary-button" data-pairs="${resources.grammarModes.both}">Both</button>
+            <button class="primary-button" data-pairs="${resources.grammarModes.singular}">${escapeHTML(grammarButtonLabels.singular)}</button>
+            <button class="primary-button" data-pairs="${resources.grammarModes.plural}">${escapeHTML(grammarButtonLabels.plural)}</button>
+            <button class="primary-button" data-pairs="${resources.grammarModes.both}">${escapeHTML(grammarButtonLabels.both)}</button>
           </div>
         </article>
         <article class="pair-mode-card forms-mode">
@@ -17660,15 +23991,15 @@ function renderReview() {
             <h3>Step 5 · Word forms and definitions match</h3>
             <p>${resources.wordFormsStepDescription || `Match declined ${lessonInfo.label} words with their case meaning. Each round has up to ${maxWordFormCount} forms.`}</p>
             <div class="mini-score-grid">
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.singular], wordFormCounts.singular, "Sing.")}</span>
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.plural], wordFormCounts.plural, "Pl.")}</span>
-              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.mixed], wordFormCounts.mixed, "Mix")}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.singular], wordFormCounts.singular, formScoreLabels.singular)}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.plural], wordFormCounts.plural, formScoreLabels.plural)}</span>
+              <span class="best-score">${formatPairBest(state.pairBest[resources.bestKeys.mixed], wordFormCounts.mixed, formScoreLabels.mixed)}</span>
             </div>
           </div>
           <div class="form-button-grid">
-            <button class="primary-button" data-pairs="${resources.formModes.singular}">Singular</button>
-            <button class="primary-button" data-pairs="${resources.formModes.plural}">Plural</button>
-            <button class="primary-button" data-pairs="${resources.formModes.mixed}">Mixed</button>
+            <button class="primary-button" data-pairs="${resources.formModes.singular}">${escapeHTML(formButtonLabels.singular)}</button>
+            <button class="primary-button" data-pairs="${resources.formModes.plural}">${escapeHTML(formButtonLabels.plural)}</button>
+            <button class="primary-button" data-pairs="${resources.formModes.mixed}">${escapeHTML(formButtonLabels.mixed)}</button>
           </div>
         </article>` : "";
 
@@ -17796,6 +24127,732 @@ function lessonRank(lessonSet = activeLessonSet) {
 
 function getPersonalSentenceBank(name, lessonSet = activeLessonSet) {
   const rank = lessonRank(lessonSet);
+  if (rank >= 42) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} ad flūmen it.`,
+        note: "Where does the learner go?",
+        choices: ["to the river", "out of the camp", "across the sea", "back to the city"],
+        correct: "to the river",
+        explanation: `It means goes, and ad flūmen means to the river.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} ē castrīs exit.`,
+        note: "What does the learner do?",
+        choices: [`${name} goes out of camp.`, `${name} returns to camp.`, `${name} crosses the camp.`, `${name} enters upon a plan.`],
+        correct: `${name} goes out of camp.`,
+        explanation: `Exit is from exeō: he or she goes out.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} in hīberna redībit.`,
+        note: "What will the learner do?",
+        choices: [`${name} will return to winter quarters.`, `${name} returned from winter quarters.`, `${name} will cross the sea.`, `${name} will enter upon a new plan.`],
+        correct: `${name} will return to winter quarters.`,
+        explanation: `Redībit is future: he or she will return.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} flūmen transīre potest.`,
+        note: "What can the learner do?",
+        choices: ["cross the river", "return from the river", "go out of the river", "approach the river only"],
+        correct: "cross the river",
+        explanation: `Transīre means to cross or go across.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Rogō quō ${name} īerit.`,
+        note: "What am I asking?",
+        choices: [`where ${name} went`, `why ${name} feared`, `whether ${name} returned`, `how many miles ${name} will go`],
+        correct: `where ${name} went`,
+        explanation: `Īerit is a perfect subjunctive form used in an indirect question.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} goes to the river.`,
+        tokens: [name, "ad", "flūmen", "it"],
+        correct: `${name} ad flūmen it`,
+        explanation: `It is the third-person singular present form of eō.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} goes out of camp.`,
+        tokens: [name, "ē", "castrīs", "exit"],
+        correct: `${name} ē castrīs exit`,
+        explanation: `Exit is from exeō: goes out.`
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: He sent cavalry to cross the river.",
+        tokens: ["equitēs", "mīsit", "quī", "flūmen", "transīrent"],
+        correct: "equitēs mīsit quī flūmen transīrent",
+        explanation: `Quī flūmen transīrent gives the purpose: to cross the river.`
+      }
+    ];
+  }
+
+  if (rank >= 41) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} Christum sequitur.`,
+        note: "What does the learner do?",
+        choices: [`${name} follows Christ.`, `${name} is followed by Christ.`, `${name} fears Christ.`, `${name} tries to praise Christ.`],
+        correct: `${name} follows Christ.`,
+        explanation: `Sequitur looks passive, but as a deponent it means follows.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} ōrāre cōnātur.`,
+        note: "What is the learner trying to do?",
+        choices: ["pray", "speak", "suffer", "set out"],
+        correct: "pray",
+        explanation: `Cōnātur means tries, and ōrāre is the infinitive to pray.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} Deum verētur.`,
+        note: "What does the learner do?",
+        choices: [`${name} fears or reveres God.`, `${name} is feared by God.`, `${name} follows God.`, `${name} promises God.`],
+        correct: `${name} fears or reveres God.`,
+        explanation: `Verētur is deponent: it has passive form but active meaning.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Bellum novum ortum est.`,
+        note: "What happened?",
+        choices: ["A new war arose.", "A new war was captured.", "A new war followed the soldiers.", "A new war was promised."],
+        correct: "A new war arose.",
+        explanation: `Ortum est is from orior, a deponent verb meaning arose.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Mīlitēs hostēs secūtī sunt.`,
+        note: "What did the soldiers do?",
+        choices: ["They followed the enemies.", "They were followed by the enemies.", "They feared the enemies.", "They promised the enemies."],
+        correct: "They followed the enemies.",
+        explanation: `Secūtī sunt looks passive but means followed.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} follows Christ.`,
+        tokens: [name, "Christum", "sequitur"],
+        correct: `${name} Christum sequitur`,
+        explanation: `Christum is the direct object of the deponent verb sequitur.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} tries to pray.`,
+        tokens: [name, "ōrāre", "cōnātur"],
+        correct: `${name} ōrāre cōnātur`,
+        explanation: `Cōnātur can take an infinitive: tries to pray.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: A new war arose.`,
+        tokens: ["bellum", "novum", "ortum", "est"],
+        correct: `bellum novum ortum est`,
+        explanation: `Ortum est is a deponent perfect form with active meaning.`
+      }
+    ];
+  }
+
+  if (rank >= 40) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: Haec via brevior est quam illa.`,
+        note: "What is being compared?",
+        choices: ["This road is shorter than that one.", "This road is longer than that one.", "That road is shorter than this one.", "This road is very short."],
+        correct: "This road is shorter than that one.",
+        explanation: `Brevior is comparative, and quam means than.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Nihil virtūte melius est.`,
+        note: "What does the comparison mean?",
+        choices: ["Nothing is better than virtue.", "Nothing is worse than virtue.", "Virtue is smaller than nothing.", "Virtue is the smallest thing."],
+        correct: "Nothing is better than virtue.",
+        explanation: `Melius is the irregular comparative of bonus, and virtūte is ablative of comparison.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} Caesarem dē hāc rē certiōrem facit.`,
+        note: "What does the learner do?",
+        choices: [`${name} informs Caesar about this matter.`, `${name} compares Caesar with this matter.`, `${name} makes this matter better than Caesar.`, `${name} follows Caesar about this matter.`],
+        correct: `${name} informs Caesar about this matter.`,
+        explanation: `Certiōrem facere means to inform, literally to make more certain.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Mīlitēs fortissimī urbem dēfendunt.`,
+        note: "What kind of soldiers defend the city?",
+        choices: ["the bravest soldiers", "braver soldiers", "small soldiers", "foreign soldiers"],
+        correct: "the bravest soldiers",
+        explanation: `Fortissimī is superlative: bravest or very brave.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Nēmō Christō sanctior est.`,
+        note: "What does the sentence say?",
+        choices: ["No one is holier than Christ.", "No one follows Christ.", "Christ is less holy than no one.", "Christ informs no one."],
+        correct: "No one is holier than Christ.",
+        explanation: `Sanctior is comparative and Christō is ablative of comparison.`
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: This road is shorter than that one.",
+        tokens: ["haec", "via", "brevior", "est", "quam", "illa"],
+        correct: "haec via brevior est quam illa",
+        explanation: `Quam means than and keeps the comparison clear.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} informs Caesar.`,
+        tokens: [name, "Caesarem", "certiōrem", "facit"],
+        correct: `${name} Caesarem certiōrem facit`,
+        explanation: `Certiōrem agrees with Caesarem, the person being informed.`
+      },
+      {
+        type: "build",
+        prompt: "Build in Latin: Nothing is better than virtue.",
+        tokens: ["nihil", "virtūte", "melius", "est"],
+        correct: "nihil virtūte melius est",
+        explanation: `Virtūte is ablative of comparison after melius.`
+      }
+    ];
+  }
+
+  if (rank >= 39) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: Sciō ${name} Deum diligere.`,
+        note: "What do I know?",
+        choices: [`I know that ${name} loves God.`, `I know that God loves ${name}.`, `${name} knows that God loves all men.`, `I know that ${name} was loved by God.`],
+        correct: `I know that ${name} loves God.`,
+        explanation: `${name} is the accusative subject of the infinitive diligere in this sentence pattern.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Putō ${name} fortiter pugnāvisse.`,
+        note: "When did the fighting happen?",
+        choices: ["before the thinking", "at the same time as the thinking", "after the thinking", "only in the future"],
+        correct: "before the thinking",
+        explanation: `Pugnāvisse is a perfect infinitive, so the action happened before putō.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Dīcō mīlitēs fortiter pugnātūrōs esse.`,
+        note: "What do I say about the soldiers?",
+        choices: ["They will fight bravely.", "They fought bravely.", "They are being fought bravely.", "They were captured bravely."],
+        correct: "They will fight bravely.",
+        explanation: `Pugnātūrōs esse is future infinitive active and agrees with mīlitēs.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Dīcō ${name} ā Deō dēfendī.`,
+        note: "What is said about the learner?",
+        choices: [`${name} is defended by God.`, `${name} defended God.`, `${name} will defend God.`, `${name} had defended the sailors.`],
+        correct: `${name} is defended by God.`,
+        explanation: `Dēfendī is present infinitive passive: to be defended.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Putō oppidum captum esse.`,
+        note: "What do I think?",
+        choices: ["that the town was captured", "that the town is capturing", "that the town will capture", "that the town harms the ship"],
+        correct: "that the town was captured",
+        explanation: `Captum esse is perfect infinitive passive agreeing with oppidum.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: I know that ${name} loves God.`,
+        tokens: ["sciō", name, "Deum", "diligere"],
+        correct: `sciō ${name} Deum diligere`,
+        explanation: `The subject of the infinitive is accusative in this construction.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: I say that the soldiers will fight.`,
+        tokens: ["dīcō", "mīlitēs", "pugnātūrōs", "esse"],
+        correct: `dīcō mīlitēs pugnātūrōs esse`,
+        explanation: `Future action after dīcō uses the future infinitive active.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: I think that the town was captured.`,
+        tokens: ["putō", "oppidum", "captum", "esse"],
+        correct: `putō oppidum captum esse`,
+        explanation: `Perfect infinitive passive uses the perfect participle passive plus esse.`
+      }
+    ];
+  }
+
+  if (rank >= 38) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} legiōnī praeest.`,
+        note: "What is the learner doing?",
+        choices: ["The learner is in command of the legion.", "The learner harms the legion.", "The legion commands the learner.", "The learner flees from the legion."],
+        correct: "The learner is in command of the legion.",
+        explanation: `Praeest takes the dative; legiōnī means to or for the legion, naturally of the legion here.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} navibus nōn nocet sed nautās videt.`,
+        note: "What does the learner do?",
+        choices: ["The learner does not harm the ships but sees the sailors.", "The learner captures the ships and sailors.", "The learner is called a sailor.", "The learner sails away from the ships."],
+        correct: "The learner does not harm the ships but sees the sailors.",
+        explanation: `Nocet takes the dative navibus; nautās is a direct object.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Mare magnum est et ventī navibus nocent.`,
+        note: "What do the winds do?",
+        choices: ["They harm the ships.", "They praise the sea.", "They command the sailors.", "They are called ships."],
+        correct: "They harm the ships.",
+        explanation: `Ventī is plural subject; navibus is dative after nocent.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Caesar imperātor appellātur.`,
+        note: "What is Caesar called?",
+        choices: ["commander", "sailor", "sea", "wind"],
+        correct: "commander",
+        explanation: `Imperātor is predicate nominative after the passive verb appellātur.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} trāns mare navigat.`,
+        note: "Where does the learner sail?",
+        choices: ["across the sea", "within three days", "to the legion", "from danger"],
+        correct: "across the sea",
+        explanation: `Trāns mare means across the sea.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} sails across the sea.`,
+        tokens: [name, "trāns", "mare", "navigat"],
+        correct: `${name} trāns mare navigat`,
+        explanation: `Navigat means sails, and trāns mare means across the sea.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: The wind harms the ship.`,
+        tokens: ["ventus", "nāvī", "nocet"],
+        correct: `ventus nāvī nocet`,
+        explanation: `Nocet takes the dative, so nāvī means the ship in English.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: Caesar is called commander.`,
+        tokens: ["Caesar", "imperātor", "appellātur"],
+        correct: `Caesar imperātor appellātur`,
+        explanation: `Imperātor is predicate nominative after the passive verb.`
+      }
+    ];
+  }
+
+  if (rank >= 37) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} cōnsilium capit et iter facit.`,
+        note: "What does the learner do?",
+        choices: ["makes a plan and marches", "captures a town and flees", "harms a sailor and sails", "is called commander"],
+        correct: "makes a plan and marches",
+        explanation: `Cōnsilium capere means make a plan; iter facere means march.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} tertiā hōrā ad portam venit.`,
+        note: "When does the learner come to the gate?",
+        choices: ["at the third hour", "for three hours", "within three hours", "after three years"],
+        correct: "at the third hour",
+        explanation: `Tertiā hōrā is an ablative of time when.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} quīnque diēs manet.`,
+        note: "How long does the learner remain?",
+        choices: ["for five days", "within five days", "on the fifth day", "for five miles"],
+        correct: "for five days",
+        explanation: `Quīnque diēs is accusative of extent of time.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Oppidum tribus diēbus captum est.`,
+        note: "How quickly was the town captured?",
+        choices: ["within three days", "for three days", "at the third watch", "for three miles"],
+        correct: "within three days",
+        explanation: `Tribus diēbus can show time within which.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Hostēs ad castra sē recēpērunt.`,
+        note: "What did the enemy do?",
+        choices: ["They withdrew to the camp.", "They captured the camp.", "They sailed across the sea.", "They harmed the camp."],
+        correct: "They withdrew to the camp.",
+        explanation: `Sē recipere means to withdraw.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} makes a plan.`,
+        tokens: [name, "cōnsilium", "capit"],
+        correct: `${name} cōnsilium capit`,
+        explanation: `Cōnsilium capere is the idiom for making a plan.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} marches.`,
+        tokens: [name, "iter", "facit"],
+        correct: `${name} iter facit`,
+        explanation: `Iter facere means to march.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: He comes at the third watch.`,
+        tokens: ["tertiā", "vigiliā", "venit"],
+        correct: `tertiā vigiliā venit`,
+        explanation: `Tertiā vigiliā is time when: at the third watch.`
+      }
+    ];
+  }
+
+  if (rank >= 36) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: Quot nautās ${name} videt?`,
+        note: "What is being asked?",
+        choices: ["How many sailors does the learner see?", "Why does the learner see sailors?", "Where does the learner see sailors?", "Which sailor sees the learner?"],
+        correct: "How many sailors does the learner see?",
+        explanation: `Quot means how many, and nautās is plural direct object.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} cum tribus amīcīs ad portam contendit.`,
+        note: "With how many friends does the learner hurry?",
+        choices: ["three", "two", "one", "ten"],
+        correct: "three",
+        explanation: `Tribus means with three here because cum takes the ablative.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} ūnum caput sed duās manūs habet.`,
+        note: "What does the learner have?",
+        choices: ["one head but two hands", "two heads but one hand", "one gate and two roads", "three heads and ten hands"],
+        correct: "one head but two hands",
+        explanation: `Ūnum caput means one head; duās manūs means two hands.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Sōlī Deō sit glōria aeterna.`,
+        note: "To whom is eternal glory given?",
+        choices: ["to God alone", "to another soldier", "to the whole city", "to no sailor"],
+        correct: "to God alone",
+        explanation: `Sōlī Deō means to God alone; aeterna means eternal.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Caesar tōtīus exercitūs sententiam audīre potuit.`,
+        note: "Whose opinion was Caesar able to hear?",
+        choices: ["the opinion of the whole army", "the opinion of no army", "the opinion of two sailors", "the opinion of another gate"],
+        correct: "the opinion of the whole army",
+        explanation: `Tōtīus exercitūs means of the whole army, and potuit means he was able.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} sees two sailors.`,
+        tokens: [name, "duōs", "nautās", "videt"],
+        correct: `${name} duōs nautās videt`,
+        explanation: `Duōs nautās is masculine accusative plural.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} can praise God alone.`,
+        tokens: [name, "sōlum", "Deum", "laudāre", "potest"],
+        correct: `${name} sōlum Deum laudāre potest`,
+        explanation: `Laudāre completes potest: the learner is able to praise.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: in the whole city`,
+        tokens: ["tōtā", "urbe"],
+        correct: `tōtā urbe`,
+        explanation: `With tōtus and a place-where ablative, Latin can leave out in.`
+      }
+    ];
+  }
+
+  if (rank >= 35) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} pugnāre potest.`,
+        note: "What can the learner do?",
+        choices: ["fight", "fall", "depart", "count"],
+        correct: "fight",
+        explanation: `Pugnāre means to fight, and potest means is able.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} venīre nōn potest.`,
+        note: "What does this say?",
+        choices: ["The learner is unable to come.", "The learner orders them to come.", "The learner already came.", "The learner came first."],
+        correct: "The learner is unable to come.",
+        explanation: `Non potest means is unable or cannot.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Oportet ${name} Deum laudāre.`,
+        note: "What ought the learner to do?",
+        choices: ["praise God", "fear God", "see a sailor", "leave the camp"],
+        correct: "praise God",
+        explanation: `Oportet can mean ought or should, and laudāre means to praise.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Caesar mīlitēs castra dēfendere iussit.`,
+        note: "What did Caesar order the soldiers to do?",
+        choices: ["defend the camp", "burn the camp", "fall from the camp", "count the camp"],
+        correct: "defend the camp",
+        explanation: `Mīlitēs is the accusative subject of the infinitive dēfendere.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: ${name} in rēbus adversīs ōrāre cōnsuēvit.`,
+        note: "What is the learner accustomed to doing in adversity?",
+        choices: ["praying", "ordering", "falling", "counting"],
+        correct: "praying",
+        explanation: `Ōrāre cōnsuēvit means has become accustomed to pray.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} can pray.`,
+        tokens: [name, "ōrāre", "potest"],
+        correct: `${name} ōrāre potest`,
+        explanation: `Ōrāre is the infinitive completing potest.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: They were not able to defend the town.`,
+        tokens: ["oppidum", "dēfendere", "nōn", "poterant"],
+        correct: `oppidum dēfendere nōn poterant`,
+        explanation: `Poterant means they were able; nōn makes it unable.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: The leader orders the soldiers to remain.`,
+        tokens: ["dux", "mīlitēs", "manēre", "iubet"],
+        correct: `dux mīlitēs manēre iubet`,
+        explanation: `Mīlitēs is accusative because it is the subject of manēre.`
+      }
+    ];
+  }
+
+  if (rank >= 34) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} metū līber est et Deum laudat.`,
+        note: "What is the learner free from?",
+        choices: ["fear", "the ship", "the camp", "the reason"],
+        correct: "fear",
+        explanation: `Metū is ablative of separation: free from fear.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Caesar ${name} ab hostibus dēfendit.`,
+        note: "From whom does Caesar defend the learner?",
+        choices: ["the enemy", "the sailors", "the ships", "those reasons"],
+        correct: "the enemy",
+        explanation: `Ab hostibus means from the enemy.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Castra ab omnī perīculō tūta erant.`,
+        note: "What does this say about the camp?",
+        choices: ["It was safe from every danger.", "It was full of every danger.", "It fell from danger.", "It never saw danger."],
+        correct: "It was safe from every danger.",
+        explanation: `Tūta agrees with castra; ab omnī perīculō means from every danger.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Hī mīlitēs illud oppidum ab hostibus dēfendērunt.`,
+        note: "What did these soldiers defend?",
+        choices: ["that town", "that ship", "those reasons", "the fear"],
+        correct: "that town",
+        explanation: `Illud oppidum means that town.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Mīlitēs, spē victōriae adductī, sine morā contendērunt.`,
+        note: "How did the soldiers hurry?",
+        choices: ["without delay", "out of the ship", "away from fear", "against this town"],
+        correct: "without delay",
+        explanation: `Sine morā means without delay.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} is free from fear.`,
+        tokens: [name, "metū", "līber", "est"],
+        correct: `${name} metū līber est`,
+        explanation: `Metū is ablative of separation.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: The camp was safe from danger.`,
+        tokens: ["castra", "ā", "perīculō", "tūta", "erant"],
+        correct: `castra ā perīculō tūta erant`,
+        explanation: `Ā perīculō shows separation: from danger.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: Caesar defended the province from enemies.`,
+        tokens: ["Caesar", "prōvinciam", "ab", "hostibus", "dēfendit"],
+        correct: `Caesar prōvinciam ab hostibus dēfendit`,
+        explanation: `Defendō regularly uses ab with persons.`
+      }
+    ];
+  }
+
+  if (rank >= 33) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} illum mīlitem numquam vīdit.`,
+        note: "Whom did the learner never see?",
+        choices: ["that soldier", "this ship", "those reasons", "these camps"],
+        correct: "that soldier",
+        explanation: `Illum mīlitem means that soldier as direct object.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Illī mīlitēs eī obsidēs dedērunt.`,
+        note: "What did those soldiers give him?",
+        choices: ["hostages", "ships", "fear", "reasons"],
+        correct: "hostages",
+        explanation: `Eī means to him; obsidēs means hostages.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Hic mānsit; ille autem discessit.`,
+        note: "Who withdrew?",
+        choices: ["that man", "this man", "these soldiers", "this camp"],
+        correct: "that man",
+        explanation: `Ille means that man.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Praetereā eōrum castra dē monte vīsa sunt.`,
+        note: "Whose camp was seen?",
+        choices: ["their camp", "this camp", "that woman's camp", "our camp"],
+        correct: "their camp",
+        explanation: `Eōrum can mean of them or their.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Propter illās ratiōnēs Caesar vēnit.`,
+        note: "Why did Caesar come?",
+        choices: ["on account of those reasons", "without those ships", "from those camps", "against those men"],
+        correct: "on account of those reasons",
+        explanation: `Illās agrees with ratiōnēs.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} never saw that town.`,
+        tokens: [name, "illud", "oppidum", "numquam", "vīdit"],
+        correct: `${name} illud oppidum numquam vīdit`,
+        explanation: `Illud agrees with oppidum.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: Those soldiers withdrew.`,
+        tokens: ["illī", "mīlitēs", "discessērunt"],
+        correct: `illī mīlitēs discessērunt`,
+        explanation: `Illī agrees with mīlitēs.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: Besides, he praised her.`,
+        tokens: ["praetereā", "eam", "laudāvit"],
+        correct: `praetereā eam laudāvit`,
+        explanation: `Eam means her as direct object.`
+      }
+    ];
+  }
+
+  if (rank >= 32) {
+    return [
+      {
+        type: "choice",
+        prompt: `Read: ${name} ē silvā vēnit et ad castra contendit.`,
+        note: "Where did the learner come from?",
+        choices: ["out of the forest", "away from the camp", "down from the ship", "against the enemy"],
+        correct: "out of the forest",
+        explanation: `Ē silvā means out of the forest.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Nauta dē nāvī in aquam cecidit.`,
+        note: "What happened to the sailor?",
+        choices: ["He fell from the ship into the water.", "He withdrew from the water into the ship.", "He praised the ship.", "He defended the water."],
+        correct: "He fell from the ship into the water.",
+        explanation: `Dē nāvī means from the ship; in aquam shows motion into the water.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Mīlitēs ā castrīs discessērunt.`,
+        note: "What did the soldiers do?",
+        choices: ["They withdrew away from the camp.", "They came out of the camp.", "They seized the camp.", "They praised the camp."],
+        correct: "They withdrew away from the camp.",
+        explanation: `Ā castrīs means away from the camp.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Legiō dē monte vēnit.`,
+        note: "Where did the legion come from?",
+        choices: ["down from the mountain", "out of the river", "toward the mountain", "without the mountain"],
+        correct: "down from the mountain",
+        explanation: `Dē monte can mean down from the mountain.`
+      },
+      {
+        type: "choice",
+        prompt: `Read: Caesar ex fīnibus hostium vēnit.`,
+        note: "What does ex fīnibus hostium mean?",
+        choices: ["out of the enemy's territory", "away from this camp", "down from the bridge", "with the enemy's territory"],
+        correct: "out of the enemy's territory",
+        explanation: `Ex marks motion out of a place.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: ${name} came out of the forest.`,
+        tokens: [name, "ē", "silvā", "vēnit"],
+        correct: `${name} ē silvā vēnit`,
+        explanation: `Ē silvā means out of the forest.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: The sailor fell from the ship.`,
+        tokens: ["nauta", "dē", "nāvī", "cecidit"],
+        correct: `nauta dē nāvī cecidit`,
+        explanation: `Dē nāvī means from the ship.`
+      },
+      {
+        type: "build",
+        prompt: `Build in Latin: The soldiers withdrew from this place.`,
+        tokens: ["mīlitēs", "ab", "hōc", "locō", "discessērunt"],
+        correct: `mīlitēs ab hōc locō discessērunt`,
+        explanation: `Use ab before h in hōc.`
+      }
+    ];
+  }
+
   if (rank >= 31) {
     return [
       {
@@ -19925,7 +26982,7 @@ function getPairConfig(mode) {
   if (parsed.kind === "grammar") {
     const lessonName = lessonCatalog[parsed.lessonSet].label;
     const scope = parsed.scope || "both";
-    const label = scope === "singular" ? "Singular" : scope === "plural" ? "Plural" : "";
+    const label = resources.grammarButtonLabels?.[scope] || (scope === "singular" ? "Singular" : scope === "plural" ? "Plural" : "");
     const bestKey = scope === "singular"
       ? resources.bestKeys.grammarSingular
       : scope === "plural"
@@ -19947,7 +27004,7 @@ function getPairConfig(mode) {
   }
 
   if (parsed.kind === "forms") {
-    const label = parsed.scope === "singular" ? "Singular" : parsed.scope === "plural" ? "Plural" : "Mixed";
+    const label = resources.formButtonLabels?.[parsed.scope] || (parsed.scope === "singular" ? "Singular" : parsed.scope === "plural" ? "Plural" : "Mixed");
     const bestKey = parsed.scope === "singular" ? resources.bestKeys.singular : parsed.scope === "plural" ? resources.bestKeys.plural : resources.bestKeys.mixed;
     return {
       title: `${label} Word Forms`,
@@ -20378,6 +27435,7 @@ function normalizeEndingAnswer(value) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/æ/g, "ae")
     .replace(/[-‐‑‒–—−]/g, "")
+    .replace(/[.,;:()\/+]/g, "")
     .replace(/\s+/g, "");
 }
 
